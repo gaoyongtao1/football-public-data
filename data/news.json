@@ -1,0 +1,194 @@
+{
+  "schemaVersion": 1,
+  "timezone": "Asia/Shanghai",
+  "updatedAt": "2026-11-06T14:19:18.911+08:00",
+  "issues": [
+    {
+      "id": "2026-11-06",
+      "date": "2026-11-06",
+      "title": "AI圈新闻早报",
+      "windowStart": "2026-11-05T00:00:00+08:00",
+      "windowEnd": "2026-11-06T08:00:00+08:00",
+      "summary": "OpenAI推出面向受审核安全客户的GPT-6 Cyber，并将其网络安全能力评级列为“Critical”。",
+      "items": [
+        {
+          "id": "2026-11-06-01",
+          "category": "模型安全",
+          "title": "OpenAI推出GPT-6 Cyber",
+          "what": "OpenAI先向少量审核通过的Daybreak Red客户开放GPT-6 Cyber，并称其发现81个此前未知的Firefox高危漏洞。",
+          "why": "专业网络安全代理能力进一步提升，访问仍受限，并非面向所有ChatGPT用户开放。",
+          "sources": [
+            {
+              "name": "OpenAI",
+              "url": "https://openai.com/index/introducing-gpt-6-cyber/"
+            },
+            {
+              "name": "路透",
+              "url": "https://www.reuters.com/technology/openai-launches-gpt-6-cyber-with-critical-cybersecurity-rating-2026-11-05/"
+            }
+          ],
+          "sourceNote": "OpenAI、路透；路透报道时间11月6日01:01。",
+          "publishedAt": "2026-11-06T01:01:00+08:00",
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-06-02",
+          "category": "研究评估",
+          "title": "METR评估Anthropic部分能力进步速度",
+          "what": "独立机构METR根据内部数据及访谈评估，认为Anthropic部分模型研发能力的进步速度约为一年前的两倍。",
+          "why": "AI辅助研发已有可观察的影响，但测量与归因存在不确定性，不能据此认定实现全面自主研发。",
+          "sources": [
+            {
+              "name": "METR",
+              "url": "https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/"
+            },
+            {
+              "name": "美联社",
+              "url": "https://apnews.com/article/anthropic-metr-ai-claude-acceleration-9cf8c590ffc1abdb489179bdccc69c23"
+            }
+          ],
+          "sourceNote": "METR、美联社；美联社报道时间11月6日02:00。",
+          "publishedAt": "2026-11-06T02:00:00+08:00",
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-06-03",
+          "category": "产品应用",
+          "title": "Kimi推出Hosted Agents",
+          "what": "Kimi Hosted Agents提供全天候托管运行环境，支持长程任务与多智能体协作，用户无需自行搭建维护运行框架。",
+          "why": "模型服务正向智能体运行基础设施延伸，可减轻相关工程负担。",
+          "sources": [
+            {
+              "name": "金融界",
+              "url": "https://finance.jrj.com.cn/2026/11/05133159025916.shtml"
+            },
+            {
+              "name": "36氪",
+              "url": "https://www.36kr.com/newsflashes/4056365284430728"
+            }
+          ],
+          "sourceNote": "金融界、36氪，援引公司消息；金融界报道时间11月5日13:31。",
+          "publishedAt": "2026-11-05T13:31:00+08:00",
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-06-04",
+          "category": "科研开源",
+          "title": "中国科大RNA模型研究发表于Nature",
+          "what": "structRFM把RNA二级结构知识融入预训练，使用2100万序列—结构对，相关数据、权重和代码开放。",
+          "why": "研究为RNA结构预测与功能推断提供可复现工具，尚不能据此称已产生新药或临床成效。",
+          "sources": [
+            {
+              "name": "中国科大",
+              "url": "https://news.ustc.edu.cn/info/1048/96798.htm"
+            },
+            {
+              "name": "Nature",
+              "url": "https://www.nature.com/articles/s41586-026-11210-2"
+            }
+          ],
+          "sourceNote": "中国科学技术大学、Nature；校方称论文于11月5日凌晨在线发表，相关预印本此前已存在。",
+          "publishedAt": null,
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-06-05",
+          "category": "算力投资",
+          "title": "Google拟投170亿美元建设怀俄明州数据中心",
+          "what": "Google计划在怀俄明州建设首个数据中心，部分电力拟来自配套碳捕集与封存的702兆瓦燃料电池项目。",
+          "why": "算力需求推动大型投资，同时供电与地方审批仍是关键约束。",
+          "sources": [
+            {
+              "name": "路透",
+              "url": "https://www.reuters.com/world/us/google-plans-17-billion-wyoming-data-center-amid-rising-threats-curbs-2026-11-05/"
+            }
+          ],
+          "sourceNote": "路透，11月6日04:46报道。",
+          "publishedAt": "2026-11-06T04:46:00+08:00",
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-06-06",
+          "category": "国产算力",
+          "title": "阿里云真武M890适配Kimi K3.1 Pro",
+          "what": "据阿里云消息，灵骏真武M890超节点完成Kimi K3.1 Pro权重适配，并在vLLM和SGLang完成全链路验证。",
+          "why": "国产算力对大型模型部署的工程支持有所扩展，现有信息不足以证明性能或成本领先。",
+          "sources": [
+            {
+              "name": "东方财富",
+              "url": "https://finance.eastmoney.com/a/202611053923409935.html"
+            },
+            {
+              "name": "DOIT",
+              "url": "https://www.doit.com.cn/ai/867177441992773.html"
+            }
+          ],
+          "sourceNote": "东方财富、DOIT，援引阿里云消息；东方财富11月5日13:59报道。",
+          "publishedAt": "2026-11-05T13:59:00+08:00",
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-06-07",
+          "category": "基础设施",
+          "title": "OpenAI发布数据中心社区承诺",
+          "what": "OpenAI称未来自有自营园区将承担电力及必要基础设施成本，并提出披露水电、噪音和就业信息等政策建议。",
+          "why": "算力建设的公共成本与社区影响受到更多关注；这是公司承诺和建议，并非已实施的新法规。",
+          "sources": [
+            {
+              "name": "OpenAI",
+              "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure/"
+            },
+            {
+              "name": "MLex",
+              "url": "https://www.mlex.com/mlex/articles/2546822/openai-issues-new-us-data-center-commitments-policy-proposals-in-wake-of-midterms"
+            }
+          ],
+          "sourceNote": "OpenAI、MLex；MLex于11月6日00:31报道。",
+          "publishedAt": "2026-11-06T00:31:00+08:00",
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-06-08",
+          "category": "算力供应",
+          "title": "IREN披露部分微软AI设施交付延期",
+          "what": "IREN称微软要求调整网络设计导致部分设施交付后移，相关延期无罚款；其季度AI云收入由前季7100万美元增至2亿美元。",
+          "why": "需求增长的同时，设计变化和建设进度会影响基础设施交付与收入兑现。",
+          "sources": [
+            {
+              "name": "路透",
+              "url": "https://www.reuters.com/technology/neocloud-firm-iren-tops-quarterly-revenue-estimates-shares-jump-2026-11-05/"
+            }
+          ],
+          "sourceNote": "路透，11月6日05:35报道。",
+          "publishedAt": "2026-11-06T05:35:00+08:00",
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-06-09",
+          "category": "政策治理",
+          "title": "乌镇峰会闭幕并总结AI治理成果",
+          "what": "世界互联网大会乌镇峰会闭幕发布会总结全球开放人工智能行动倡议的四方面18条行动及前沿AI安全治理报告等成果。",
+          "why": "开放模型、安全治理与国际合作继续成为行业讨论重点；此处报道的是闭幕总结，不表示倡议当天首次发布。",
+          "sources": [
+            {
+              "name": "新华社",
+              "url": "https://www.news.cn/20261105/17dfbf4604f14ddc8ce41be818763986/c.html"
+            }
+          ],
+          "sourceNote": "新华社，11月5日16:09报道。",
+          "publishedAt": "2026-11-05T16:09:00+08:00",
+          "timeStatus": "confirmed"
+        }
+      ],
+      "uncertainItems": [],
+      "note": "统计窗口：北京时间11月5日00:00至11月6日08:00。以下时间为来源报道时间或校方公布时间，不一律等同产品上线时刻。",
+      "images": [
+        {
+          "url": "./assets/news/2026-11-06.png",
+          "caption": "主题插画为 AI 生成示意图，非新闻现场或真实产品截图。",
+          "alt": "2026年11月6日AI早报单版大报"
+        }
+      ]
+    }
+  ]
+}
