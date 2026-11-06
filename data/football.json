@@ -1,0 +1,372 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-11-06 09:05",
+  "timezone": "Asia/Shanghai",
+  "coverageEnd": "2026-11-05",
+  "plans": [
+    {
+      "id": "20261102-0",
+      "date": "2026-11-02",
+      "label": "主推候选",
+      "kind": "candidate",
+      "snapshot": "2026-11-02 18:52–18:54",
+      "note": "条件式候选，非已核验终端出票方案；备选仅作奖金匹配。",
+      "legs": [
+        {
+          "number": "周一004",
+          "home": "亚特兰大",
+          "away": "帕尔马",
+          "pick": "主胜",
+          "odds": 1.3,
+          "score": [
+            0,
+            3
+          ],
+          "kickoff": "2026-11-03 03:45",
+          "source": "https://en.atalanta.it/news/parma-win-in-bergamo",
+          "handicap": null,
+          "finishedAt": null
+        },
+        {
+          "number": "周一006",
+          "home": "纽卡斯尔",
+          "away": "埃弗顿",
+          "pick": "让负",
+          "odds": 1.54,
+          "score": [
+            0,
+            1
+          ],
+          "kickoff": "2026-11-03 04:00",
+          "source": "https://www.skysports.com/football/newcastle-vs-everton/report/559532",
+          "handicap": -1,
+          "finishedAt": null
+        }
+      ]
+    },
+    {
+      "id": "20261102-1",
+      "date": "2026-11-02",
+      "label": "备选",
+      "kind": "candidate",
+      "snapshot": "2026-11-02 18:52–18:54",
+      "note": "条件式候选，非已核验终端出票方案；备选仅作奖金匹配。",
+      "legs": [
+        {
+          "number": "周一004",
+          "home": "亚特兰大",
+          "away": "帕尔马",
+          "pick": "主胜",
+          "odds": 1.3,
+          "score": [
+            0,
+            3
+          ],
+          "kickoff": "2026-11-03 03:45",
+          "source": "https://en.atalanta.it/news/parma-win-in-bergamo",
+          "handicap": null,
+          "finishedAt": null
+        },
+        {
+          "number": "周一005",
+          "home": "圣旺红星",
+          "away": "南锡",
+          "pick": "让负",
+          "odds": 1.5,
+          "score": [
+            1,
+            4
+          ],
+          "kickoff": "2026-11-03 03:45",
+          "source": "https://www.redstar.fr/2026-11-03/les-pro/red-star-fc-nancy-1-4/",
+          "handicap": -1,
+          "finishedAt": null
+        }
+      ]
+    },
+    {
+      "id": "20261103-0",
+      "date": "2026-11-03",
+      "label": "主推",
+      "kind": "reference",
+      "snapshot": "2026-11-03 18:28 更新版",
+      "note": "更新版替代早前无方案状态，不重复计数。",
+      "legs": [
+        {
+          "number": "周二005",
+          "home": "马德里竞技",
+          "away": "拜仁慕尼黑",
+          "pick": "让胜",
+          "odds": 1.53,
+          "score": [
+            0,
+            2
+          ],
+          "kickoff": "2026-11-04 04:00",
+          "source": "https://www.atleticodemadrid.com/postpartidos/atletico-de-madrid-bayern-munich-03-11-2026-21-00",
+          "handicap": 1,
+          "finishedAt": null
+        },
+        {
+          "number": "周二010",
+          "home": "比利亚雷亚尔",
+          "away": "巴黎圣日耳曼",
+          "pick": "客胜",
+          "odds": 1.43,
+          "score": [
+            0,
+            6
+          ],
+          "kickoff": "2026-11-04 04:00",
+          "source": "https://www.psg.fr/en/content/mini-match-report-villarreal-cf-paris-saint-germain-ucl-journee-4-2026-2027",
+          "handicap": null,
+          "finishedAt": null
+        }
+      ]
+    },
+    {
+      "id": "20261103-1",
+      "date": "2026-11-03",
+      "label": "备选",
+      "kind": "reference",
+      "snapshot": "2026-11-03 18:28 更新版",
+      "note": "更新版替代早前无方案状态，不重复计数。",
+      "legs": [
+        {
+          "number": "周二008",
+          "home": "曼联",
+          "away": "罗马",
+          "pick": "让负",
+          "odds": 1.48,
+          "score": [
+            3,
+            2
+          ],
+          "kickoff": "2026-11-04 04:00",
+          "source": "https://www.manutd.com/en/news/match-report-manchester-united-3-roma-2-3-nov",
+          "handicap": -1,
+          "finishedAt": null
+        },
+        {
+          "number": "周二010",
+          "home": "比利亚雷亚尔",
+          "away": "巴黎圣日耳曼",
+          "pick": "客胜",
+          "odds": 1.43,
+          "score": [
+            0,
+            6
+          ],
+          "kickoff": "2026-11-04 04:00",
+          "source": "https://www.psg.fr/en/content/mini-match-report-villarreal-cf-paris-saint-germain-ucl-journee-4-2026-2027",
+          "handicap": null,
+          "finishedAt": null
+        }
+      ]
+    },
+    {
+      "id": "20261104-0",
+      "date": "2026-11-04",
+      "label": "主推",
+      "kind": "reference",
+      "snapshot": "2026-11-04 18:25–18:26",
+      "note": "多特主胜列表1.55，历史记录1.57，存在差异。",
+      "legs": [
+        {
+          "number": "周三005",
+          "home": "莱比锡红牛",
+          "away": "曼城",
+          "pick": "客胜",
+          "odds": 1.34,
+          "score": [
+            2,
+            3
+          ],
+          "kickoff": "2026-11-05 04:00",
+          "source": "https://www.theguardian.com/football/live/2026/nov/04/champions-league-slavia-prague-v-arsenal-rb-leipzig-v-manchester-city-and-more-live",
+          "handicap": null,
+          "finishedAt": null
+        },
+        {
+          "number": "周三008",
+          "home": "多特蒙德",
+          "away": "皇家贝蒂斯",
+          "pick": "主胜",
+          "odds": 1.55,
+          "score": [
+            2,
+            1
+          ],
+          "kickoff": "2026-11-05 04:00",
+          "source": "https://www.theguardian.com/football/live/2026/nov/04/champions-league-slavia-prague-v-arsenal-rb-leipzig-v-manchester-city-and-more-live",
+          "handicap": null,
+          "finishedAt": null
+        }
+      ]
+    },
+    {
+      "id": "20261104-1",
+      "date": "2026-11-04",
+      "label": "备选",
+      "kind": "reference",
+      "snapshot": "2026-11-04 18:25–18:26",
+      "note": "多特主胜列表1.55，历史记录1.57，存在差异。",
+      "legs": [
+        {
+          "number": "周三004",
+          "home": "费内巴切",
+          "away": "利物浦",
+          "pick": "客胜",
+          "odds": 1.24,
+          "score": [
+            3,
+            2
+          ],
+          "kickoff": "2026-11-05 01:45",
+          "source": "https://lfcbeta.liverpoolfc.com/matches/mens-team/fenerbahce-v-liverpool-uefa-champions-league-20261104",
+          "handicap": null,
+          "finishedAt": null
+        },
+        {
+          "number": "周三006",
+          "home": "波尔图",
+          "away": "那不勒斯",
+          "pick": "主胜",
+          "odds": 1.69,
+          "score": [
+            4,
+            1
+          ],
+          "kickoff": "2026-11-05 04:00",
+          "source": "https://www.theguardian.com/football/live/2026/nov/04/champions-league-slavia-prague-v-arsenal-rb-leipzig-v-manchester-city-and-more-live",
+          "handicap": null,
+          "finishedAt": null
+        }
+      ]
+    },
+    {
+      "id": "20261105-0",
+      "date": "2026-11-05",
+      "label": "主推",
+      "kind": "reference",
+      "snapshot": "2026-11-05 18:22–18:24",
+      "note": "汇总值与带时点走势存在差异，保留原已发送参考值。",
+      "legs": [
+        {
+          "number": "周四002",
+          "home": "水晶宫",
+          "away": "霍芬海姆",
+          "pick": "主胜",
+          "odds": 1.67,
+          "score": [
+            1,
+            1
+          ],
+          "kickoff": "2026-11-06 01:45",
+          "source": "https://www.theguardian.com/football/live/2026/nov/05/crystal-palace-hoffenheim-sparta-prague-bournemouth-sunderland-celtic-europa-league-live",
+          "handicap": null,
+          "finishedAt": null
+        },
+        {
+          "number": "周四006",
+          "home": "AC米兰",
+          "away": "费伦茨瓦罗斯",
+          "pick": "主胜",
+          "odds": 1.16,
+          "score": [
+            0,
+            2
+          ],
+          "kickoff": "2026-11-06 01:45",
+          "source": "https://football-italia.net/uel-milan-0-2-ferencvaros-dismal-rossoneri/",
+          "handicap": null,
+          "finishedAt": null
+        }
+      ]
+    },
+    {
+      "id": "20261105-1",
+      "date": "2026-11-05",
+      "label": "备选",
+      "kind": "reference",
+      "snapshot": "2026-11-05 18:22–18:24",
+      "note": "汇总值与带时点走势存在差异，保留原已发送参考值。",
+      "legs": [
+        {
+          "number": "周四003",
+          "home": "布拉格斯巴达",
+          "away": "伯恩茅斯",
+          "pick": "客胜",
+          "odds": 1.27,
+          "score": [
+            1,
+            3
+          ],
+          "kickoff": "2026-11-06 01:45",
+          "source": "https://www.theguardian.com/football/live/2026/nov/05/crystal-palace-hoffenheim-sparta-prague-bournemouth-sunderland-celtic-europa-league-live",
+          "handicap": null,
+          "finishedAt": null
+        },
+        {
+          "number": "周四004",
+          "home": "奈梅亨",
+          "away": "奥莫尼亚",
+          "pick": "主胜",
+          "odds": 1.55,
+          "score": [
+            3,
+            1
+          ],
+          "kickoff": "2026-11-06 01:45",
+          "source": "https://www.nec-nijmegen.nl/wedstrijden/wedstrijd/matchcenter-n.e.c.-omonia-nicosia-5-11-2026.htm",
+          "handicap": null,
+          "finishedAt": "2026-11-06 03:36"
+        }
+      ]
+    }
+  ],
+  "observations": [
+    {
+      "date": "2026-11-03",
+      "title": "北京国安客胜＋巴萨主胜",
+      "result": "国安4:7泰港；巴萨3:0维拉",
+      "hit": false
+    },
+    {
+      "date": "2026-11-04",
+      "title": "利物浦客胜＋曼城客胜",
+      "result": "利物浦2:3费内巴切；曼城3:2莱比锡",
+      "hit": false
+    },
+    {
+      "date": "2026-11-04",
+      "title": "利物浦客胜＋维京主胜",
+      "result": "利物浦2:3费内巴切；维京4:1萨巴赫",
+      "hit": false
+    },
+    {
+      "date": "2026-11-04",
+      "title": "曼城客胜＋阿森纳客胜",
+      "result": "曼城3:2莱比锡；阿森纳2:1布拉格斯拉维亚",
+      "hit": true
+    },
+    {
+      "date": "2026-11-05",
+      "title": "勒沃库森主胜＋水晶宫主胜",
+      "result": "勒沃库森0:1马赛；水晶宫1:1霍芬海姆",
+      "hit": false
+    },
+    {
+      "date": "2026-11-05",
+      "title": "伯恩茅斯客胜＋皇家社会主胜",
+      "result": "伯恩茅斯3:1斯巴达；皇家社会1:1里昂",
+      "hit": false
+    },
+    {
+      "date": "2026-11-05",
+      "title": "伯恩茅斯客胜＋水晶宫主胜",
+      "result": "伯恩茅斯3:1斯巴达；水晶宫1:1霍芬海姆",
+      "hit": false
+    }
+  ]
+}
