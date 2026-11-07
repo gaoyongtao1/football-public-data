@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "timezone": "Asia/Shanghai",
-  "updatedAt": "2026-11-06T14:19:18.911+08:00",
+  "updatedAt": "2026-11-07T08:18:04+08:00",
   "issues": [
     {
       "id": "2026-11-06",
@@ -189,6 +189,164 @@
           "alt": "2026年11月6日AI早报单版大报"
         }
       ]
+    },
+    {
+      "id": "2026-11-07",
+      "date": "2026-11-07",
+      "title": "AI圈早报｜2026年11月7日",
+      "windowStart": "2026-11-06T00:00:00+08:00",
+      "windowEnd": "2026-11-07T08:00:00+08:00",
+      "summary": "智能体终端的进网与权限要求进一步明确，AI产品落地正在同时接受能力、安全与合规的检验。",
+      "items": [
+        {
+          "id": "2026-11-07-01",
+          "category": "政策监管",
+          "title": "智能体终端进网要求明确：权限与适配成为重点",
+          "what": "工信部公开通知要求手机、平板、可穿戴设备等预装智能体开展适配验证和进网检测，OTA升级需提交方案及报告；未经应用开发者明示同意，不得强制调用应用。",
+          "why": "AI手机与智能体落地不仅要比能力，还需处理设备兼容、权限边界和生态授权。",
+          "sources": [
+            {
+              "name": "工信部",
+              "url": "https://www.miit.gov.cn/zwgk/zcwj/wjfb/tz/art/2026/art_bc3e3e4c3fa84ca2a1c14ff1067ab844.html"
+            }
+          ],
+          "sourceNote": "11月6日09:15；文件落款10月24日，本期为公开发布。",
+          "publishedAt": "2026-11-06T09:15:00+08:00",
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-07-02",
+          "category": "模型安全",
+          "title": "OpenAI发布GPT-6 Cyber，面向审核客户开放",
+          "what": "OpenAI称GPT-6 Cyber在ExploitGym得分48.5%，前代为32.1%；模型被评为网络安全“Critical”等级，通过Daybreak Red向获批安全研究者开放。",
+          "why": "自动化漏洞研究能力继续增强，但这不是向所有用户普遍开放的模型，基准结果也仍属厂商评测。",
+          "sources": [
+            {
+              "name": "OpenAI、Reuters",
+              "url": "https://openai.com/index/introducing-gpt-6-cyber/"
+            }
+          ],
+          "sourceNote": "官方页面标11月5日；路透报道为北京时间11月6日01:01，落在窗口内。",
+          "publishedAt": null,
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-07-03",
+          "category": "视频模型",
+          "title": "Gemini Omni 1.2 Flash：更长视频，价格下调30%",
+          "what": "Google发布Gemini Omni 1.2 Flash，原生视频从10秒延长到15秒，改进多轮编辑与参考一致性；720p生成价格为每秒0.07美元，较1.1下降30%。",
+          "why": "更低成本和更强的一致性，有利于短视频、教学素材与企业内容制作；已向Gemini API及企业服务提供。",
+          "sources": [
+            {
+              "name": "Google、Google DeepMind",
+              "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/"
+            }
+          ],
+          "sourceNote": "官方页面标11月5日；公开发布记录为UTC 17:00，即北京时间11月6日01:00。",
+          "publishedAt": null,
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-07-04",
+          "category": "国际治理",
+          "title": "全国人大常委会批准世界人工智能合作组织协定",
+          "what": "十四届全国人大常委会第二十五次会议批准中国代表于7月16日在上海签署的《关于成立世界人工智能合作组织的协定》。",
+          "why": "这标志着相关协定的国内批准程序推进，不应解读为该组织在本日才成立。",
+          "sources": [
+            {
+              "name": "新华社、中国新闻网",
+              "url": "https://www.chinanews.com/gn/2026/11-06/10727497.shtml"
+            }
+          ],
+          "sourceNote": "11月6日19:41:24（中国新闻网转载新华社受权发布）。",
+          "publishedAt": "2026-11-06T19:41:24+08:00",
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-07-05",
+          "category": "内容治理",
+          "title": "网信办通报AI仿冒公众人物整治结果",
+          "what": "网信办通报清理违法违规信息4.7万余条、处置账号3961个，针对仿冒公众人物面容与声音带货、造谣引流及低俗恶搞等行为。",
+          "why": "AI声音和肖像的商业使用，需要更加重视授权、身份真实性和平台治理要求。",
+          "sources": [
+            {
+              "name": "国家互联网信息办公室",
+              "url": "https://www.cac.gov.cn/2026-11/06/c_1795720746219974.htm"
+            }
+          ],
+          "sourceNote": "11月6日13:25。",
+          "publishedAt": "2026-11-06T13:25:00+08:00",
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-07-06",
+          "category": "内容治理",
+          "title": "微短剧新一轮治理，聚焦AI“盗脸”“偷声”",
+          "what": "广电总局公布11月1日至12月底的治理安排，涉及AI低俗同质化、盗脸偷声、未备案未审核及改名重复播出等问题。",
+          "why": "AI辅助制作仍须满足内容、肖像声音权利与发行审核要求，生成效率不能替代合规。",
+          "sources": [
+            {
+              "name": "国家广播电视总局",
+              "url": "https://www.nrta.gov.cn/art/2026/11/6/art_114_74410.html"
+            }
+          ],
+          "sourceNote": "11月6日19:47；治理周期自11月1日起。",
+          "publishedAt": "2026-11-06T19:47:00+08:00",
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-07-07",
+          "category": "硬件算力",
+          "title": "Google收购Crusoe怀俄明州数据中心场址",
+          "what": "Crusoe宣布Google收购其位于怀俄明州东南部的数据中心场址；公开信息未披露这笔收购的交易对价。",
+          "why": "大型AI企业继续直接掌握算力基础设施；此前170亿美元项目投资计划不能等同于本次收购价。",
+          "sources": [
+            {
+              "name": "Crusoe、Reuters",
+              "url": "https://www.crusoe.ai/resources/newsroom/crusoe-wyoming-data-center-campus-update"
+            }
+          ],
+          "sourceNote": "Crusoe公告标11月6日；分发记录UTC 19:02，即北京时间11月7日03:02。",
+          "publishedAt": null,
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-07-08",
+          "category": "融资动态",
+          "title": "路透：OpenAI新一轮融资已获110亿美元",
+          "what": "路透援引消息人士报道，OpenAI在估值1.25万亿美元的新一轮融资中已获110亿美元，属于最多筹集300亿美元计划的一部分。",
+          "why": "资金有助于延续模型与算力投入，但高估值和后续融资规模仍需持续观察；这不是公司正式确认。",
+          "sources": [
+            {
+              "name": "Reuters",
+              "url": "https://www.reuters.com/business/openai-secures-11-billion-funding-125-trillion-valuation-bloomberg-news-reports-2026-11-06/"
+            }
+          ],
+          "sourceNote": "11月6日21:12:26 UTC，即北京时间11月7日05:12:26。",
+          "publishedAt": "2026-11-07T05:12:26+08:00",
+          "timeStatus": "confirmed"
+        }
+      ],
+      "uncertainItems": [
+        {
+          "id": "2026-11-07-09",
+          "category": "存疑条目",
+          "title": "OpenAI与Hacktron合作，测试跨服务连接漏洞",
+          "what": "OpenAI公告与Hacktron共同选择重点测试领域，研究OpenAI系统与第三方服务交互中的漏洞，并通过Daybreak Red扩大模型访问。",
+          "why": "智能体连接外部服务后，身份与权限边界成为安全测试的重要对象。",
+          "sources": [
+            {
+              "name": "OpenAI",
+              "url": "https://openai.com/index/partnering-with-hacktron/"
+            }
+          ],
+          "sourceNote": "页面仅标11月6日，缺精确时刻与时区，尚不能独立确认是否在统计窗口内；不计入8条已确认新闻。",
+          "publishedAt": null,
+          "timeStatus": "uncertain"
+        }
+      ],
+      "note": "8条已确认新闻＋1条存疑条目。时间为来源报道或公布时间，不一律等同产品上线时刻。本期网页报纸图片暂不可用。",
+      "images": []
     }
   ]
 }
