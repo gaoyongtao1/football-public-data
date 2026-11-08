@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "timezone": "Asia/Shanghai",
-  "updatedAt": "2026-11-07T12:00:11+08:00",
+  "updatedAt": "2026-11-08T10:01:14+08:00",
   "issues": [
     {
       "id": "2026-11-06",
@@ -353,6 +353,120 @@
           "alt": "2026年11月7日AI早报单版报纸，8条已确认新闻与1条存疑条目"
         }
       ]
+    },
+    {
+      "id": "2026-11-08",
+      "date": "2026-11-08",
+      "title": "AI圈早报｜2026年11月8日",
+      "windowStart": "2026-11-07T00:00:00+08:00",
+      "windowEnd": "2026-11-08T08:00:00+08:00",
+      "summary": "今日最值得关注：Microsoft被报道逐步结束一项Oracle旧代算力租用，AI基建竞争正在从争抢容量走向更精细的硬件与成本匹配。",
+      "items": [
+        {
+          "id": "2026-11-08-01",
+          "category": "硬件算力",
+          "title": "Microsoft重新评估外租算力，逐步结束一项Oracle合作",
+          "what": "Reuters援引Bloomberg消息称，Microsoft不续签2023年启动的一项Oracle算力租用合同，原因包括旧代GPU不再匹配需求；Oracle回应称包括旧代GPU在内的需求仍强。",
+          "why": "算力需求增长不等于每种硬件都同样紧缺，企业开始更严格地匹配算力代际与使用成本；Microsoft尚未回应，不能把报道当作双方共同公告。",
+          "sources": [
+            {
+              "name": "Reuters",
+              "url": "https://www.reuters.com/business/microsoft-is-winding-down-oracle-deal-rent-ai-cloud-capacity-bloomberg-news-2026-11-06/"
+            }
+          ],
+          "sourceNote": "报道时间为11月6日17:46:46 UTC，即北京时间11月7日01:46:46。",
+          "publishedAt": "2026-11-07T01:46:46+08:00",
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-08-02",
+          "category": "应用与环境",
+          "title": "15家环保组织都在用AI，也都担忧数据中心代价",
+          "what": "Reuters采访15家环保、保育与发展组织：全部以某种形式使用AI，并担忧其环境影响；应用包括火情识别与野生动物统计，部分机构采用结果缓存或船上边缘计算减少重复处理与传输。",
+          "why": "这组采访呈现AI的实际收益与资源成本并存，不能用“环保组织采用AI”推导其支持无限扩建数据中心。",
+          "sources": [
+            {
+              "name": "Reuters",
+              "url": "https://www.reuters.com/sustainability/cop/environmental-groups-embrace-ai-even-they-warn-data-center-impacts-2026-11-07/"
+            }
+          ],
+          "sourceNote": "11月7日06:07:42 UTC，即北京时间11月7日14:07:42；为本次采访报道，不代表所有项目当天上线。",
+          "publishedAt": "2026-11-07T14:07:42+08:00",
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-08-03",
+          "category": "行业报告",
+          "title": "“人工智能+媒体”年度蓝皮书全文发布",
+          "what": "新华社研究院发布2026年度蓝皮书，梳理智能采集核验、人机协作及内容授权问题，并引述FT Strategies与WAN-IFRA对86国448名新闻机构受访者的调查。",
+          "why": "报告把AI工具部署与核验、人才和版权责任放在同一框架；其中引述调查属于既有研究，不能当成11月7日新测量。",
+          "sources": [
+            {
+              "name": "新华社研究院／新华网",
+              "url": "https://www.news.cn/politics/20261107/2853cb5286064053b1b18588f6c4697e/c.html"
+            }
+          ],
+          "sourceNote": "全文页面发布于北京时间11月7日10:02:51；引述的新闻编辑室调查发表于2026年6月。",
+          "publishedAt": "2026-11-07T10:02:51+08:00",
+          "timeStatus": "confirmed"
+        }
+      ],
+      "uncertainItems": [
+        {
+          "id": "2026-11-08-04",
+          "category": "科研评测",
+          "title": "OpenAI以100项真实湿实验任务测试AI读图能力",
+          "what": "OpenAI与Ligo推出BioBasicsBench，测试原始实验数据解读；在xhigh设置下，GPT-6 Astra平均获得66.7%的可得分数，GPT-5.6 Sol为43.8%。",
+          "why": "平均得分不是任务成功率；模型仍会误读图像和对照实验，较高分数不等于可独立作出可靠实验判断。",
+          "sources": [
+            {
+              "name": "OpenAI",
+              "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science/"
+            }
+          ],
+          "sourceNote": "存疑：官方页仅标11月6日，无精确时刻和时区；社交帖转引不足以独立确定统计窗口，故不计入已确认条目。",
+          "publishedAt": null,
+          "timeStatus": "uncertain"
+        },
+        {
+          "id": "2026-11-08-05",
+          "category": "智能体工程",
+          "title": "Anthropic披露跨会话记忆与“dreaming”评测",
+          "what": "Anthropic展示以日志、笔记和离线整理构建记忆的方法；在CL-Bench数据库任务中，Opus 5.5平均得分从无状态的0.655提升到带记忆的0.838。",
+          "why": "这说明持久上下文设计会影响长期任务表现，但不是更新模型权重，也不能把单项任务增益等同于通用智能提升。",
+          "sources": [
+            {
+              "name": "Anthropic",
+              "url": "https://www.anthropic.com/research/components-of-agent-memory"
+            }
+          ],
+          "sourceNote": "存疑：官方页标11月6日，缺精确时刻和时区，无法独立确认是否进入本期窗口。",
+          "publishedAt": null,
+          "timeStatus": "uncertain"
+        },
+        {
+          "id": "2026-11-08-06",
+          "category": "模型与产品",
+          "title": "Meta将Muse Wonder能力下放，并推出Spaces",
+          "what": "Meta推出使用Muse Wonder训练的专用模型，向Muse及Meta AI提供Active Memory与Active Focus；另在Muse推出可用自然语言创建、调整并安排显示时间的Spaces。",
+          "why": "专用模型与可持续使用的小工具正结合；Meta自测关键上下文正确使用率为90%，旧模型76%，不代表第三方验证或所有任务表现。",
+          "sources": [
+            {
+              "name": "Meta AI Research／Meta Newsroom",
+              "url": "https://research.meta.ai/blog/specialized-models-for-muse-and-metaai"
+            },
+            {
+              "name": "Meta Newsroom",
+              "url": "https://about.fb.com/news/2026/11/introducing-spaces-customize-muse-app/"
+            }
+          ],
+          "sourceNote": "存疑：两篇官方公告均仅标11月6日，无精确时区，无法独立确认本期窗口；发布不等于所有账户已收到更新。",
+          "publishedAt": null,
+          "timeStatus": "uncertain"
+        }
+      ],
+      "note": "本期确认3条，另列3条时间存疑内容。窗口内可独立核验且未重复报道的实质新闻不足8条，不以旧闻、预告或聚合转载凑数。本期网页报纸图片暂不可用。",
+      "images": []
     }
   ]
 }
