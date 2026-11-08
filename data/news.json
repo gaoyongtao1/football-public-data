@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "timezone": "Asia/Shanghai",
-  "updatedAt": "2026-11-08T10:01:14+08:00",
+  "updatedAt": "2026-11-08T10:03:29+08:00",
   "issues": [
     {
       "id": "2026-11-06",
@@ -466,7 +466,13 @@
         }
       ],
       "note": "本期确认3条，另列3条时间存疑内容。窗口内可独立核验且未重复报道的实质新闻不足8条，不以旧闻、预告或聚合转载凑数。本期网页报纸图片暂不可用。",
-      "images": []
+      "images": [
+        {
+          "url": "https://gaoyongtao1.github.io/football-public-data/assets/news/2026-11-08.png",
+          "caption": "依据公开来源整理的资料图表与关系示意，非新闻现场或真实产品截图。",
+          "alt": "2026年11月8日AI早报单版报纸，3条已确认新闻与3条存疑条目"
+        }
+      ]
     }
   ]
 }
