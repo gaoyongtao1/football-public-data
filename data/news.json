@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "timezone": "Asia/Shanghai",
-  "updatedAt": "2026-11-08T10:03:29+08:00",
+  "updatedAt": "2026-11-08T10:45:09+08:00",
   "issues": [
     {
       "id": "2026-11-06",
@@ -357,10 +357,10 @@
     {
       "id": "2026-11-08",
       "date": "2026-11-08",
-      "title": "AI圈早报｜2026年11月8日",
+      "title": "AI圈早报｜2026年11月8日·修订版",
       "windowStart": "2026-11-07T00:00:00+08:00",
       "windowEnd": "2026-11-08T08:00:00+08:00",
-      "summary": "今日最值得关注：Microsoft被报道逐步结束一项Oracle旧代算力租用，AI基建竞争正在从争抢容量走向更精细的硬件与成本匹配。",
+      "summary": "今日最值得关注：Microsoft被报道调整Oracle旧代算力租用；算力竞争之外，AI的安全与环境成本正进入更广泛的公共讨论。",
       "items": [
         {
           "id": "2026-11-08-01",
@@ -372,9 +372,13 @@
             {
               "name": "Reuters",
               "url": "https://www.reuters.com/business/microsoft-is-winding-down-oracle-deal-rent-ai-cloud-capacity-bloomberg-news-2026-11-06/"
+            },
+            {
+              "name": "StreetInsider（Reuters全文）",
+              "url": "https://www.streetinsider.com/Reuters/Microsoft%2Bis%2Bwinding%2Bdown%2BOracle%2Bdeal%2Bto%2Brent%2BAI%2Bcloud%2Bcapacity,%2BBloomberg%2BNews%2Breports/27306455.html"
             }
           ],
-          "sourceNote": "报道时间为11月6日17:46:46 UTC，即北京时间11月7日01:46:46。",
+          "sourceNote": "Reuters于北京时间11月7日01:46报道；本次通过StreetInsider刊载的路透全文复核。未获Microsoft回应。",
           "publishedAt": "2026-11-07T01:46:46+08:00",
           "timeStatus": "confirmed"
         },
@@ -388,9 +392,13 @@
             {
               "name": "Reuters",
               "url": "https://www.reuters.com/sustainability/cop/environmental-groups-embrace-ai-even-they-warn-data-center-impacts-2026-11-07/"
+            },
+            {
+              "name": "StreetInsider（Reuters全文）",
+              "url": "https://www.streetinsider.com/Reuters/Environmental%2Bgroups%2Bembrace%2BAI,%2Beven%2Bas%2Bthey%2Bwarn%2Bof%2Bdata%2Bcenter%2Bimpacts/27309238.html"
             }
           ],
-          "sourceNote": "11月7日06:07:42 UTC，即北京时间11月7日14:07:42；为本次采访报道，不代表所有项目当天上线。",
+          "sourceNote": "Reuters原报道北京时间11月7日14:07；StreetInsider刊载时间14:05。项目并非全部当天上线。",
           "publishedAt": "2026-11-07T14:07:42+08:00",
           "timeStatus": "confirmed"
         },
@@ -408,6 +416,66 @@
           ],
           "sourceNote": "全文页面发布于北京时间11月7日10:02:51；引述的新闻编辑室调查发表于2026年6月。",
           "publishedAt": "2026-11-07T10:02:51+08:00",
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-08-07",
+          "category": "人物发言｜X",
+          "title": "Musk：先增班交付Cybertruck，再让产线转向Cybercab",
+          "what": "Elon Musk在X表示，Cybertruck积压订单超过计划于2027年6—7月拆线前的产能，将增加班次争取完成订单，为Cybercab扩产腾出产线。",
+          "why": "这反映Tesla向自动驾驶与机器人业务倾斜的管理层意图；发言是生产计划，不代表无人驾驶能力或监管许可已兑现。",
+          "sources": [
+            {
+              "name": "Reuters／AOL",
+              "url": "https://www.aol.com/articles/tesla-expand-cybertruck-production-bid-183820000.html"
+            },
+            {
+              "name": "Elon Musk（X原帖）",
+              "url": "https://x.com/elonmusk/status/2119130949434888330"
+            }
+          ],
+          "sourceNote": "Reuters经AOL刊载，更新于北京时间11月8日03:09；报道引述11月7日X发言。原帖直读受限，内容以Reuters交叉核验，无热度排名。",
+          "publishedAt": "2026-11-08T03:09:00+08:00",
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-08-08",
+          "category": "人物发言｜访谈",
+          "title": "Alex Stamos：AI正在改变网络攻防的成本与节奏",
+          "what": "Cognition首席安全官Alex Stamos在The Verge的Decoder访谈中认为，开放权重模型已能自动化网络攻击链的许多环节，传统安全假设正受挑战。",
+          "why": "这是安全从业者对攻防变化的判断，不是统一量化测试；应关注防守部署与权限设计，而非把观点当成所有系统都已失守。",
+          "sources": [
+            {
+              "name": "The Verge／Decoder",
+              "url": "https://www.theverge.com/podcast/1029038/ai-cybersecurity-hackers-data-breach-dark-age-alex-stamos"
+            }
+          ],
+          "sourceNote": "访谈发表于北京时间11月7日23:00；搜索记录与可读访谈副本交叉核对。新增人物视角，不宣称平台热搜。",
+          "publishedAt": "2026-11-07T23:00:00+08:00",
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-08-09",
+          "category": "热门议题追踪｜讨论观察",
+          "title": "数据中心该不该暂停扩建？线上动员走向都柏林游行",
+          "what": "RTÉ报道11月7日都柏林出现反对数据中心扩建的游行；Friends of the Earth Ireland等机构此前通过公开活动页和社交平台动员，诉求集中于暂停新建及资源成本。",
+          "why": "这是持续议题的新进展：争论从算力需求延伸至供电与社区负担。未取得跨平台热榜或可比互动量，只列讨论观察，不断言全网热度上升。",
+          "sources": [
+            {
+              "name": "RTÉ",
+              "url": "https://www.rte.ie/news/dublin/2026/1107/1598353-data-centres-protest/"
+            },
+            {
+              "name": "Friends of the Earth Ireland",
+              "url": "https://www.friendsoftheearth.ie/events/join-our-protest-against-data-centre-expansion/"
+            },
+            {
+              "name": "An Taisce／LinkedIn",
+              "url": "https://ie.linkedin.com/company/an-taisce"
+            }
+          ],
+          "sourceNote": "RTÉ页面更新于11月7日13:25（爱尔兰当地时间），即北京时间21:25；社交动员帖的精确发布时间未核实，不将它算作当天新帖。",
+          "publishedAt": "2026-11-07T21:25:00+08:00",
           "timeStatus": "confirmed"
         }
       ],
@@ -465,14 +533,8 @@
           "timeStatus": "uncertain"
         }
       ],
-      "note": "本期确认3条，另列3条时间存疑内容。窗口内可独立核验且未重复报道的实质新闻不足8条，不以旧闻、预告或聚合转载凑数。本期网页报纸图片暂不可用。",
-      "images": [
-        {
-          "url": "https://gaoyongtao1.github.io/football-public-data/assets/news/2026-11-08.png",
-          "caption": "依据公开来源整理的资料图表与关系示意，非新闻现场或真实产品截图。",
-          "alt": "2026年11月8日AI早报单版报纸，3条已确认新闻与3条存疑条目"
-        }
-      ]
+      "note": "本期修订版保留原统计窗口：北京时间2026年11月7日00:00至11月8日08:00。共6条窗口内已确认内容（含2条人物发言、1条讨论追踪），另列3条时间存疑内容；不凑数量，不将观点或平台动员当作已证实的技术结论或热榜。配图均为AI生成示意图，非新闻现场或真实产品截图。",
+      "images": []
     }
   ]
 }
