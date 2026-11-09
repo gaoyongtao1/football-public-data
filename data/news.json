@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "timezone": "Asia/Shanghai",
-  "updatedAt": "2026-11-08T10:45:09+08:00",
+  "updatedAt": "2026-11-09T08:13:32+08:00",
   "issues": [
     {
       "id": "2026-11-06",
@@ -534,6 +534,196 @@
         }
       ],
       "note": "本期修订版保留原统计窗口：北京时间2026年11月7日00:00至11月8日08:00。共6条窗口内已确认内容（含2条人物发言、1条讨论追踪），另列3条时间存疑内容；不凑数量，不将观点或平台动员当作已证实的技术结论或热榜。配图均为AI生成示意图，非新闻现场或真实产品截图。",
+      "images": []
+    },
+    {
+      "id": "2026-11-09",
+      "date": "2026-11-09",
+      "title": "AI圈早报｜2026年11月9日",
+      "windowStart": "2026-11-08T00:00:00+08:00",
+      "windowEnd": "2026-11-09T08:00:00+08:00",
+      "summary": "今日最值得关注：NVIDIA董事会启动独立调查；AI竞争同时向供电、终端代理和本机执行工具推进。",
+      "items": [
+        {
+          "id": "2026-11-09-01",
+          "category": "公司治理",
+          "title": "NVIDIA董事会启动独立调查，尚未认定机密泄露",
+          "what": "NVIDIA宣布，因有关CEO Jensen Huang成为外国情报活动目标的报道，将由独立董事委员会及外部独立律师调查；董事会称目前没有理由认为国家安全或公司机密已受损。",
+          "why": "AI芯片龙头的治理与信息安全进入正式审查；启动调查不等于指控成立，也不代表已查明泄密。",
+          "sources": [
+            {
+              "name": "NVIDIA Newsroom",
+              "url": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors"
+            },
+            {
+              "name": "GlobeNewswire／StreetInsider",
+              "url": "https://new.streetinsider.com/Globe%2BNewswire/Statement%2Bfrom%2BNVIDIA%2BBoard%2Bof%2BDirectors/27309498.html"
+            }
+          ],
+          "sourceNote": "NVIDIA Newsroom、GlobeNewswire／StreetInsider。官方声明标11月8日；同文新闻稿刊载于美东11月8日15:00，即北京时间11月9日04:00。",
+          "publishedAt": "2026-11-09T04:00:00+08:00",
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-09-02",
+          "category": "硬件算力",
+          "title": "Anthropic被报道锁定34亿美元燃气发电机订单",
+          "what": "Reuters援引Financial Times称，Anthropic在9月下旬从OnePWR Solutions购入约1.7吉瓦发电机采购承诺，金额约34亿美元，包含安装所需工程能力，并非收购OnePWR公司。",
+          "why": "AI基建争夺延伸到电力设备；这是11月8日披露的此前交易，Reuters未独立证实，双方未回应，不能写成官方已确认交易。",
+          "sources": [
+            {
+              "name": "Reuters",
+              "url": "https://www.reuters.com/business/energy/anthropic-secures-34-billion-generator-deal-ai-data-centers-ft-reports-2026-11-08/"
+            },
+            {
+              "name": "CNA（Reuters全文）",
+              "url": "https://www.channelnewsasia.com/business/anthropic-secures-34-billion-generator-deal-ai-data-centers-ft-reports-6534256"
+            }
+          ],
+          "sourceNote": "Reuters、CNA（Reuters全文）。Reuters北京时间11月8日20:54报道；事件据报发生于9月下旬。",
+          "publishedAt": "2026-11-08T20:54:00+08:00",
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-09-03",
+          "category": "政策监管",
+          "title": "AP：美国AI安全评估机构被要求向白宫非正式汇报",
+          "what": "AP援引两名前政府官员称，商务部下属CAISSI人员被要求向白宫办公室非正式汇报；该机构缺正式负责人，并已停止发表研究。",
+          "why": "政府评估独立性及透明度关系到外部监督是否有效；报道中的担忧不能等同于已证实政治干预评估结果。",
+          "sources": [
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/d3318eb2cf011df53e9ddb3e03d25f13"
+            },
+            {
+              "name": "ABC News（AP全文）",
+              "url": "https://abcnews.com/US/wireStory/staff-us-center-ai-safety-reporting-white-house-137950879"
+            }
+          ],
+          "sourceNote": "Associated Press、ABC News（AP全文）。AP发布于北京时间11月8日16:06；相关安排的起始时刻未披露。",
+          "publishedAt": "2026-11-08T16:06:00+08:00",
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-09-04",
+          "category": "产品应用",
+          "title": "Siri被报道争取更强代理能力，尚无官方上线承诺",
+          "what": "MacRumors转述Bloomberg的Mark Gurman称，Apple希望Siri不只回答单次请求，还能持续追踪目标和推进任务，最快明年变得更像智能体。",
+          "why": "竞争重点从问答转向连续执行；这仍是消息源报道与记者判断，Apple未公布具体实现或确定日期。",
+          "sources": [
+            {
+              "name": "MacRumors（转述Bloomberg）",
+              "url": "https://www.macrumors.com/2026/11/08/siri-ai-rumored-to-become-more-agentic/"
+            }
+          ],
+          "sourceNote": "MacRumors（转述Bloomberg）。MacRumors发表于美国太平洋时间11月8日09:24，即北京时间11月9日01:24。",
+          "publishedAt": "2026-11-09T01:24:00+08:00",
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-09-05",
+          "category": "具身智能",
+          "title": "上纬新材：启元Q1、T1累计下线一万台",
+          "what": "据公司11月8日业务进展公告报道，9月20日发布的启元Q1与T1消费级具身智能机器人累计下线10000台，公司称产能有序爬坡、良率表现良好。",
+          "why": "量产进展是消费机器人走向市场的一个指标，但下线不等于交付、售出或盈利；公司提示产能、体验、订单转化和供应链风险。",
+          "sources": [
+            {
+              "name": "每日经济新闻／新浪财经",
+              "url": "https://finance.sina.com.cn/jjxw/2026-11-08/doc-inixzxsu3801642.shtml"
+            },
+            {
+              "name": "上证报／新浪财经",
+              "url": "https://finance.sina.com.cn/roll/2026-11-08/doc-inixztks3576564.shtml"
+            }
+          ],
+          "sourceNote": "每日经济新闻／新浪财经、上证报／新浪财经。每日经济新闻报道发表于北京时间11月8日22:00，依据当日公告；未将产品9月首发当作新发布。",
+          "publishedAt": "2026-11-08T22:00:00+08:00",
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-09-06",
+          "category": "开源工具",
+          "title": "Open WebUI 0.13.1把编码智能体接入模型选择器",
+          "what": "官方版本说明新增Claude Code、Codex和Pi等编码智能体入口，并推出macOS、Windows及Linux桌面伴侣Tether，让模型连接本机文件、仓库与工具。",
+          "why": "自托管聊天界面向执行工作台扩展；接入本机也扩大权限边界，仍需审查工具请求，不能把连接能力等同于任务可靠性。",
+          "sources": [
+            {
+              "name": "Open WebUI／GitHub Release",
+              "url": "https://github.com/open-webui/open-webui/releases/tag/v0.13.1"
+            }
+          ],
+          "sourceNote": "Open WebUI／GitHub Release。官方Release显示11月8日11:07；页面提取未明示时区，不填伪精确北京时间，日期及可能时差均落在本期窗口。",
+          "publishedAt": null,
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-09-07",
+          "category": "AI人物发言",
+          "title": "Patrick Collison追问：AI的积极未来究竟怎样运转",
+          "what": "Stripe CEO Patrick Collison发文追问AI普及后人类如何工作、分配资源和保持控制，并讨论赋予大量AI道德价值的潜在影响。",
+          "why": "这一观点把能力竞赛延伸到社会安排和公众支持；它是个人思考，不是Stripe新产品、政策或已验证的未来预测。",
+          "sources": [
+            {
+              "name": "Patrick Collison原帖",
+              "url": "https://x.com/patrickc/status/2119495828683530519"
+            },
+            {
+              "name": "公开镜像",
+              "url": "https://zamantika.com/patrickc/status/2119495828683530519"
+            },
+            {
+              "name": "FourWeekMBA",
+              "url": "https://fourweekmba.com/ai-stripes-collison-calls-ais-upside-case-strangely-opaque/"
+            }
+          ],
+          "sourceNote": "Patrick Collison原帖、公开镜像、FourWeekMBA。个人官网核对账号身份；X原帖直读受限，全文经镜像与报道交叉核对。报道标原帖11月8日18:22 UTC，即北京时间11月9日02:22。",
+          "publishedAt": "2026-11-09T02:22:00+08:00",
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-09-08",
+          "category": "AI人物发言",
+          "title": "Karpathy展示TristanTube，称约3分钟生成",
+          "what": "AI研究者与教育者Andrej Karpathy展示基于Tristan Hume频道榜单的TristanTube，称Claude Code约3分钟一次生成，收录约4.7万条视频并提供TV模式。",
+          "why": "这展示把人工精选素材变成个人软件的路径，但耗时与数量是本人自述，不构成标准化效率测评或独立实测。",
+          "sources": [
+            {
+              "name": "Andrej Karpathy原帖",
+              "url": "https://x.com/karpathy/status/2119114537442189652"
+            },
+            {
+              "name": "TristanTube项目",
+              "url": "https://karpathy.ai/tristan-tube/"
+            },
+            {
+              "name": "AICoder",
+              "url": "https://www.aicoder.com/news/news-20261107-x-discussion-karpathy-tristantube-claude-code-3-minutes"
+            }
+          ],
+          "sourceNote": "Andrej Karpathy原帖、TristanTube项目、AICoder。个人官网核对身份；原帖直读受限，报道与镜像索引交叉核对。报道标11月7日17:07 UTC，即北京时间11月8日01:07；项目可读，视频总量未独立清点。",
+          "publishedAt": "2026-11-08T01:07:00+08:00",
+          "timeStatus": "confirmed"
+        }
+      ],
+      "uncertainItems": [
+        {
+          "id": "2026-11-09-09",
+          "category": "开源工具",
+          "title": "Activepieces 0.93.0新增MCP客户端OAuth2",
+          "what": "Activepieces官方0.93.0发布说明列出MCP客户端OAuth2支持，并修复失败的Return Response导致API进程崩溃的问题。",
+          "why": "认证支持有助于自动化流程连接受保护工具；是否适配具体服务仍取决于配置与服务端实现，版本更新不意味着零配置兼容。",
+          "sources": [
+            {
+              "name": "Activepieces／GitHub Release",
+              "url": "https://github.com/activepieces/activepieces/releases/tag/0.93.0"
+            }
+          ],
+          "sourceNote": "Activepieces／GitHub Release。存疑：官方Release显示11月8日14:30，但提取页未明示时区，精确时间接口无法读取；保守不计入窗口内已确认条目。",
+          "publishedAt": null,
+          "timeStatus": "uncertain"
+        }
+      ],
+      "note": "本期6条窗口内新闻与2条人物发言，另列1条时间存疑内容。报道确认不代表匿名消息、公司自述或预测已被独立证实；未找到可充分核实的新增社交热榜，不以转载凑热点。主题配图为AI生成示意图，非新闻现场或真实产品截图。",
       "images": []
     }
   ]
