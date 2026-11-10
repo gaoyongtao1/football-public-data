@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "timezone": "Asia/Shanghai",
-  "updatedAt": "2026-11-09T08:13:32+08:00",
+  "updatedAt": "2026-11-10T08:29:21+08:00",
   "issues": [
     {
       "id": "2026-11-06",
@@ -724,6 +724,231 @@
         }
       ],
       "note": "本期6条窗口内新闻与2条人物发言，另列1条时间存疑内容。报道确认不代表匿名消息、公司自述或预测已被独立证实；未找到可充分核实的新增社交热榜，不以转载凑热点。主题配图为AI生成示意图，非新闻现场或真实产品截图。",
+      "images": []
+    },
+    {
+      "id": "2026-11-10",
+      "date": "2026-11-10",
+      "title": "AI圈早报｜2026年11月10日",
+      "summary": "今日最值得关注：Anthropic与Meta同时推进模型效率与成本竞争，字节强化图像编辑，美团开放LongCat-2.5权重。",
+      "note": "本期7条新闻、2条人物发言、1条社媒样本热点。未确认时间或只有旧闻再报道的内容不凑数；WorldParticle原论文5月已发布，本次未作为新突破收入。厂商性能、个人体验与独立验证分开；本期无保留的时间存疑条目。配图为AI生成示意，非新闻现场或真实产品截图。",
+      "windowStart": "2026-11-09T00:00:00+08:00",
+      "windowEnd": "2026-11-10T08:00:00+08:00",
+      "items": [
+        {
+          "id": "2026-11-10-01",
+          "category": "前沿模型",
+          "title": "Claude Fable 5.2与Mythos 5.2发布",
+          "what": "Anthropic发布基于同一底层模型的Fable 5.2和Mythos 5.2，称输出速度较5.1最高提升30%；标准API每百万输入/输出tokens为8/40美元，支持100万token上下文。",
+          "why": "复杂编程和科学任务的成本与速度值得重新评测；输出提速不等于整项任务快30%。Mythos限认证机构，默认30天数据保留，零保留需特别授权。",
+          "sources": [
+            {
+              "name": "Anthropic",
+              "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2"
+            },
+            {
+              "name": "官方迁移文档",
+              "url": "https://platform.claude.com/docs/en/models/fable-5-2/migration-guide"
+            },
+            {
+              "name": "Reuters",
+              "url": "https://www.reuters.com/technology/anthropic-unveils-new-fable-mythos-models-competition-heats-up-ahead-ipo-2026-11-09/"
+            }
+          ],
+          "sourceNote": "官方标11月9日，无时分；Reuters报道北京时间11月10日04:21:05。性能为厂商说法。",
+          "publishedAt": null,
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-10-02",
+          "category": "轻量模型",
+          "title": "Meta Muse Ember面向低成本代理执行",
+          "what": "Meta在Model API及Muse Code提供Muse Ember，每百万输入/输出tokens标准价0.10/0.50美元，支持100万token上下文及文本、图像、音频、视频输入。",
+          "why": "适合研究把工具调用、信息提取和代码子任务分配给低成本模型；这是托管API发布，不是开放权重，厂商评测不能推出全面领先。",
+          "sources": [
+            {
+              "name": "Meta官方公告",
+              "url": "https://research.meta.ai/blog/muse-ember"
+            },
+            {
+              "name": "官方模型页",
+              "url": "https://dev.meta.ai/models/muse-ember"
+            }
+          ],
+          "sourceNote": "官方标11月9日，无时分；当日TechCrunch报道标10:00 PST，即北京时间11月10日02:00。",
+          "publishedAt": null,
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-10-03",
+          "category": "图像模型",
+          "title": "Seedream 5.5发布，强化连续编辑与透明素材",
+          "what": "字节Seed推出Seedream 5.5，强调多轮修改时保留非编辑区域、原生RGBA透明及半透明输出、改善文字渲染，正陆续上线即梦、豆包、豆包工作和火山方舟。",
+          "why": "透明素材和连续编辑能力有望减少设计返工；官方展示的100轮编辑属于演示，不能保证所有作品同样稳定。",
+          "sources": [
+            {
+              "name": "字节Seed",
+              "url": "https://seed.bytedance.com/zh/blog/more-realistic-images-more-stable-editing-across-100-rounds-introducing-seedream-5-5"
+            },
+            {
+              "name": "IT之家",
+              "url": "https://www.ithome.com/1/024/379.htm"
+            }
+          ],
+          "sourceNote": "官方标11月9日，未标时分；当日报道北京时间11月9日17:35:33，非全部平台全面上线承诺。",
+          "publishedAt": null,
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-10-04",
+          "category": "硬件算力",
+          "title": "Google第八代TPU新增两种系统",
+          "what": "TPU 8tx沿用8t芯片并配合AMD EPYC主机保护运行中的模型及数据；8i Max采用双芯片封装，Google称其计算能力、SRAM及HBM带宽为8i的两倍。",
+          "why": "竞争转向机密计算、内存带宽和长上下文推理；这是现有代际的系统变体，不是全新代芯片，全面商用时间和价格尚未确认。",
+          "sources": [
+            {
+              "name": "Google",
+              "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/tpu-8i-max-and-8tx/"
+            },
+            {
+              "name": "Google Cloud",
+              "url": "https://cloud.google.com/blog/topics/ai-infrastructure/tpu-8tx-and-tpu-8i-max"
+            },
+            {
+              "name": "Reuters",
+              "url": "https://www.reuters.com/business/google-to-introduce-two-variants-its-in-house-chips-bloomberg-news-reports-2026-11-09/"
+            }
+          ],
+          "sourceNote": "官方标11月9日，无时分；Reuters报道北京时间11月9日20:39:57。性能为厂商说法。",
+          "publishedAt": null,
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-10-05",
+          "category": "模型与开源",
+          "title": "LongCat-2.5开放权重，采用MIT许可证",
+          "what": "美团11月9日开放LongCat-2.5权重：总参数1.6万亿、每token激活约480亿，官方提供国产NPU部署说明和W4A4量化方案；模型服务已于11月2日发布。",
+          "why": "本次新增的是可自部署、修改与商用的权重，不能当作模型首次发布；性能表现仍以实际部署验证为准。",
+          "sources": [
+            {
+              "name": "LongCat官方模型卡",
+              "url": "https://huggingface.co/meituan-longcat/LongCat-2.5"
+            },
+            {
+              "name": "MIT许可证",
+              "url": "https://huggingface.co/meituan-longcat/LongCat-2.5/blob/main/LICENSE"
+            },
+            {
+              "name": "IT之家",
+              "url": "https://www.ithome.com/1/024/556.htm"
+            }
+          ],
+          "sourceNote": "官方模型卡及许可证已核对；当日报道北京时间11月9日22:16:38。",
+          "publishedAt": "2026-11-09T22:16:38+08:00",
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-10-06",
+          "category": "企业应用",
+          "title": "ChatGPT Enterprise进入AWS Marketplace",
+          "what": "OpenAI新增AWS Marketplace采购渠道，企业可沿用AWS采购及账单关系；符合条件的支出可抵扣AWS承诺消费额，功能、模型和更新节奏与直接采购一致。",
+          "why": "已有AWS预算的企业可减少采购摩擦；这不是新模型发布，也不表示所有服务迁入AWS，额度抵扣仍需确认资格。",
+          "sources": [
+            {
+              "name": "OpenAI",
+              "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace/"
+            }
+          ],
+          "sourceNote": "官方公告标2026年11月9日，未标时分，不推定精确上线时间。",
+          "publishedAt": null,
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-10-07",
+          "category": "应用迁移",
+          "title": "腾讯元器正式停服，数据导出进入过渡期",
+          "what": "腾讯元器于11月9日停止公众服务，包括应用访问、API调用及分发的智能体对话；官方明确2027年1月9日起删除除依法需留存记录外的用户数据。",
+          "why": "现有用户应在删除日期前导出数据并安排业务迁移；旧入口未用完资源可按官方指引申请退款。",
+          "sources": [
+            {
+              "name": "腾讯元器官方公告",
+              "url": "https://yuanqi.tencent.com/cl/service-discontinuation"
+            },
+            {
+              "name": "IT之家",
+              "url": "https://www.ithome.com/1/024/022.htm"
+            }
+          ],
+          "sourceNote": "停服生效日为11月9日；原公告10月8日发布，当日确认报道11月9日07:04:49，不是突然宣布。",
+          "publishedAt": "2026-11-09T07:04:49+08:00",
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-10-08",
+          "category": "AI人物发言",
+          "title": "Mollick称“接近AGI”，同时列出失败案例",
+          "what": "沃顿商学院教授Ethan Mollick在提前试用Fable 5.2后称其“almost AGI”，但定义仅限电脑上的多数智力任务，不是多数完整职业；他记录了课程准确却乏味、论文冗长和智能体自行增加审批等问题。",
+          "why": "这是个人试用判断而非公认结论或标准化AGI测试；长期项目仍需人引导。文章披露提前访问及测试期间未计量token，不收AI实验室报酬。",
+          "sources": [
+            {
+              "name": "Ethan Mollick亲笔文章",
+              "url": "https://www.oneusefulthing.org/p/fable-52-and-jagged-agi"
+            },
+            {
+              "name": "本人分享原帖",
+              "url": "https://x.com/emollick/status/2119870150845599972"
+            }
+          ],
+          "sourceNote": "文章标11月9日；分享帖北京时间11月10日03:10。X直读受限，原文索引、镜像及时间戳交叉核对。",
+          "publishedAt": null,
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-10-09",
+          "category": "AI人物发言",
+          "title": "Pichai强调硬件与模型团队协同设计",
+          "what": "Google及Alphabet CEO Sundar Pichai发帖称“一年内同一代推出四种不同TPU系统”，并把速度归因于硬件工程师与DeepMind协同设计。",
+          "why": "这体现模型需求与硬件设计联动，但所指是系统配置，不是四代芯片，也不是AI独立设计四枚全新芯片。",
+          "sources": [
+            {
+              "name": "Sundar Pichai原帖",
+              "url": "https://x.com/sundarpichai/status/2119857335871164769"
+            },
+            {
+              "name": "Google技术说明",
+              "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/tpu-8i-max-and-8tx/"
+            }
+          ],
+          "sourceNote": "原帖北京时间11月10日02:19；X直读受限，经公开镜像、时间戳与官方说明交叉核对。",
+          "publishedAt": "2026-11-10T02:19:00+08:00",
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-10-10",
+          "category": "社交热点追踪",
+          "title": "Fable 5.2讨论从榜单转向自主工作边界",
+          "what": "截至北京时间11月10日07:00，TechTwitter科技账号监测样本记录Fable 5.2有98条提及、位列样本第一；讨论包含Mollick所展示的能力与新型失败。",
+          "why": "发布后的新增讨论已有窗口内证据，但只是单一监测样本，不是全X热搜排名，更不能当作行业已认可AGI。",
+          "sources": [
+            {
+              "name": "TechTwitter监测页",
+              "url": "https://www.techtwitter.com/twitter-trending"
+            },
+            {
+              "name": "讨论样本",
+              "url": "https://www.techtwitter.com/topics/entity/fable-5-2?id=f19fb247-fb26-4125-a056-f88ace898c78"
+            },
+            {
+              "name": "官方发布原帖",
+              "url": "https://x.com/claudeai/status/2119867114450268322"
+            }
+          ],
+          "sourceNote": "快照标美西11月9日15:00，即北京时间11月10日07:00；样本覆盖有限、页面可滚动更新。",
+          "publishedAt": null,
+          "timeStatus": "confirmed"
+        }
+      ],
+      "uncertainItems": [],
       "images": []
     }
   ]
