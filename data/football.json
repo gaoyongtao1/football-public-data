@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10 18:29",
+  "updatedAt": "2026-11-11 13:45",
   "timezone": "Asia/Shanghai",
   "coverageEnd": "2026-11-10",
   "plans": [
@@ -418,9 +418,12 @@
           "away": "诺茨郡",
           "pick": "让负",
           "odds": 1.45,
-          "score": null,
+          "score": [
+            0,
+            3
+          ],
           "kickoff": "2026-11-11 03:00",
-          "source": "",
+          "source": "https://www.skysports.com/football/burton-albion-vs-notts-county/577397",
           "handicap": -1,
           "finishedAt": null
         },
@@ -430,9 +433,12 @@
           "away": "米尔顿",
           "pick": "客胜",
           "odds": 1.44,
-          "score": null,
+          "score": [
+            1,
+            2
+          ],
           "kickoff": "2026-11-11 03:30",
-          "source": "",
+          "source": "https://www.skysports.com/football/bromley-vs-milton-keynes-dons/577396",
           "handicap": null,
           "finishedAt": null
         }
@@ -452,9 +458,12 @@
           "away": "诺茨郡",
           "pick": "让负",
           "odds": 1.45,
-          "score": null,
+          "score": [
+            0,
+            3
+          ],
           "kickoff": "2026-11-11 03:00",
-          "source": "",
+          "source": "https://www.skysports.com/football/burton-albion-vs-notts-county/577397",
           "handicap": -1,
           "finishedAt": null
         },
