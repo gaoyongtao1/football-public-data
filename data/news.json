@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "timezone": "Asia/Shanghai",
-  "updatedAt": "2026-11-10T08:29:21+08:00",
+  "updatedAt": "2026-11-11T08:15:09+08:00",
   "issues": [
     {
       "id": "2026-11-06",
@@ -945,6 +945,239 @@
           ],
           "sourceNote": "快照标美西11月9日15:00，即北京时间11月10日07:00；样本覆盖有限、页面可滚动更新。",
           "publishedAt": null,
+          "timeStatus": "confirmed"
+        }
+      ],
+      "uncertainItems": [],
+      "images": []
+    },
+    {
+      "id": "2026-11-11",
+      "date": "2026-11-11",
+      "title": "AI圈早报｜2026年11月11日",
+      "summary": "今日最值得关注：Gemini 4 Carbon扩大公开访问并公布优惠价，Claude与Adobe进一步把AI代理带入办公和创作流程。",
+      "note": "本期8条新闻、2条人物发言、1条有限样本热点。模型、预览、规划与已生效政策分别表述；未用旧闻和未经核实的版本传闻凑数。本期无保留的时间存疑条目。主题配图均为AI生成示意，非新闻现场或真实产品截图。",
+      "windowStart": "2026-11-10T00:00:00+08:00",
+      "windowEnd": "2026-11-11T08:00:00+08:00",
+      "items": [
+        {
+          "id": "2026-11-11-01",
+          "category": "模型与价格",
+          "title": "Gemini 4 Carbon扩大开放，推出介绍期价格",
+          "what": "Google将此前面向部分网络安全客户的Carbon扩展至付费API和Google AI Ultra；介绍期每百万输入/输出tokens为2/10美元，11月30日优惠结束后为4/20美元。",
+          "why": "这是访问范围和实际价格的新进展，不是模型首次亮相；评估长期成本时应区分优惠价与常规价。Antigravity同时预览多智能体协作。",
+          "sources": [
+            {
+              "name": "Google官方",
+              "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/"
+            },
+            {
+              "name": "开发者公告",
+              "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-4-carbon-developers/"
+            }
+          ],
+          "sourceNote": "官方标11月10日，无时分；The Verge报道北京时间11月11日00:00。",
+          "publishedAt": null,
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-11-02",
+          "category": "办公应用",
+          "title": "Claude拓展表格、白板与数据制品",
+          "what": "Anthropic宣布Claude Sheets、Whiteboards、Data并升级互动连接器，让非编程团队在对话之外继续编辑工作成果。",
+          "why": "AI办公从一次性回答转向持续加工的材料；官方仍称Claude Meetings即将推出，不能把会议功能写成已全面上线。",
+          "sources": [
+            {
+              "name": "Claude官方",
+              "url": "https://claude.com/resources/articles/more-ways-to-work-with-claude-sheets-whiteboards-and-interactive-connectors"
+            },
+            {
+              "name": "发布活动",
+              "url": "https://www.anthropic.com/events/the-briefing-work-at-the-frontier-ls"
+            }
+          ],
+          "sourceNote": "官方11月10日；发布活动9:30 PST，即北京时间11月11日01:30。",
+          "publishedAt": null,
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-11-03",
+          "category": "创作工具",
+          "title": "Adobe扩展代理流程，预览本地MCP",
+          "what": "Adobe MAX宣布Creative Agent扩展至Firefly及Creative Cloud，预览让第三方代理修改Photoshop、Illustrator、Premiere和After Effects原生项目的本地MCP集成。",
+          "why": "创作工具向可重复执行的流程发展；Firefly Design和Graph为beta、Builder为private beta，本地MCP仍为预览，不能称全部正式上线。",
+          "sources": [
+            {
+              "name": "Adobe官方",
+              "url": "https://news.adobe.com/news/2026/11/adobe-powers-new-era-of-creativity"
+            },
+            {
+              "name": "Creative Cloud公告",
+              "url": "https://news.adobe.com/news/2026/11/adobe-transforms-creative-cloud-tools"
+            }
+          ],
+          "sourceNote": "官方标11月10日09:00，页面未注明时区，不推定精确北京时间。",
+          "publishedAt": null,
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-11-04",
+          "category": "政策监管",
+          "title": "澳大利亚拟强化前沿AI安全义务",
+          "what": "澳政府提出AI Standards立法方向，要求前沿AI企业维护安全控制、接受独立评估、快速通报事故及公开安全框架，并拟设专门监管机构。",
+          "why": "安全要求拟从自愿承诺转向强制义务；目前是政策和立法提案，不是已经生效的新法。",
+          "sources": [
+            {
+              "name": "澳大利亚总理办公室",
+              "url": "https://www.pm.gov.au/media/new-australian-ai-safety-and-security-protections"
+            },
+            {
+              "name": "网络安全配套公告",
+              "url": "https://www.pm.gov.au/media/strengthening-australia-against-ai-driven-cyber-incidents"
+            }
+          ],
+          "sourceNote": "官方公告日期11月10日，无时分。",
+          "publishedAt": null,
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-11-05",
+          "category": "产业投资",
+          "title": "TSMC批准向两家AI公司各投不超过5亿美元",
+          "what": "TSMC董事会批准最多5亿美元认购Anthropic普通股、最多5亿美元认购OpenAI优先股；Anthropic认购价依IPO价格确定。",
+          "why": "芯片制造商进一步与模型企业建立资本联系；这是董事会授权上限，不等于10亿美元已全部投入。",
+          "sources": [
+            {
+              "name": "TSMC官方",
+              "url": "https://pr.tsmc.com/chinese/news/3352"
+            },
+            {
+              "name": "Reuters",
+              "url": "https://www.reuters.com/world/china/tsmc-invest-up-1-billion-anthropic-openai-2026-11-10/"
+            }
+          ],
+          "sourceNote": "官方11月10日；Reuters报道北京时间11月10日22:15:56。",
+          "publishedAt": null,
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-11-06",
+          "category": "安全研究",
+          "title": "数据混合可能放大隐蔽后门",
+          "what": "Anthropic与Truthful AI等研究者发现，一些单独作用很弱的触发特征数据与干净对照数据混合后，可在小模型微调中形成更明显的后门。",
+          "why": "安全检查还需观察数据混合后的相互作用；实验涉及Qwen3-8B、Gemma-3-4b-it及小型MNIST网络，未研究生产训练流水线，不能推广至所有大模型。",
+          "sources": [
+            {
+              "name": "Anthropic研究原文",
+              "url": "https://alignment.anthropic.com/2026/homeopathic-learning/"
+            }
+          ],
+          "sourceNote": "研究说明标11月10日，无时分。",
+          "publishedAt": null,
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-11-07",
+          "category": "机器人开源",
+          "title": "LingBot-Touch统一多种触觉表征",
+          "what": "蚂蚁灵波Robbyant开放基于JEPA的触觉表征模型与推理代码，提供Tiny、Small权重，把磁触觉、压阻及视触觉信号映射为统一表征，可接入多种操作模型。",
+          "why": "目标是减少机器人更换触觉硬件后的适配成本；这是研究成果，不是已实现通用机器人，也不表示全部训练数据和训练管线开放。",
+          "sources": [
+            {
+              "name": "官方仓库",
+              "url": "https://github.com/Robbyant/lingbot-touch"
+            },
+            {
+              "name": "原论文",
+              "url": "https://arxiv.org/abs/2611.12806"
+            }
+          ],
+          "sourceNote": "论文首次提交北京时间11月10日02:12；IT之家当日报道10:46:47。",
+          "publishedAt": "2026-11-10T02:12:00+08:00",
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-11-08",
+          "category": "国内算力",
+          "title": "联想签约张家口“词元工厂”",
+          "what": "联想11月10日与张家口签署合作协议，初期规划1.5万P异构算力集群和约100MW智算中心，连接私有部署、公有云调度及智能体服务。",
+          "why": "企业基础设施向统一推理调度和用量管理延伸；这是签约与建设规划，不是已投产，降本和能效目标也不是独立实测。",
+          "sources": [
+            {
+              "name": "新华财经",
+              "url": "https://www.cnfin.com/hg-lb/detail/20261110/4493709_1.html"
+            },
+            {
+              "name": "新浪科技",
+              "url": "https://finance.sina.com.cn/roll/2026-11-10/doc-iniyfeck9441489.shtml"
+            }
+          ],
+          "sourceNote": "新华财经原稿标11月10日；新浪科技当日09:31报道。",
+          "publishedAt": null,
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-11-09",
+          "category": "人物发言",
+          "title": "Willison：代码所有权提示也有副作用",
+          "what": "开发者、Datasette创始人Simon Willison分享Fable 5.2指南，指出“This codebase is yours”会令模型更主动改善代码；他转述的官方小型测试同时显示输出token约增至1.5倍。",
+          "why": "主动重构也可能带来未请求修改，必须审查代码差异；只需最小修改时官方不建议使用。这不是Willison独立测出的万能提示。",
+          "sources": [
+            {
+              "name": "本人博客",
+              "url": "https://simonwillison.net/2026/Nov/10/prompting-claude-fable-52/"
+            },
+            {
+              "name": "本人原帖",
+              "url": "https://x.com/simonw/status/2120029347948220500"
+            },
+            {
+              "name": "官方提示指南",
+              "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-fable-5-2#say-who-owns-the-code"
+            }
+          ],
+          "sourceNote": "分享帖北京时间11月10日13:42；X直读受限，以本人博客、官方文档及时间戳交叉核对。",
+          "publishedAt": "2026-11-10T13:42:00+08:00",
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-11-10",
+          "category": "人物发言",
+          "title": "Hugging Face CEO披露社区与数据规模",
+          "what": "联合创始人兼CEO Clément Delangue称平台超过2000万AI构建者，模型、数据集、智能体轨迹及RL环境合计300PB，上周新增9PB。",
+          "why": "开放生态正承载更多智能体训练资源；以上是CEO自述、未经独立审计，不能把构建者总数写成日活或付费用户，也不能由规模推断质量。",
+          "sources": [
+            {
+              "name": "Clément Delangue原帖",
+              "url": "https://x.com/ClementDelangue/status/2120207990116495787"
+            },
+            {
+              "name": "公开镜像",
+              "url": "https://www.sotwe.com/ClementDelangue"
+            },
+            {
+              "name": "聚合记录",
+              "url": "https://wakenex.com/hot-on-x/ai/"
+            }
+          ],
+          "sourceNote": "原帖北京时间11月11日01:32；X直读受限，原文经公开镜像、聚合记录与时间戳核对。",
+          "publishedAt": "2026-11-11T01:32:00+08:00",
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-11-11",
+          "category": "社媒热点",
+          "title": "Carbon扩大开放引发新一轮试用讨论",
+          "what": "截至北京时间11月11日07:00，TechTwitter监测的科技账号样本中，Gemini 4 Carbon有22条提及，讨论涉及长任务、编码工具接入与证明代码案例。",
+          "why": "这是公开开放后的窗口内新讨论，但只是有限账号样本，不是全平台热搜，也不等于案例性能均已独立复现。",
+          "sources": [
+            {
+              "name": "TechTwitter监测页",
+              "url": "https://www.techtwitter.com/twitter-trending"
+            }
+          ],
+          "sourceNote": "快照截止美西11月10日15:00，即北京时间11月11日07:00；动态页面可能变化，不用不一致的Fable数值比较涨幅。",
+          "publishedAt": "2026-11-11T07:00:00+08:00",
           "timeStatus": "confirmed"
         }
       ],
