@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-11 18:27",
+  "updatedAt": "2026-11-11 20:22",
   "timezone": "Asia/Shanghai",
   "coverageEnd": "2026-11-11",
   "plans": [
@@ -473,9 +473,12 @@
           "away": "柏太阳神",
           "pick": "让胜",
           "odds": 1.48,
-          "score": null,
+          "score": [
+            1,
+            2
+          ],
           "kickoff": "2026-11-11 18:00",
-          "source": "",
+          "source": "https://www.jleague.jp/match/leaguecup/2026/111104/",
           "handicap": 1,
           "finishedAt": null
         }
