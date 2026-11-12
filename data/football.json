@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-12 18:25",
+  "updatedAt": "2026-11-13 06:19",
   "timezone": "Asia/Shanghai",
   "coverageEnd": "2026-11-12",
   "plans": [
@@ -538,9 +538,12 @@
           "away": "比利时",
           "pick": "客胜",
           "odds": 1.69,
-          "score": null,
+          "score": [
+            1,
+            2
+          ],
           "kickoff": "2026-11-13 01:00",
-          "source": "",
+          "source": "https://www.live-result.com/football/matches/match1733860_Turkey-Belgium-online",
           "handicap": null,
           "finishedAt": null
         },
@@ -550,9 +553,12 @@
           "away": "拉脱维亚",
           "pick": "主胜",
           "odds": 1.14,
-          "score": null,
+          "score": [
+            2,
+            1
+          ],
           "kickoff": "2026-11-13 03:45",
-          "source": "",
+          "source": "https://www.skysports.com/football/montenegro-vs-latvia/554090",
           "handicap": null,
           "finishedAt": null
         }
@@ -572,9 +578,12 @@
           "away": "塞浦路斯",
           "pick": "让负",
           "odds": 1.32,
-          "score": null,
+          "score": [
+            1,
+            1
+          ],
           "kickoff": "2026-11-13 01:00",
-          "source": "",
+          "source": "https://www.live-result.com/football/matches/match1733859_Armenia-Cyprus-online",
           "handicap": -1,
           "finishedAt": null
         },
@@ -584,9 +593,12 @@
           "away": "芬兰",
           "pick": "让负",
           "odds": 1.61,
-          "score": null,
+          "score": [
+            2,
+            0
+          ],
           "kickoff": "2026-11-13 03:45",
-          "source": "",
+          "source": "https://www.tntsports.co.uk/football/uefa-nations-league/2026-2027/live-albania-finland_mtc20005934/live.shtml",
           "handicap": -1,
           "finishedAt": null
         }
