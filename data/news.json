@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "timezone": "Asia/Shanghai",
-  "updatedAt": "2026-11-11T08:15:09+08:00",
+  "updatedAt": "2026-11-12T17:56:14.234+08:00",
   "issues": [
     {
       "id": "2026-11-06",
@@ -1182,6 +1182,136 @@
         }
       ],
       "uncertainItems": [],
+      "images": []
+    },
+    {
+      "id": "2026-11-12",
+      "date": "2026-11-12",
+      "title": "AI圈早报｜2026年11月12日（补发）",
+      "summary": "今日最值得关注：百度推出长上下文预览模型，Google用专用低价API处理限定选项决策；AI正同时向复杂工作和轻量任务两端推进。",
+      "note": "本期为11月12日早报补发，资讯窗口仍为北京时间11月11日00:00至11月12日08:00，不把补查时间冒充准时出刊。5条时间范围可确认新闻、1条时间待核实条目；未重复昨日已报道的Carbon开放及Claude办公工具。观点和厂商测试不等于独立结论。 AI圈人物发言：本次未找到能同时核实原文、发言时间且属于本期窗口的重大新观点，暂不列人物引语。检索发现11月11日报道的Altman三星交流内容实际发生于10月31日，不作为本期新发言。 社交平台热门AI话题与持续追踪：本次未取得X、Facebook、微博或抖音在截止前可复核的AI话题排名及同口径热度快照，不编造全平台热搜。双十一AI购物作为已核实的产业报道收录，不用平台销量冒充社交讨论热度。",
+      "windowStart": "2026-11-11T00:00:00+08:00",
+      "windowEnd": "2026-11-12T08:00:00+08:00",
+      "items": [
+        {
+          "id": "2026-11-12-01",
+          "category": "模型发布",
+          "title": "百度发布ERNIE 5.5 Flash Preview",
+          "what": "百度发布基于Flash Base的首个后训练预览版，总参数280B、激活14B、支持100万token上下文；千帆API已上线，中文公告称权重将于11月25日前开源。",
+          "why": "重点是以较小激活规模完成编程、3D设计和知识工作；当前仍是预览版，不能将厂商展示等同独立测试，也不能写成权重已经开放。",
+          "sources": [
+            {
+              "name": "百度文心官方",
+              "url": "https://ernie.baidu.com/zh/release/ernie-5-5-flash-preview/"
+            },
+            {
+              "name": "官方发布目录",
+              "url": "https://ernie.baidu.com/"
+            }
+          ],
+          "sourceNote": "官方目录标2026年11月11日；未公开准确时分。",
+          "publishedAt": null,
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-12-02",
+          "category": "模型与价格",
+          "title": "Google推出Gemini Decisions API",
+          "what": "Google发布Gemini Decision 1及专用API，可对文本、图像、音频、视频和PDF输入一次评估最多1000个限定选项问题；输入每百万token 0.10美元，输出token不计费。",
+          "why": "适用于工具选择、模型路由与规则检查，而非生成长篇回答；150—250毫秒延迟是厂商测量，不是所有输入和网络条件下的保证。",
+          "sources": [
+            {
+              "name": "Google官方",
+              "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/"
+            },
+            {
+              "name": "当期发布时间记录",
+              "url": "https://databubble.co/news/gemini-decisions-api-fast-calibrated-multimodal-decisions"
+            }
+          ],
+          "sourceNote": "官方标11月11日；公开分发记录为18:00 UTC，即北京时间11月12日02:00。",
+          "publishedAt": "2026-11-12T02:00:00+08:00",
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-12-03",
+          "category": "科研进展",
+          "title": "可穿戴数据用于模拟健康习惯变化",
+          "what": "Google Research介绍研究性机器学习框架，将可穿戴信号转为可干预的健康年龄，并模拟未来12周不同习惯方案；配套研究结合血液指标分析心血管、肾脏与代谢风险。",
+          "why": "研究尝试从记录状态走向个性化干预；仍属研究框架，不是已获批诊断工具，也不能据此自行改变治疗。",
+          "sources": [
+            {
+              "name": "Google Research官方",
+              "url": "https://research.google/blog/using-wearables-to-enable-cardiovascular-kidney-metabolic-ckm-risk-profiling-for-personalized-coaching/"
+            },
+            {
+              "name": "公开分发时间记录",
+              "url": "https://forck.live/items/34804-using-wearables-to-enable-cardiovascular-kidney-metabolic-ckm-risk-profiling"
+            }
+          ],
+          "sourceNote": "官方标11月11日；分发记录19:54 UTC，即北京时间11月12日03:54。",
+          "publishedAt": "2026-11-12T03:54:00+08:00",
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-12-04",
+          "category": "产业应用",
+          "title": "双十一检验AI购物入口与算力消费",
+          "what": "路透社报道中国电商正把购物助手、AI设备和token套餐融入双十一；天猫称10月15日至11月5日AI token销售额较9月15日至10月5日增长超过700%。",
+          "why": "AI正在成为购物入口，也作为商品被购买；这是平台披露的跨时段销售比较，不能写成11月11日单日增幅或整个行业增长。",
+          "sources": [
+            {
+              "name": "路透社",
+              "url": "https://www.reuters.com/business/retail-consumer/chinas-singles-day-shopping-festival-puts-ai-selling-power-test-2026-11-11/"
+            },
+            {
+              "name": "路透社授权转载Devdiscourse",
+              "url": "https://www.devdiscourse.com/article/international/4004979-chinas-singles-day-shopping-festival-puts-ai-selling-power-to-the-test"
+            }
+          ],
+          "sourceNote": "路透社11月11日06:14 UTC报道，即北京时间14:14；统计所涉销售期早于报道日。",
+          "publishedAt": "2026-11-11T14:14:04+08:00",
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-12-05",
+          "category": "政策治理",
+          "title": "Meta、TikTok与Google反对印尼版权修法部分条款",
+          "what": "路透社报道，三家公司在11月11日印尼议会听证中对拟议版权法修订表达异议，争议涉及新闻链接付费及AI内容规则。",
+          "why": "平台和出版方对信息流量、内容权益与AI披露边界存在利益分歧；这仍是拟议修法，不是已经生效的新规定。",
+          "sources": [
+            {
+              "name": "路透社",
+              "url": "https://www.reuters.com/legal/litigation/meta-tiktok-join-google-push-back-indonesias-planned-ai-copyright-law-revisions-2026-11-11/"
+            },
+            {
+              "name": "路透社转载AOL",
+              "url": "https://www.aol.com/articles/meta-tiktok-join-google-push-121705000.html"
+            }
+          ],
+          "sourceNote": "路透社11月11日12:17 UTC发布，AOL转载12:18 UTC更新，即北京时间20:17—20:18。",
+          "publishedAt": "2026-11-11T20:17:16+08:00",
+          "timeStatus": "confirmed"
+        }
+      ],
+      "uncertainItems": [
+        {
+          "id": "2026-11-12-06",
+          "category": "端侧模型／时间待核实",
+          "title": "BotPsy探索8亿参数本地智能体",
+          "what": "Tether AI Research在Hugging Face介绍基于Qwen3.5-0.8B的BotPsy，面向工具调用与低至中等难度任务；作者同时说明小模型仍会出错，不适合高风险用途。",
+          "why": "本地部署可能减少云端依赖，但能力和安全性仍需实测；发布文章及其性能主张不等于所有设备上已经稳定可用。",
+          "sources": [
+            {
+              "name": "研究团队原文",
+              "url": "https://huggingface.co/blog/qvac/botpsy"
+            }
+          ],
+          "sourceNote": "原文仅标11月11日，无时区和时分，未能确认是否早于本期北京时间08:00截止，单列时间待核实。",
+          "publishedAt": null,
+          "timeStatus": "uncertain"
+        }
+      ],
       "images": []
     }
   ]
