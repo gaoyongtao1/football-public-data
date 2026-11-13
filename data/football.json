@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-14 05:44",
+  "updatedAt": "2026-11-14 06:01",
   "timezone": "Asia/Shanghai",
   "coverageEnd": "2026-11-13",
   "plans": [
@@ -633,9 +633,12 @@
           "away": "瑞士",
           "pick": "客胜",
           "odds": 1.44,
-          "score": null,
+          "score": [
+            0,
+            0
+          ],
           "kickoff": "2026-11-14 03:45",
-          "source": "",
+          "source": "https://www.nzs.si/reprezentance/moski/a-reprezentanca/tekme/slovenija-svica-unl2026-2026-11-13-204500?page=0",
           "handicap": null,
           "finishedAt": null
         }
