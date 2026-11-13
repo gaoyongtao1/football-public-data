@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13 18:26",
+  "updatedAt": "2026-11-14 05:44",
   "timezone": "Asia/Shanghai",
   "coverageEnd": "2026-11-13",
   "plans": [
@@ -618,9 +618,12 @@
           "away": "希腊",
           "pick": "主胜",
           "odds": 1.33,
-          "score": null,
+          "score": [
+            7,
+            0
+          ],
           "kickoff": "2026-11-14 03:45",
-          "source": "",
+          "source": "https://www.onsoranje.nl/toernooien/7995/wedstrijd/334659",
           "handicap": null,
           "finishedAt": null
         },
@@ -652,9 +655,12 @@
           "away": "希腊",
           "pick": "主胜",
           "odds": 1.33,
-          "score": null,
+          "score": [
+            7,
+            0
+          ],
           "kickoff": "2026-11-14 03:45",
-          "source": "",
+          "source": "https://www.onsoranje.nl/toernooien/7995/wedstrijd/334659",
           "handicap": null,
           "finishedAt": null
         },
@@ -664,9 +670,12 @@
           "away": "冰岛",
           "pick": "客胜",
           "odds": 1.48,
-          "score": null,
+          "score": [
+            0,
+            5
+          ],
           "kickoff": "2026-11-14 03:45",
-          "source": "",
+          "source": "https://www.ksi.is/leikir-og-urslit/felagslid/leikur?id=7324118",
           "handicap": null,
           "finishedAt": null
         }
