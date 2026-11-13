@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "timezone": "Asia/Shanghai",
-  "updatedAt": "2026-11-12T17:56:14.234+08:00",
+  "updatedAt": "2026-11-13T08:04:44+08:00",
   "issues": [
     {
       "id": "2026-11-06",
@@ -1312,6 +1312,235 @@
           "timeStatus": "uncertain"
         }
       ],
+      "images": []
+    },
+    {
+      "id": "2026-11-13",
+      "date": "2026-11-13",
+      "title": "AI圈早报｜2026年11月13日",
+      "summary": "今日最值得关注：Google推出Gemini 4 Hydrogen与多模型调度，视频模型继续降本，AI代理从屏幕操作延伸到电话办事。",
+      "note": "本期8条新闻、2条人物发言、1条有限样本热点；时间无法确认的传闻及窗口外旧闻未纳入，无保留的存疑条目。官方测评、预订、预测与法院诉求均不作为已实现结果。配图为AI生成示意，非新闻现场或真实产品截图。",
+      "windowStart": "2026-11-12T00:00:00+08:00",
+      "windowEnd": "2026-11-13T08:00:00+08:00",
+      "items": [
+        {
+          "category": "模型发布",
+          "title": "Google 发布 Gemini 4 Hydrogen，面向快速执行与多模型协作",
+          "what": "Google 推出 Gemini 4 Hydrogen，提供100万token上下文，统一按每百万输入1.50美元、输出7.50美元计价，并向AI Studio、Gemini API、Gemini应用和Search等渠道推出；Antigravity新增Orchestrator，在同一会话中切换Carbon与Hydrogen。",
+          "why": "它把高能力规划与快速执行分开配置，为代理工作流提供新的成本与延迟选择；官方称Orchestrator在Terminal-Bench 4.0上接近Carbon成功率，同时平均减少24%配额、缩短19%时间，这仍是厂商评测，不代表所有真实任务。",
+          "sources": [
+            {
+              "name": "Google 官方博客",
+              "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/"
+            }
+          ],
+          "sourceNote": "官方发布日期2026-11-12，未给出具体时刻。免费Gemini用户经自动选模获得Hydrogen，并非所有用户都有手动选模权限。",
+          "publishedAt": null,
+          "timeStatus": "confirmed",
+          "id": "2026-11-13-01"
+        },
+        {
+          "category": "视频模型",
+          "title": "Seedance 2.5 flash 发布，API 计划 11 月 15 日上线",
+          "what": "火山引擎于 11 月 12 日推出 Seedance 2.5 flash，720P 文生视频、图生视频参考价格约 0.99 元/秒，单段最长 30 秒，API 计划于 11 月 15 日开放。",
+          "why": "更低价格和更长单段输出为广告素材与批量视频创作提供了新选择；速度提升一倍、价格降低约 34% 为厂商相对 Seedance 2.5 的声明，尚非独立测试结论。",
+          "sources": [
+            {
+              "name": "火山引擎官方文档",
+              "url": "https://docs.volcengine.com/docs/ark/seedance-2-5?lang=en"
+            },
+            {
+              "name": "上海证券报·中国证券网（同花顺转载）",
+              "url": "https://news.10jqka.com.cn/20261112/c681758299.shtml"
+            }
+          ],
+          "sourceNote": "官方文档确认 flash 型号；上海证券报记者转述火山引擎官方公众号公告，报道时间为北京时间 2026 年 11 月 12 日 08:49:30，明确当日发布。参数及价格采用该报道；API 尚未到计划上线日。网页直接打开失败，已通过定向搜索读取报道正文。",
+          "publishedAt": "2026-11-12T08:49:30+08:00",
+          "timeStatus": "confirmed",
+          "id": "2026-11-13-02"
+        },
+        {
+          "category": "安全研究",
+          "title": "Anthropic 公布自动红队系统 Anvil",
+          "what": "Anthropic 介绍内部自动红队系统Anvil，让Claude并行迭代测试安全防护，并报告其在生物安全、网络安全与模型蒸馏防护测试中比受聘专家更高效地发现漏洞。",
+          "why": "安全评估正在从有限人工测试转向可持续自动对抗；但这是公司内部实验，部分测试允许访问内部反馈且攻击模型关闭防护，不能等同于现实攻击者已具备相同能力，也不证明防护无懈可击。",
+          "sources": [
+            {
+              "name": "Anthropic Safeguards",
+              "url": "https://safeguards.anthropic.com/2026/automated-red-teaming/"
+            }
+          ],
+          "sourceNote": "官方研究页面标注2026-11-12，未披露具体发布时间；本文是系统与实验报告，不是向公众开放攻击工具的公告。",
+          "publishedAt": null,
+          "timeStatus": "confirmed",
+          "id": "2026-11-13-03"
+        },
+        {
+          "category": "应用模型",
+          "title": "百度推出文心闪电与文心一镜，千帆开放 API",
+          "what": "百度在 11 月 12 日百度世界大会发布文心闪电深度思考模型 ERNIE-Light-DT-1.0 和文心一镜微表情模型 ERNIE-Wizshot-ME；官方页面显示一镜支持图像、文字、音频驱动生成 4—15 秒、1080p 视频，刊例价 0.7 元/秒。",
+          "why": "两款产品分别面向长上下文推理和人物近景视频，为企业提供可调用接口；微表情自然度等效果描述为官方声明，不代表独立实测比较。",
+          "sources": [
+            {
+              "name": "百度智能云官方产品页",
+              "url": "https://cloud.baidu.com/product/qianfan_home/model_3.html"
+            },
+            {
+              "name": "凤凰网科技",
+              "url": "https://original.ifeng.com/c/8xziN4taA4C"
+            },
+            {
+              "name": "新华财经",
+              "url": "https://www.cnfin.com/kx/detail/20261112/4494509_1.html"
+            }
+          ],
+          "sourceNote": "官方页面核实型号、视频规格及刊例价格；新华财经确认 11 月 12 日发布并上线千帆。凤凰网报道时间为北京时间 2026 年 11 月 12 日 16:35:22；该时间是报道发布时间，不是产品上线的精确时刻。此项不把此前公布的 ERNIE 5.5 Flash Preview 当作当日新发布。已通过搜索读取官方页面及报道内容。",
+          "publishedAt": "2026-11-12T16:35:22+08:00",
+          "timeStatus": "confirmed",
+          "id": "2026-11-13-04"
+        },
+        {
+          "category": "AI硬件",
+          "title": "Google 合作款 Gemini 智能眼镜开启预订，395美元起",
+          "what": "Google与Warby Parker、Gentle Monster及Samsung合作的Intelligent Eyewear于11月12日开启预订，Warby Parker款395美元起、Gentle Monster款449美元起，计划12月10日正式销售，提供Gemini语音帮助、摄像和翻译功能。",
+          "why": "AI助手进一步进入日常可穿戴设备，但预订不等于已交付；首发仅支持美国、韩国的合资格18岁以上Google账号，部分功能仅限兼容Android手机，Guided Vision不能替代医疗或出行辅助设备。",
+          "sources": [
+            {
+              "name": "Google 官方博客",
+              "url": "https://blog.google/innovation-and-ai/technology/xr-ar/google-intelligent-eyewear-collections-pre-order/"
+            }
+          ],
+          "sourceNote": "官方发布日期2026-11-12，未披露具体时刻；约41克、最长9小时续航为厂商规格且随使用条件变化。",
+          "publishedAt": null,
+          "timeStatus": "confirmed",
+          "id": "2026-11-13-05"
+        },
+        {
+          "category": "办公产品",
+          "title": "豆包工作新增第三方模型选择及额度倍率提示",
+          "what": "豆包工作于 11 月 12 日接入 Kimi K3.1 Pro、GLM 5.3、DeepSeek V4.1 Flash，并在模型选择页标注额度消耗倍率，同步推出限时优惠。",
+          "why": "用户可以在同一办公产品内按任务效果、响应速度和消耗切换模型；企业客户此前已可用第三方模型，因此不应理解为企业端首次接入。",
+          "sources": [
+            {
+              "name": "豆包工作公告（同花顺转载）",
+              "url": "https://news.10jqka.com.cn/20261112/c681744112.shtml"
+            },
+            {
+              "name": "新京报贝壳财经",
+              "url": "https://www.bjnews.com.cn/detail/1794460194129601.html"
+            }
+          ],
+          "sourceNote": "公告转载页署名来源豆包、作者豆包工作，时间为北京时间 2026 年 11 月 12 日 05:16:23；新京报记者当日 17:06 的报道交叉确认。正文未明确优惠倍率及截止时间，不采用社交转载中的具体折扣值。已通过定向搜索读取两篇完整正文。",
+          "publishedAt": "2026-11-12T05:16:23+08:00",
+          "timeStatus": "confirmed",
+          "id": "2026-11-13-06"
+        },
+        {
+          "category": "算力与财报",
+          "title": "Nebius 季度营收增571%，扩容延期压低全年预期",
+          "what": "Nebius 公布2026年第三季度集团营收9.808亿美元，同比增长571%，其中约3.25亿美元属于轻资产模式的一次性收入；公司因部分第三方容量延期至2027年上半年，预计2026年营收位于此前30亿至34亿美元区间的低端。",
+          "why": "AI云需求增长并不消除数据中心交付与资本开支风险，一次性收入也不能直接视为可持续运行收入；公司将2026年资本支出预期提高至约270亿美元，仍属前瞻预测。",
+          "sources": [
+            {
+              "name": "Nebius 股东信",
+              "url": "https://assets.nebius.com/assets/5bc733ff-bed7-415c-af10-74ce7881a764/Nebius-SHL-2026-Q3.pdf"
+            },
+            {
+              "name": "Nebius 财报公告",
+              "url": "https://nebius.com/newsroom/nebius-reports-third-quarter-2026-financial-results"
+            }
+          ],
+          "sourceNote": "官方财报和股东信日期2026-11-12，具体发布时间未由官方正文确认；财务结果为公司公布的未经审计数据，预测不等于已实现。",
+          "publishedAt": null,
+          "timeStatus": "confirmed",
+          "id": "2026-11-13-07"
+        },
+        {
+          "category": "政策与诉讼",
+          "title": "四家非营利组织起诉五大AI阵营，请求冻结前沿模型开发",
+          "what": "Public Citizen等四家非营利组织于11月12日在旧金山加州高等法院起诉Anthropic、Google、Meta、OpenAI和SpaceXSI，援引加州不正当竞争法，请求法院限制更先进AI系统的开发。",
+          "why": "前沿AI安全争议进入针对开发活动本身的司法程序，但诉求和风险指控仍属于原告主张，不能写成法院已认定违法或已下令停研。",
+          "sources": [
+            {
+              "name": "Public Citizen 原告公告",
+              "url": "https://www.citizen.org/news/coalition-of-nonprofits-files-landmark-lawsuit-to-stop-development-of-advanced-ai-systems-at-anthropic-google-meta-openai-and-spacexsi-that-proliferate-bioweapons-and-cyberattacks/"
+            },
+            {
+              "name": "Reuters（StreetInsider刊载）",
+              "url": "https://www.streetinsider.com/Reuters/OpenAI%2C%2BGoogle%2C%2BAnthropic%2Bhit%2Bwith%2Blawsuit%2Bseeking%2Bhalt%2Bto%2Bfrontier%2BAI%2Bdevelopment/27334731.html"
+            }
+          ],
+          "sourceNote": "原告公告日期2026-11-12；Reuters刊载时间为2026-11-12 13:23 EST，即北京时间11月13日02:23，属于统计窗口。所列时间为报道时间，非立案精确时刻。",
+          "publishedAt": "2026-11-13T02:23:00+08:00",
+          "timeStatus": "confirmed",
+          "id": "2026-11-13-08"
+        },
+        {
+          "category": "人物发言",
+          "title": "Mira Murati：兑现 Inkling 2 Small 开放权重承诺",
+          "what": "Thinking Machines Lab 联合创始人兼 CEO Mira Murati 宣布发布 Inkling 2 Small 权重，并感谢团队与安全测试伙伴；官方 Hugging Face 模型页已被搜索索引收录。",
+          "why": "这是此前先通过 Tinker 提供模型服务后的开放权重进展，而非模型首次发布；感谢安全测试伙伴不等同于独立安全认证。",
+          "sources": [
+            {
+              "name": "Mira Murati 的 X 原帖",
+              "url": "https://x.com/miramurati/status/2120983826407268458"
+            },
+            {
+              "name": "TechTwitter 原文镜像",
+              "url": "https://www.techtwitter.com/tweet/b8875aa1-3ad6-4215-a57f-7e2213486545"
+            },
+            {
+              "name": "Thinking Machines Lab 官方模型页",
+              "url": "https://huggingface.co/thinkingmachines/Inkling-2-Small"
+            }
+          ],
+          "sourceNote": "北京时间 11 月 13 日凌晨。X 原页返回 403，发言全文通过公开镜像核对；原帖 ID 时间戳与北京时间 07:00 的镜像快照所示约 3 小时前相符。未从原页读到明确发布时间。身份另由 Thinking Machines Lab 官网合作公告核对；模型页由搜索索引交叉核对，未下载权重或独立测试安全性。",
+          "publishedAt": null,
+          "timeStatus": "confirmed",
+          "id": "2026-11-13-09"
+        },
+        {
+          "category": "人物发言",
+          "title": "Alexandr Wang：Muse 开始替美国付费用户打电话",
+          "what": "Meta 首席 AI 官 Alexandr Wang 宣布，Muse 的电话代办功能向美国付费订阅用户开放，举例包括订餐和联系客服。",
+          "why": "这让个人代理延伸至电话渠道，但具体事务能否完成仍取决于服务边界与实际执行，不能把发布者举例视为办成保证。",
+          "sources": [
+            {
+              "name": "Alexandr Wang 的 X 原帖",
+              "url": "https://x.com/alexandr_wang/status/2120930586827391350"
+            },
+            {
+              "name": "TechTwitter 原文镜像",
+              "url": "https://www.techtwitter.com/tweet/53bcece3-9adf-466d-8b7c-80942e1eaa13"
+            },
+            {
+              "name": "TechCrunch",
+              "url": "https://techcrunch.com/2026/11/12/muse-can-now-place-calls-to-u-s-businesses-if-you-pay/"
+            }
+          ],
+          "sourceNote": "北京时间 11 月 13 日凌晨。X 原页返回 403，发言全文通过公开镜像核对；原帖 ID 时间戳与北京时间 07:00 快照所示约 6 小时前相符。原文只读到相对时间。TechCrunch 搜索结果报道时间为北京时间 11 月 13 日 06:22，交叉支持窗口内产品进展；身份由 Meta 官网作者署名核对，未实际测试通话能力。",
+          "publishedAt": null,
+          "timeStatus": "confirmed",
+          "id": "2026-11-13-10"
+        },
+        {
+          "category": "社交热点",
+          "title": "技术账号样本继续讨论 Anthropic 与 Gemini 4 Hydrogen",
+          "what": "TechTwitter 截至北京时间 11 月 13 日 07:00 的过去 24 小时榜单包含 Anthropic 和 Gemini 4 Hydrogen，表明其监测的技术账号样本仍在讨论这些话题。",
+          "why": "这提供了窗口内的讨论热度证据，但不能代替产品事实核验，也不代表 X 全平台热度或用户共识。",
+          "sources": [
+            {
+              "name": "TechTwitter 热点快照",
+              "url": "https://www.techtwitter.com/twitter-trending"
+            }
+          ],
+          "sourceNote": "页面明确标注 Topics through Nov 12, 2026, 3:00 PM PT，即北京时间 11 月 13 日 07:00。该时间是榜单统计截止时间，不是新闻发布时间。页面为滚动更新；部分摘要与表格计数不一致，因此不报告精确提及数或全平台排名。仅反映该站监测样本。",
+          "publishedAt": null,
+          "timeStatus": "confirmed",
+          "id": "2026-11-13-11"
+        }
+      ],
+      "uncertainItems": [],
       "images": []
     }
   ]
