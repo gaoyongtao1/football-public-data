@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-14 22:43",
+  "updatedAt": "2026-11-15 06:01",
   "timezone": "Asia/Shanghai",
   "coverageEnd": "2026-11-14",
   "plans": [
@@ -698,9 +698,12 @@
           "away": "爱尔兰",
           "pick": "主胜",
           "odds": 1.4,
-          "score": null,
+          "score": [
+            1,
+            0
+          ],
           "kickoff": "2026-11-15 03:45",
-          "source": "",
+          "source": "https://www.thesun.ie/sport/17919614/ireland-promotion-blow-austria-nations-league-sasakalajdzic/",
           "handicap": null,
           "finishedAt": null
         },
@@ -710,9 +713,12 @@
           "away": "丹麦",
           "pick": "主胜",
           "odds": 1.36,
-          "score": null,
+          "score": [
+            1,
+            4
+          ],
           "kickoff": "2026-11-15 03:45",
-          "source": "",
+          "source": "https://www.abola.pt/futebol/jogo/portugal-dinamarca-8394783/liveblog",
           "handicap": null,
           "finishedAt": null
         }
@@ -732,9 +738,12 @@
           "away": "丹麦",
           "pick": "主胜",
           "odds": 1.36,
-          "score": null,
+          "score": [
+            1,
+            4
+          ],
           "kickoff": "2026-11-15 03:45",
-          "source": "",
+          "source": "https://www.abola.pt/futebol/jogo/portugal-dinamarca-8394783/liveblog",
           "handicap": null,
           "finishedAt": null
         },
@@ -744,9 +753,12 @@
           "away": "波兰",
           "pick": "客胜",
           "odds": 1.43,
-          "score": null,
+          "score": [
+            2,
+            1
+          ],
           "kickoff": "2026-11-15 03:45",
-          "source": "",
+          "source": "https://www.digisport.ro/fotbal/echipa-nationala/romania-polonia-2-1-alex-cicaldau-si-dennis-man-i-au-adus-prima-victorie-oficiala-lui-gica-hagi-4601891",
           "handicap": null,
           "finishedAt": null
         }
