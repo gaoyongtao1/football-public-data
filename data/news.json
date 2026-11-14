@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "timezone": "Asia/Shanghai",
-  "updatedAt": "2026-11-13T08:04:44+08:00",
+  "updatedAt": "2026-11-14 08:08",
   "issues": [
     {
       "id": "2026-11-06",
@@ -1541,6 +1541,340 @@
         }
       ],
       "uncertainItems": [],
+      "images": []
+    },
+    {
+      "id": "2026-11-14",
+      "date": "2026-11-14",
+      "title": "AI圈早报｜2026年11月14日",
+      "summary": "今日最值得关注：NVIDIA 换帅余波转向国会问询和算力供应；路透调查梳理出逾230亿元人民币的相关中国项目，这些金额并非芯片采购额。",
+      "note": "本期12条新闻、1条人物发言、1条已观察到的社交热点、2条未证实线索。未证实线索不计入已确认新闻；媒体报道、公司预测和法律问询分别标注。社交热度只反映可查样本。",
+      "windowStart": "2026-11-13T00:00:00+08:00",
+      "windowEnd": "2026-11-14T08:00:00+08:00",
+      "items": [
+        {
+          "id": "2026-11-14-01",
+          "category": "产业调查",
+          "title": "换帅之后，路透调查梳理逾230亿元英伟达相关中国算力项目",
+          "what": "路透社审阅150多份采购、投资和披露文件，识别出使用或拟使用受美国出口限制的 NVIDIA 芯片、披露总额逾230亿元人民币的中国算力项目与设备协议。",
+          "why": "金额涵盖规划、合同与已建项目，也包括建筑和供电等设施，并非芯片采购额；路透没有把这些项目与涉事企业或黄仁勋案关联。",
+          "sources": [
+            {
+              "name": "路透社独家调查",
+              "url": "https://www.reuters.com/world/china/huang-exit-us-scrutiny-imperil-3-billion-chinese-ai-projects-reliant-nvidia-2026-11-13/"
+            },
+            {
+              "name": "路透社项目清单",
+              "url": "https://www.reuters.com/world/china/factbox-chinas-3-billion-plus-pipeline-nvidia-powered-ai-data-centres-2026-11-13/"
+            }
+          ],
+          "sourceNote": "路透社北京时间11月13日16:31发布。",
+          "publishedAt": "2026-11-13T16:31:00+08:00",
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-14-02",
+          "category": "公司治理",
+          "title": "NVIDIA 换帅后，美国国会扩大问询",
+          "what": "在 NVIDIA 已由 Colette Kress 暂代 CEO 的背景下，美国众院三个委员会再发函要求黄仁勋等人说明情况；参议院财政委员会民主党领袖 Wyden 与众议员 Neal 另发函要求商务部保全芯片出口决策记录。",
+          "why": "公司继任、国会问询和法律定责是三回事；没有依据把发函写成已到场、已定责或已有正式继任者。",
+          "sources": [
+            {
+              "name": "美国众院对华特别委员会",
+              "url": "https://chinaselectcommittee.house.gov/media/press-releases/chairmen-moolenaar-mast-and-crawford-send-second-request-to-jensen-huang-and-nvidia-to-brief-congress"
+            },
+            {
+              "name": "美国参议院财政委员会公开函",
+              "url": "https://www.finance.senate.gov/wp-content/uploads/2026/11/11122026wydenneallettertolutnickonnvidia.pdf"
+            },
+            {
+              "name": "哥伦比亚广播公司",
+              "url": "https://www.cbsnews.com/news/jensen-huang-nvidia-congress-testify/"
+            },
+            {
+              "name": "NVIDIA 新闻室",
+              "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition"
+            },
+            {
+              "name": "美国证券交易委员会8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000082/nvda-20261111.htm"
+            }
+          ],
+          "sourceNote": "延续话题。公司公告系前情；国会信件标美国当地11月12日，哥伦比亚广播公司北京时间11月13日01:30首报众院问询。",
+          "publishedAt": "2026-11-13T01:30:00+08:00",
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-14-03",
+          "category": "智能体与支付",
+          "title": "OpenAI 推出 ChatGPT Wallet，首批面向美国成年 Pro 用户",
+          "what": "OpenAI 宣布 ChatGPT Wallet 开始在 dots 上线，首批适用于持合资格美国发行银行卡的美国18岁及以上 Pro 用户；代理不读取真实卡信息，每笔交易需经过安全检查。",
+          "why": "购物智能体从查找商品延伸到代办结账，但支付授权仍有明确范围，首发并不代表全球用户或任意商家都能使用。",
+          "sources": [
+            {
+              "name": "OpenAI 官方",
+              "url": "https://openai.com/index/introducing-chatgpt-wallet/"
+            },
+            {
+              "name": "路透社",
+              "url": "https://www.reuters.com/technology/openai-launches-chatgpt-wallet-letting-ai-agents-pay-purchases-2026-11-13/"
+            }
+          ],
+          "sourceNote": "OpenAI 公告标美国当地11月13日；路透社北京时间11月13日23:43报道，非分批开通时刻。",
+          "publishedAt": "2026-11-13T23:43:00+08:00",
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-14-04",
+          "category": "企业办公",
+          "title": "Anthropic 开始向团队和企业推出 Claude Meetings 测试版",
+          "what": "Claude Meetings 开始向 Team 与 Enterprise 分批开放测试，可作为可见参会者加入 Google Meet，并在会议中回答问题、起草文档和制作白板。",
+          "why": "这次变化是实际分批推出，不是此前预告；目前先支持 Google Meet，不代表每个组织已经开通。",
+          "sources": [
+            {
+              "name": "Anthropic 产品公告",
+              "url": "https://claude.com/resources/articles/claude-meetings"
+            },
+            {
+              "name": "Claude 发布记录",
+              "url": "https://support.claude.com/en/articles/12138966-release-notes"
+            },
+            {
+              "name": "Claude 官方社交公告归档",
+              "url": "https://www.advanceintelligence.ai/2026-11-12/all"
+            }
+          ],
+          "sourceNote": "Anthropic 发布说明标11月12日；Claude 官方社交公告对应北京时间11月13日04:16，非逐账户开通时间。",
+          "publishedAt": "2026-11-13T04:16:00+08:00",
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-14-05",
+          "category": "开源推理",
+          "title": "八家发起成员加入 SGLang 开源推理联盟",
+          "what": "LMSYS 在旧金山首届 SGLang Summit 开幕环节宣布成立联盟，NVIDIA、AMD、Intel、Google、Meta、Cloudflare、Modal 和 RadixArk 为发起成员。",
+          "why": "芯片、模型及云服务团队将与维护者共同推进推理路线图；联盟成立不等于所有硬件已达到相同的可用性或性能。",
+          "sources": [
+            {
+              "name": "LMSYS 官方",
+              "url": "https://www.lmsys.org/blog/2026-11-12-sglang-consortium/"
+            },
+            {
+              "name": "SGLang Summit 官方议程",
+              "url": "https://www.sglang.io/summit"
+            }
+          ],
+          "sourceNote": "主办方议程确认会议开幕在旧金山当地11月12日上午，对应北京时间11月13日凌晨；公告未给准确发布时分。",
+          "publishedAt": null,
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-14-06",
+          "category": "语音模型",
+          "title": "腾讯混元发布实时语音模型 Hy Realtime",
+          "what": "腾讯混元发布 Hy Realtime，增加语音对话中的工具调用和演唱能力，已用于元宝语音通话及腾讯客服等产品。",
+          "why": "实时语音不只负责回答，还可按用户意图衔接服务；开发者 API 的正式开放时间与价格尚未核实。",
+          "sources": [
+            {
+              "name": "第一财经",
+              "url": "https://www.yicai.com/news/103440081.html"
+            },
+            {
+              "name": "IT之家",
+              "url": "https://www.ithome.com/1/026/825.htm"
+            }
+          ],
+          "sourceNote": "第一财经北京时间11月13日16:38快讯、IT之家同日报道均引述腾讯混元发布信息。",
+          "publishedAt": "2026-11-13T16:38:00+08:00",
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-14-07",
+          "category": "算力与财报",
+          "title": "Cerebras 季度营收增55%，披露与微软签有商业协议",
+          "what": "Cerebras 第三季度 GAAP 营收2.108亿美元，同比增长55%，云及其他服务收入增加265%；同批公开的10-Q写明公司与 Microsoft 签有云推理服务商业协议。",
+          "why": "高速度推理竞争已覆盖云平台客户，但披露协议不代表产能已交付，相关合同金额也未披露。",
+          "sources": [
+            {
+              "name": "Cerebras 投资者关系",
+              "url": "https://investors.cerebras.ai/news-releases/news-release-details/cerebras-systems-delivers-record-revenue-third-quarter-2026"
+            },
+            {
+              "name": "美国证券交易委员会10-Q",
+              "url": "https://www.sec.gov/Archives/edgar/data/2021728/000162828026073494/cbrs-20260930.htm"
+            },
+            {
+              "name": "Cerebras 业绩会",
+              "url": "https://investors.cerebras.ai/events/event-details/cerebras-q3-2026-earnings-call"
+            }
+          ],
+          "sourceNote": "财报于美股11月12日收盘后公开，对应北京时间11月13日；业绩会为北京时间06:00，非公告精确时分。",
+          "publishedAt": null,
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-14-08",
+          "category": "AI网络",
+          "title": "Cisco 将大型云厂商 AI 基建营收预期提高到90亿美元",
+          "what": "Cisco 在2027财年首季财报中，把该财年来自超大规模云厂商的 AI 基础设施营收预期上调至90亿美元，超过其2026财年同口径收入的两倍。",
+          "why": "AI 集群扩建也会拉动网络互连需求；90亿美元是公司前瞻目标，不是已经确认的收入。",
+          "sources": [
+            {
+              "name": "Cisco 投资者关系",
+              "url": "https://investor.cisco.com/news/news-details/2026/CISCO-REPORTS-FIRST-QUARTER-EARNINGS/default.aspx"
+            },
+            {
+              "name": "Cisco 业绩会",
+              "url": "https://investor.cisco.com/events-and-presentations/event-details/2026/Cisco-Q1FY27-Earnings-Results/default.aspx"
+            }
+          ],
+          "sourceNote": "公司标11月12日；财报活动北京时间11月13日05:30，非公告精确时分。",
+          "publishedAt": null,
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-14-09",
+          "category": "算力融资",
+          "title": "Nscale 更新招股文件，披露 Anthropic 项目融资尚无具约束力承诺",
+          "what": "Nscale 在提交给美国证券交易委员会的修订招股文件中披露，截至文件日期，公司尚未获得履行 Anthropic 协议所需额外融资的具约束力承诺。",
+          "why": "签约算力并不等于融资与交付已经落实；这是招股文件中的风险披露，不是公司已经违约的结论。",
+          "sources": [
+            {
+              "name": "美国证券交易委员会修订招股文件",
+              "url": "https://www.sec.gov/Archives/edgar/data/2110365/000119312526458722/ck0002110365-20261112.htm"
+            },
+            {
+              "name": "华尔街日报",
+              "url": "https://www.wsj.com/tech/nvidia-backed-nscale-says-it-needs-additional-financing-ahead-of-planned-ipo-58f4f8c1"
+            }
+          ],
+          "sourceNote": "招股文件标11月12日；《华尔街日报》北京时间11月13日23:10报道，非文件精确提交时刻。",
+          "publishedAt": "2026-11-13T23:10:00+08:00",
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-14-10",
+          "category": "政策与安全",
+          "title": "美国 AI 工作组讨论安全事件报告标准",
+          "what": "据路透社取得的会议声明，美国联邦 AI 工作组举行会议，副主席 Emil Michael 通报了为 AI 开发者制定安全事件报告及网络安全信息共享标准的讨论进展。",
+          "why": "讨论涉及何时报告、如何共享风险信息，但工作组推进标准不等于新规已发布或开始强制执行。",
+          "sources": [
+            {
+              "name": "路透社",
+              "url": "https://www.reuters.com/world/us/trumps-ai-task-force-met-thursday-discussed-ai-powered-cyberattacks-2026-11-13/"
+            }
+          ],
+          "sourceNote": "路透社北京时间11月13日10:54发布，会议在美国当地11月12日举行。",
+          "publishedAt": "2026-11-13T10:54:00+08:00",
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-14-11",
+          "category": "教育应用",
+          "title": "语飞国际中文教育垂直大模型发布",
+          "what": "语飞国际中文教育大模型发布，面向学习者提供评测、辅导，向教师提供备课与课堂材料，并为机构提供标准应用接口。",
+          "why": "垂直模型把学生练习、教师教学与机构对接放入同一工作流；开放入口、收费与课堂实际效果尚待核实。",
+          "sources": [
+            {
+              "name": "国际在线发布报道",
+              "url": "https://news.cri.cn/20261113/e1596f78-d11f-4cbb-86d8-2de93c0df239.html"
+            }
+          ],
+          "sourceNote": "国际在线北京时间11月13日16:22报道。",
+          "publishedAt": "2026-11-13T16:22:00+08:00",
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-14-12",
+          "category": "产业应用",
+          "title": "Revolut 分享将智谱 GLM 用于工程团队的经历",
+          "what": "Revolut 的 AI 基础设施负责人在里斯本向新华社介绍，智谱 GLM 已成为公司约2000名工程师的默认编程模型。",
+          "why": "案例说明中国开放权重模型已进入部分海外企业内部工作流；使用规模和效率来自该企业自述，不能当作独立评测。",
+          "sources": [
+            {
+              "name": "新华社采访",
+              "url": "https://www.news.cn/liangzi/20261113/1161f3c5ba1b473cb6fc1056dfe8c54f/c.html"
+            }
+          ],
+          "sourceNote": "新华社北京时间11月13日11:00发布；采访于里斯本当地11月12日，所谈部署并非当天首次发生。",
+          "publishedAt": "2026-11-13T11:00:27+08:00",
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-14-13",
+          "category": "AI人物发言",
+          "title": "Cerebras 财务主管 Bob Komin：高速推理商机规模上升",
+          "what": "Cerebras CFO Bob Komin 在财报公告中称，该公司本季度的高速 AI 推理销售商机管线扩大逾十倍。",
+          "why": "这是管理层对潜在客户机会的内部口径，不是订单、合约金额，也不是实际收入增幅。",
+          "sources": [
+            {
+              "name": "Cerebras 财报及具名声明",
+              "url": "https://investors.cerebras.ai/news-releases/news-release-details/cerebras-systems-delivers-record-revenue-third-quarter-2026"
+            }
+          ],
+          "sourceNote": "发言刊载于美股11月12日收盘后的财报，对应北京时间11月13日；为具名讲话的中文转述。",
+          "publishedAt": null,
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-14-14",
+          "category": "社交热点追踪",
+          "title": "延续话题｜NVIDIA 换帅在 X 与 Reddit 继续被讨论",
+          "what": "路透社观察到 NVIDIA 是 X 和 Reddit 本周多日的讨论热点，11月13日的报道记录了高传播量的讽刺视频。",
+          "why": "热度表明事件受到关注，不构成对人身指控或调查结论的验证，也无法据此判断全网观点。",
+          "sources": [
+            {
+              "name": "路透社社媒观察",
+              "url": "https://www.reuters.com/business/media-telecom/bollywood-clippy-nvidia-scandal-outlook-glitch-fuel-meme-storm-2026-11-13/"
+            }
+          ],
+          "sourceNote": "路透社北京时间11月14日02:54报道；为两平台的公开观察，不能代表全网，也没有可比互动序列。",
+          "publishedAt": "2026-11-14T02:54:00+08:00",
+          "timeStatus": "confirmed"
+        }
+      ],
+      "uncertainItems": [
+        {
+          "id": "2026-11-14-15",
+          "category": "社交热点追踪",
+          "title": "未证实｜六个开源权重模型的 Blackwell 指纹报告引发讨论",
+          "what": "Will DePue 在 Unemployment Labs 发表报告称，DeepSeek、月之暗面、MiniMax 和蚂蚁集团发布的六个模型，部分公开初始权重出现符合 Blackwell 初始化的数值特征。",
+          "why": "该方法即使能识别初始化硬件，也不能据此确定完整训练使用的芯片、硬件所在地、采购链条或是否违规；尚未找到涉事机构具名确认。",
+          "sources": [
+            {
+              "name": "Unemployment Labs 原报告",
+              "url": "https://unemploymentlabs.com/checkpoint-forensics"
+            },
+            {
+              "name": "Advance Intelligence 的 X 归档",
+              "url": "https://www.advanceintelligence.ai/2026-11-12"
+            }
+          ],
+          "sourceNote": "存疑为研究主张与外推。X 原帖北京时间11月13日05:29；Advance Intelligence 归档显示约520万累计浏览，采样时分未公开，非本期新增。",
+          "publishedAt": "2026-11-13T05:29:00+08:00",
+          "timeStatus": "uncertain"
+        },
+        {
+          "id": "2026-11-14-16",
+          "category": "社交热点追踪",
+          "title": "未证实｜彭博称 OpenAI 私下支持收紧部分芯片出口规则",
+          "what": "彭博援引未具名知情人士称，OpenAI 曾告知美国议员将支持一组涉及先进 AI 芯片及部分芯片制造设备的两党出口限制议案。",
+          "why": "这是媒体对企业内部立场的报道，未找到 OpenAI 对该组法案的官方声明，也不等于法案已通过或出口规则已改变。",
+          "sources": [
+            {
+              "name": "彭博新闻",
+              "url": "https://news.bloomberglaw.com/tech-and-telecom-law/openai-joins-groundswell-of-support-for-ai-chip-control-measures"
+            },
+            {
+              "name": "Advance Intelligence 的 X 归档",
+              "url": "https://www.advanceintelligence.ai/2026-11-12"
+            }
+          ],
+          "sourceNote": "存疑为企业立场；彭博北京时间11月13日05:35发稿，有 X 行业账号转述，未核实全网热度。",
+          "publishedAt": "2026-11-13T05:35:00+08:00",
+          "timeStatus": "uncertain"
+        }
+      ],
       "images": []
     }
   ]
