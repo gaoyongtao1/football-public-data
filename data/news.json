@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "timezone": "Asia/Shanghai",
-  "updatedAt": "2026-11-14 08:08",
+  "updatedAt": "2026-11-15 08:08",
   "issues": [
     {
       "id": "2026-11-06",
@@ -1872,6 +1872,288 @@
           ],
           "sourceNote": "存疑为企业立场；彭博北京时间11月13日05:35发稿，有 X 行业账号转述，未核实全网热度。",
           "publishedAt": "2026-11-13T05:35:00+08:00",
+          "timeStatus": "uncertain"
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "2026-11-15",
+      "date": "2026-11-15",
+      "title": "AI圈早报｜2026年11月15日",
+      "summary": "今日最值得关注：NVIDIA 董事会说永久接班人还没有进入正式接触阶段；同一时间，欧盟把自主 AI 能力、用电和问责放进同一张政策议程。",
+      "note": "本期7条新闻、2条人物发言、1条社交追踪、4条存疑。其中媒体调查、受访者意见与企业披露分别标注；社媒数据仅反映可查样本。已复核 NVIDIA 新闻室、投资者关系与美国证券交易委员会披露，并扫查主要芯片和模型厂商公告；未将窗口外的换帅公告、模型发布或重转载入本期新闻。",
+      "windowStart": "2026-11-14T00:00:00+08:00",
+      "windowEnd": "2026-11-15T08:00:00+08:00",
+      "items": [
+        {
+          "id": "2026-11-15-01",
+          "category": "公司治理",
+          "title": "NVIDIA：董事会称仍在物色猎头，暂未正式接触 CEO 候选人",
+          "what": "NVIDIA 董事会向媒体表示，仍在选择负责搜寻新 CEO 的机构，尚未正式接触任何候选人；Colette Kress 仍为临时 CEO。",
+          "why": "正式继任尚未落定；《金融时报》有关 Arm CEO Rene Haas 的接触报道未经独立证实，不能当作候选名单或任命。",
+          "sources": [
+            {
+              "name": "路透社",
+              "url": "https://www.reuters.com/business/media-telecom/arms-haas-approached-by-nvidia-board-part-ceo-search-ft-reports-2026-11-13/"
+            },
+            {
+              "name": "NVIDIA 新闻室",
+              "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition/"
+            },
+            {
+              "name": "美国证券交易委员会 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000082/nvda-20261111.htm"
+            }
+          ],
+          "sourceNote": "延续话题。路透社北京时间11月14日01:07发稿；11月12日公布的换帅是背景。",
+          "publishedAt": "2026-11-14T01:07:32+08:00",
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-15-02",
+          "category": "政策监管",
+          "title": "欧盟领导人首次专门讨论 AI 产业战略",
+          "what": "欧盟领导人在都柏林非正式会议讨论欧洲自主模型及产业链、投资与清洁能源，以及 AI 安全、问责和全球治理；会后没有宣布新规则生效。",
+          "why": "欧洲将 AI 能力建设与电力、资金和治理一并讨论；这是一轮政策协调，不是已经落定的补贴或监管义务。",
+          "sources": [
+            {
+              "name": "欧洲理事会会议纪要",
+              "url": "https://www.consilium.europa.eu/en/meetings/european-council/2026/11/13/"
+            },
+            {
+              "name": "欧洲理事会主席会后讲话",
+              "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/13/remarks-by-president-antonio-costa-at-the-press-conference-following-the-informal-meeting-of-heads-of-state-or-government-of-13-november-2026/"
+            }
+          ],
+          "sourceNote": "都柏林当地11月13日会后发布；官网显示19:08，未标明时区。",
+          "publishedAt": null,
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-15-03",
+          "category": "公司治理与应用",
+          "title": "OpenAI 确认重组独立机器人团队",
+          "what": "OpenAI 向《财富》确认，独立机器人团队已经拆分，研究人员转入其他团队；公司仍将机器人列为长期发展方向。",
+          "why": "组织重排不代表退出机器人业务，也没有验证通用模型可在现实环境中替代专用控制系统。",
+          "sources": [
+            {
+              "name": "《财富》原始采访",
+              "url": "https://fortune.com/2026/11/13/openai-disbands-robotics-team-as-its-general-models-start-running-robots/"
+            }
+          ],
+          "sourceNote": "《财富》北京时间11月14日01:05发布；为报道时间，不是内部重组生效时间。",
+          "publishedAt": "2026-11-14T01:05:00+08:00",
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-15-04",
+          "category": "政策与市场",
+          "title": "美联储金融稳定报告：AI 是市场联系人最常提及的风险",
+          "what": "美联储11月报告记录23位市场联系人在9至10月的反馈，AI 是被提及最多的风险，涉及估值、网络安全及复杂融资。",
+          "why": "这是小规模市场调查反映的担忧，不是美联储衡量的风险发生概率，亦不等于市场一致预测。",
+          "sources": [
+            {
+              "name": "美联储报告",
+              "url": "https://www.federalreserve.gov/publications/files/financial-stability-report-20261113.pdf"
+            },
+            {
+              "name": "路透社",
+              "url": "https://www.reuters.com/business/finance/ai-rockets-top-worries-about-financial-system-latest-fed-survey-2026-11-13/"
+            }
+          ],
+          "sourceNote": "报告标美国当地11月13日；路透社北京时间11月14日05:02报道。",
+          "publishedAt": "2026-11-14T05:02:34+08:00",
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-15-05",
+          "category": "国内算力",
+          "title": "浙江披露已投用算力超过198 EFLOPS，智能算力占96%",
+          "what": "浙江省经信厅副厅长董钊介绍，截至10月，全省已建算力中心113家、投用算力超过198 EFLOPS，已建成5个万卡智算集群。",
+          "why": "这是地方披露的建设规模；不同精度及统计口径的 EFLOPS 不宜直接横比，也不能由此推断集群利用率。",
+          "sources": [
+            {
+              "name": "《科创板日报》现场报道",
+              "url": "https://www.cls.cn/detail/2534439"
+            }
+          ],
+          "sourceNote": "北京时间11月14日13:43发稿；指标截至10月。",
+          "publishedAt": "2026-11-14T13:43:00+08:00",
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-15-06",
+          "category": "国内治理",
+          "title": "深圳龙岗与安永试验词元统计",
+          "what": "中新网报道，深圳龙岗区人工智能（机器人）署与安永启动词元经济统计与治理试点，并以龙岗作为首个综合验证场景。",
+          "why": "试点尝试把分散的模型计费记录转成可比较、可复核的数据；地区试点不是全国统计标准。",
+          "sources": [
+            {
+              "name": "中国新闻网采访报道",
+              "url": "https://www.chinanews.com/sh/2026/11-14/10732031.shtml"
+            }
+          ],
+          "sourceNote": "北京时间11月14日16:23报道，活动在11月13日启动，具体时分未公开。",
+          "publishedAt": "2026-11-14T16:23:00+08:00",
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-15-07",
+          "category": "开源工具",
+          "title": "Qwen Code 预发布版增加飞书机器人接入",
+          "what": "Qwen Code 的 v0.27.2-nightly.20261113.6f754be654 增加飞书自定义机器人 webhook 以及托管会话的固定间隔循环能力。",
+          "why": "更新面向自动化工作流；这是 nightly 预发布，不是稳定版，也不是 Qwen 新模型。",
+          "sources": [
+            {
+              "name": "Qwen Code 官方 GitHub",
+              "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.27.2-nightly.20261113.6f754be654"
+            }
+          ],
+          "sourceNote": "GitHub 发布页显示11月14日11:31，页面未明确时区。",
+          "publishedAt": null,
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-15-08",
+          "category": "AI人物发言",
+          "title": "美联储副主席 Jefferson：AI 的总体生产率贡献仍有限",
+          "what": "美联储副主席 Philip Jefferson 在演讲中表示，一些任务已经显露提效潜力，但目前总体生产率贡献有限，未来幅度和时间仍不确定。",
+          "why": "这是他对当下证据的判断，不是利率信号；企业是否重构流程，会影响任务层面的节省能否转化为组织收益。",
+          "sources": [
+            {
+              "name": "美联储演讲原文",
+              "url": "https://www.federalreserve.gov/newsevents/speech/files/jefferson20261113a.pdf"
+            }
+          ],
+          "sourceNote": "官方讲稿标美国东部11月13日19:00（北京时间11月14日08:00）；中文转述。",
+          "publishedAt": "2026-11-14T08:00:00+08:00",
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-15-09",
+          "category": "AI人物发言",
+          "title": "Elon Musk 在 X 声援黄仁勋回任",
+          "what": "《华盛顿邮报》报道并嵌入 Musk 本人帖文；这位 Tesla CEO 与 xAI 创办人在帖中表示支持请愿，并称自己也会签署。",
+          "why": "这是外部行业人物的主张，不代表 NVIDIA 董事会改变立场；不能把公开声援写成复职进程。",
+          "sources": [
+            {
+              "name": "《华盛顿邮报》嵌入原帖",
+              "url": "https://www.washingtonpost.com/business/2026/11/13/musk-joins-calls-jensen-huang-be-reinstated-ceo-nvidia/"
+            },
+            {
+              "name": "Elon Musk 的 X 原帖",
+              "url": "https://x.com/elonmusk/status/2121345211959804234"
+            }
+          ],
+          "sourceNote": "媒体北京时间11月14日06:21报道；X 直接访问受限，未独立核实互动量。",
+          "publishedAt": "2026-11-14T06:21:48+08:00",
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-15-10",
+          "category": "社交热点追踪",
+          "title": "延续话题｜公开回任请愿出现可核对的传播样本",
+          "what": "Business Insider 在采访和查阅公开联署页后称，11月14日美东下午页面显示逾10.8万个签名；同一时期，IT之家转述 NVIDIA 副总裁 Bryan Catanzaro 否认签署另一封网传联名信。",
+          "why": "公开请愿和那封网传信件是两件事；页面累计计数含未经核验身份，不能据此估算 NVIDIA 员工支持率或全网舆论。",
+          "sources": [
+            {
+              "name": "公开联署页面",
+              "url": "https://standwithjensen.com/"
+            },
+            {
+              "name": "Business Insider",
+              "url": "https://www.businessinsider.com/petition-reinstate-jensen-huang-nvidia-elon-musk-2026-11"
+            },
+            {
+              "name": "IT之家",
+              "url": "https://www.ithome.com/1/027/228.htm"
+            }
+          ],
+          "sourceNote": "Business Insider 北京时间11月15日04:35刊载的页面快照；IT之家11月14日20:45报道。未把累计签名算作本窗口新增；未核实 Facebook、微博或抖音的同口径互动量。",
+          "publishedAt": "2026-11-15T04:35:19+08:00",
+          "timeStatus": "confirmed"
+        }
+      ],
+      "uncertainItems": [
+        {
+          "id": "2026-11-15-11",
+          "category": "公司治理",
+          "title": "未证实｜路透社报道 NVIDIA 前 CEO 内部沟通受到质疑",
+          "what": "路透社援引两名知情者及其查阅的部分内部通信，报道黄仁勋曾向公司管理层作出受到质疑的说明；NVIDIA 发言人与黄仁勋代表拒绝评论。",
+          "why": "可核实的是报道与回应，并非独立调查结论；目前不能把匿名指控写成已定责，也不能推定其与离任存在已证实因果。",
+          "sources": [
+            {
+              "name": "路透社独家报道",
+              "url": "https://www.reuters.com/world/china/ex-nvidia-ceo-misled-top-lawyer-affair-with-chinese-businesswoman-sources-say-2026-11-14/"
+            },
+            {
+              "name": "美国证券交易委员会 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000082/nvda-20261111.htm"
+            }
+          ],
+          "sourceNote": "事实存疑。路透社北京时间11月14日08:25发稿；未找到公开调查结论或可比的传播量。",
+          "publishedAt": "2026-11-14T08:25:19+08:00",
+          "timeStatus": "uncertain"
+        },
+        {
+          "id": "2026-11-15-12",
+          "category": "融资与上市",
+          "title": "未证实｜路透社称 Anthropic 路演早期机构兴趣较强",
+          "what": "路透社援引知情人士称，Anthropic IPO 路演早期的机构投资者兴趣较强，同时投资者关注模型优势能否维持；Anthropic 拒绝评论。",
+          "why": "询价与认购意向不等于最终定价、分配或成交；此前修订招股书也不证明报道所述的需求量。",
+          "sources": [
+            {
+              "name": "路透社独家报道",
+              "url": "https://www.reuters.com/business/finance/investors-flock-anthropic-ipo-question-durability-ai-lead-2026-11-13/"
+            },
+            {
+              "name": "美国证券交易委员会 S-1/A",
+              "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026072484/anthropicpbc-sx1ax2.htm"
+            }
+          ],
+          "sourceNote": "事实存疑。路透社北京时间11月14日06:03发稿；未找到由公司确认的认购数据。",
+          "publishedAt": "2026-11-14T06:03:58+08:00",
+          "timeStatus": "uncertain"
+        },
+        {
+          "id": "2026-11-15-13",
+          "category": "模型与开发工具",
+          "title": "时间存疑｜GitHub Copilot 增加 Gemini 4 Hydrogen，预告停用六款模型",
+          "what": "GitHub 发布日志写明 Gemini 4 Hydrogen 开始分批进入 Copilot，并另行预告12月14日停用包括 Gemini 4 Argon、Grok 4.6 和 Kimi K3 在内的6款模型。",
+          "why": "这是 Copilot 产品端的模型供应变化，不是 Google 当天发布新模型；有固定模型依赖的团队可留意切换日期。",
+          "sources": [
+            {
+              "name": "GitHub 模型上线日志",
+              "url": "https://github.blog/changelog/2026-11-13-gemini-4-hydrogen-in-github-copilot/"
+            },
+            {
+              "name": "GitHub 模型停用公告",
+              "url": "https://github.blog/changelog/2026-11-13-upcoming-deprecation-of-selected-github-copilot-models-in-december/"
+            }
+          ],
+          "sourceNote": "功能和计划可核实；两篇只标11月13日，未核实是否在北京时间11月14日00:00之后发布。",
+          "publishedAt": null,
+          "timeStatus": "uncertain"
+        },
+        {
+          "id": "2026-11-15-14",
+          "category": "研究与评测",
+          "title": "时间存疑｜Ai2 公开 XYBench，评测 AI 能否纠正提问中的错误前提",
+          "what": "Ai2 发布包含8,115道问题的 XYBench，用于评估助手是否能识别用户真正的目标，而不是只沿着错误的求解方法回答。",
+          "why": "该基准补足一般正确率评测较少考察的提问前提；现有数据主要覆盖英语与程序性任务，尚不能外推到其他语言。",
+          "sources": [
+            {
+              "name": "Ai2 官方研究博客",
+              "url": "https://allenai.org/blog/xybench"
+            },
+            {
+              "name": "Ai2 开源仓库",
+              "url": "https://github.com/allenai/XYBench"
+            }
+          ],
+          "sourceNote": "研究素材和开源入口可核实；Ai2 博客标11月13日，精确首发时刻未核实。",
+          "publishedAt": null,
           "timeStatus": "uncertain"
         }
       ],
