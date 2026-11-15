@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-15 18:26",
+  "updatedAt": "2026-11-16 06:19",
   "timezone": "Asia/Shanghai",
   "coverageEnd": "2026-11-15",
   "plans": [
@@ -778,9 +778,12 @@
           "away": "捷克",
           "pick": "主胜",
           "odds": 1.34,
-          "score": null,
+          "score": [
+            2,
+            1
+          ],
           "kickoff": "2026-11-16 03:45",
-          "source": "",
+          "source": "https://www.skysports.com/football/croatia-vs-czech-republic/554113",
           "handicap": null,
           "finishedAt": null
         },
@@ -790,9 +793,12 @@
           "away": "意大利",
           "pick": "让负",
           "odds": 1.54,
-          "score": null,
+          "score": [
+            4,
+            1
+          ],
           "kickoff": "2026-11-16 03:45",
-          "source": "",
+          "source": "https://www.skysports.com/football/belgium-vs-italy/554112",
           "handicap": -1,
           "finishedAt": null
         }
@@ -812,9 +818,12 @@
           "away": "捷克",
           "pick": "主胜",
           "odds": 1.34,
-          "score": null,
+          "score": [
+            2,
+            1
+          ],
           "kickoff": "2026-11-16 03:45",
-          "source": "",
+          "source": "https://www.skysports.com/football/croatia-vs-czech-republic/554113",
           "handicap": null,
           "finishedAt": null
         },
@@ -824,9 +833,12 @@
           "away": "亚美尼亚",
           "pick": "让胜",
           "odds": 1.58,
-          "score": null,
+          "score": [
+            0,
+            0
+          ],
           "kickoff": "2026-11-15 22:00",
-          "source": "",
+          "source": "https://lff.lv/speles/latvija-armenija-23697290/",
           "handicap": 1,
           "finishedAt": null
         }
