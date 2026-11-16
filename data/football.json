@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-16 06:19",
+  "updatedAt": "2026-11-16 18:49",
   "timezone": "Asia/Shanghai",
-  "coverageEnd": "2026-11-15",
+  "coverageEnd": "2026-11-16",
   "plans": [
     {
       "id": "20261102-0",
@@ -840,6 +840,74 @@
           "kickoff": "2026-11-15 22:00",
           "source": "https://lff.lv/speles/latvija-armenija-23697290/",
           "handicap": 1,
+          "finishedAt": null
+        }
+      ]
+    },
+    {
+      "id": "20261116-0",
+      "date": "2026-11-16",
+      "label": "主推",
+      "kind": "reference",
+      "snapshot": "北京时间2026-11-16 18:48查阅；500网国内固定奖金逐场记录，官方更新时间、终端实时性及可售状态未核实。",
+      "note": "500网：周一004 18:07记录1.46，初值1.68；周一007 16:12记录1.31，初值1.41。参考组合1.9126。冰岛仅赢一球不算让胜；斯洛文尼亚客场须赢球才中。",
+      "legs": [
+        {
+          "number": "周一004",
+          "home": "冰岛",
+          "away": "卢森堡",
+          "pick": "让胜",
+          "odds": 1.46,
+          "score": null,
+          "kickoff": "2026-11-17 01:00",
+          "source": "",
+          "handicap": -1,
+          "finishedAt": null
+        },
+        {
+          "number": "周一007",
+          "home": "北马其顿",
+          "away": "斯洛文尼亚",
+          "pick": "客胜",
+          "odds": 1.31,
+          "score": null,
+          "kickoff": "2026-11-17 03:45",
+          "source": "",
+          "handicap": null,
+          "finishedAt": null
+        }
+      ]
+    },
+    {
+      "id": "20261116-1",
+      "date": "2026-11-16",
+      "label": "备选",
+      "kind": "reference",
+      "snapshot": "北京时间2026-11-16 18:48查阅；500网国内固定奖金逐场记录，官方更新时间、终端实时性及可售状态未核实。",
+      "note": "500网：周一002 18:25记录1.58；周一008 15:28记录1.24，初值1.29。参考组合1.9592。斯洛伐克已锁定小组第一；希腊首回合补时制胜、上轮负荷兰。",
+      "legs": [
+        {
+          "number": "周一002",
+          "home": "哈萨克斯坦",
+          "away": "斯洛伐克",
+          "pick": "客胜",
+          "odds": 1.58,
+          "score": null,
+          "kickoff": "2026-11-16 23:00",
+          "source": "",
+          "handicap": null,
+          "finishedAt": null
+        },
+        {
+          "number": "周一008",
+          "home": "希腊",
+          "away": "塞尔维亚",
+          "pick": "主胜",
+          "odds": 1.24,
+          "score": null,
+          "kickoff": "2026-11-17 03:45",
+          "source": "",
+          "handicap": null,
           "finishedAt": null
         }
       ]
