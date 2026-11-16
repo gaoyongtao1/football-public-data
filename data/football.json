@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-16 18:49",
+  "updatedAt": "2026-11-17 06:38",
   "timezone": "Asia/Shanghai",
   "coverageEnd": "2026-11-16",
   "plans": [
@@ -858,9 +858,12 @@
           "away": "卢森堡",
           "pick": "让胜",
           "odds": 1.46,
-          "score": null,
+          "score": [
+            3,
+            0
+          ],
           "kickoff": "2026-11-17 01:00",
-          "source": "",
+          "source": "https://www.ksi.is/leikir-felaga/landslid/",
           "handicap": -1,
           "finishedAt": null
         },
@@ -870,9 +873,12 @@
           "away": "斯洛文尼亚",
           "pick": "客胜",
           "odds": 1.31,
-          "score": null,
+          "score": [
+            0,
+            3
+          ],
           "kickoff": "2026-11-17 03:45",
-          "source": "",
+          "source": "https://www.skysports.com/football/north-macedonia-vs-slovenia/554126",
           "handicap": null,
           "finishedAt": null
         }
@@ -892,9 +898,12 @@
           "away": "斯洛伐克",
           "pick": "客胜",
           "odds": 1.58,
-          "score": null,
+          "score": [
+            2,
+            2
+          ],
           "kickoff": "2026-11-16 23:00",
-          "source": "",
+          "source": "https://futbalsfz.sk/muzi-a-slovenski-sokoli-sa-s-ligou-narodov-rozlucili-remizou-v-kazachstane/",
           "handicap": null,
           "finishedAt": null
         },
@@ -904,9 +913,12 @@
           "away": "塞尔维亚",
           "pick": "主胜",
           "odds": 1.24,
-          "score": null,
+          "score": [
+            1,
+            0
+          ],
           "kickoff": "2026-11-17 03:45",
-          "source": "",
+          "source": "https://www.skysports.com/football/greece-vs-serbia/554122",
           "handicap": null,
           "finishedAt": null
         }
