@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-17 06:38",
+  "updatedAt": "2026-11-18 06:06",
   "timezone": "Asia/Shanghai",
-  "coverageEnd": "2026-11-16",
+  "coverageEnd": "2026-11-17",
   "plans": [
     {
       "id": "20261102-0",
@@ -919,6 +919,86 @@
           ],
           "kickoff": "2026-11-17 03:45",
           "source": "https://www.skysports.com/football/greece-vs-serbia/554122",
+          "handicap": null,
+          "finishedAt": null
+        }
+      ]
+    },
+    {
+      "id": "20261117-0",
+      "date": "2026-11-17",
+      "label": "主推",
+      "kind": "reference",
+      "snapshot": "北京时间2026-11-17 18:20截至；500网国内固定奖金逐场记录，官方更新时间、终端实时性及可售状态未核实。",
+      "note": "500网：周二003 15:35记录1.41，初值1.57；周二006 16:33记录1.47，初值1.45。参考组合2.0727。日本在新加坡中立场；丹麦负一球为让平。",
+      "legs": [
+        {
+          "number": "周二003",
+          "home": "日本",
+          "away": "巴拉圭",
+          "pick": "主胜",
+          "odds": 1.41,
+          "score": [
+            1,
+            2
+          ],
+          "kickoff": "2026-11-17 21:10",
+          "source": "https://www.jfa.jp/samuraiblue/schedule_result/2026.html",
+          "handicap": null,
+          "finishedAt": null
+        },
+        {
+          "number": "周二006",
+          "home": "丹麦",
+          "away": "挪威",
+          "pick": "让胜",
+          "odds": 1.47,
+          "score": [
+            2,
+            3
+          ],
+          "kickoff": "2026-11-18 03:45",
+          "source": "https://www.dbu.dk/landshold/landsholdsdatabasen/MatchInfo/10131",
+          "handicap": 1,
+          "finishedAt": null
+        }
+      ]
+    },
+    {
+      "id": "20261117-1",
+      "date": "2026-11-17",
+      "label": "备选",
+      "kind": "reference",
+      "snapshot": "北京时间2026-11-17 18:20截至；500网国内固定奖金逐场记录，官方更新时间、终端实时性及可售状态未核实。",
+      "note": "500网：周二007 17:22记录1.24，初值1.34；周二008 17:19记录1.65，初值1.80。参考组合2.0460。葡萄牙须客胜；匈牙利须主胜。",
+      "legs": [
+        {
+          "number": "周二007",
+          "home": "威尔士",
+          "away": "葡萄牙",
+          "pick": "客胜",
+          "odds": 1.24,
+          "score": [
+            2,
+            3
+          ],
+          "kickoff": "2026-11-18 03:45",
+          "source": "https://www.theguardian.com/football/live/2026/nov/17/wales-v-portugal-nations-league-football-live-score-updates",
+          "handicap": null,
+          "finishedAt": null
+        },
+        {
+          "number": "周二008",
+          "home": "匈牙利",
+          "away": "北爱尔兰",
+          "pick": "主胜",
+          "odds": 1.65,
+          "score": [
+            1,
+            1
+          ],
+          "kickoff": "2026-11-18 03:45",
+          "source": "https://www.skysports.com/football/hungary-vs-northern-ireland/554131",
           "handicap": null,
           "finishedAt": null
         }
