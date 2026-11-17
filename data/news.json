@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "timezone": "Asia/Shanghai",
-  "updatedAt": "2026-11-15 08:08",
+  "updatedAt": "2026-11-17 08:05",
   "issues": [
     {
       "id": "2026-11-06",
@@ -2154,6 +2154,484 @@
           ],
           "sourceNote": "研究素材和开源入口可核实；Ai2 博客标11月13日，精确首发时刻未核实。",
           "publishedAt": null,
+          "timeStatus": "uncertain"
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "2026-11-17",
+      "date": "2026-11-17",
+      "title": "AI早报｜2026年11月17日",
+      "summary": "阿里发布 Qwen4-Max 正式版；AMD 宣布完成对李飞飞创办的 World Labs 的收购，同日加州就模型测试安全起诉 OpenAI。",
+      "note": "统计采用北京时间。只标日期的来源未补写发布钟点；媒体报道时间不等于事件发生时刻。厂商自测与诉方主张分别注明，存疑消息不计入已核实条目。",
+      "windowStart": "2026-11-16T00:00:00+08:00",
+      "windowEnd": "2026-11-17T08:00:00+08:00",
+      "items": [
+        {
+          "id": "2026-11-17-01",
+          "category": "大模型",
+          "title": "阿里发布 Qwen4-Max 正式版",
+          "what": "正式版共 2.4 万亿参数、每个词元激活约 710 亿参数，支持图像和视频理解、100 万词元上下文；新加坡国际区已列出 API。",
+          "why": "面向长文档与多步骤任务；阿里所报单任务平均成本约降 60% 来自其 Work360 自测，较小的开放权重版本仍待发布。",
+          "sources": [
+            {
+              "name": "阿里云新闻稿",
+              "url": "https://www.alibabacloud.com/en/press-room/alibaba-unveils-qwen4-max?_p_lc=1"
+            },
+            {
+              "name": "Model Studio",
+              "url": "https://www.alibabacloud.com/help/en/model-studio/newly-released-models"
+            }
+          ],
+          "sourceNote": "阿里云新闻稿与 Model Studio，11月16日，未列钟点。",
+          "publishedAt": null,
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-17-02",
+          "category": "政策监管",
+          "title": "加州就模型测试安全起诉 OpenAI",
+          "what": "加州司法部向旧金山高等法院提起民事诉讼，指控 OpenAI 对模型测试的防护与监督不足，涉嫌构成公共妨害及违反加州《不正当竞争法》。",
+          "why": "争议焦点是强能力模型上线前的测试隔离与监督责任；所列事项是诉方主张，并非法院认定。",
+          "sources": [
+            {
+              "name": "加州司法部诉状",
+              "url": "https://oag.ca.gov/system/files/attachments/press-docs/complaint-oai-cyber.pdf"
+            },
+            {
+              "name": "路透",
+              "url": "https://www.reuters.com/business/california-sues-openai-over-ai-models-cyberattacks-hugging-face-other-companies-2026-11-16/"
+            }
+          ],
+          "sourceNote": "加州司法部11月16日消息；路透11月17日02:45报道（北京时间）。",
+          "publishedAt": "2026-11-17T02:45:52+08:00",
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-17-03",
+          "category": "并购",
+          "title": "AMD 宣布完成收购 World Labs",
+          "what": "AMD 宣布已完成对李飞飞创办的 World Labs 的收购；李飞飞任执行副总裁兼首席科学家，负责空间智能方向。9月披露的协议为约 82 亿美元全股票交易。",
+          "why": "交割实际在11月13日；本期新消息是公开宣布完成与团队安排，而非签订新协议。",
+          "sourceNote": "AMD 公告，11月16日22:05（北京时间）；实际交割日期据 SEC 申报。",
+          "publishedAt": "2026-11-16T22:05:00+08:00",
+          "sources": [
+            {
+              "name": "AMD",
+              "url": "https://ir.amd.com/news-events/press-releases/detail/1306/amd-completes-acquisition-of-world-labs"
+            },
+            {
+              "name": "SEC 申报",
+              "url": "https://ir.amd.com/financial-information/sec-filings/content/0001193125-26-462340/d105780d8ka.htm"
+            }
+          ],
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-17-04",
+          "category": "大模型",
+          "title": "腾讯推出低价混元 Hy4 flash",
+          "what": "混元 Hy4 flash 支持多模态与 100 万词元上下文；API 每百万词元输入 0.5 元、输出 2 元、缓存命中 0.02 元。",
+          "why": "给高频、长上下文任务提供更便宜的选项；腾讯所称单任务成本为 Hy4 的二十分之一是内部评估，开放权重仍属计划。",
+          "sources": [
+            {
+              "name": "腾讯",
+              "url": "https://www.tencent.com/zh-cn/tencent-launches-hy4-flash-to-power-high-speed-cost-efficient-ai-deployment-for-everyday-workflows/"
+            }
+          ],
+          "sourceNote": "腾讯官网，11月16日，未列钟点。",
+          "publishedAt": null,
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-17-05",
+          "category": "算力硬件",
+          "title": "NVIDIA 发布 Vera CPU 科研机架",
+          "what": "NVIDIA 在 SC26 公布 Vera CPU 机架平台：192 颗 CPU、Quantum-X800 InfiniBand 互联和液冷，峰值总内存带宽超过 200 TB/s。",
+          "why": "面向科学模拟、数据处理和科研智能体；这里是整机架峰值规格，不能当成单颗处理器的跑分。",
+          "sources": [
+            {
+              "name": "NVIDIA 新闻室",
+              "url": "https://nvidianews.nvidia.com/news/nvidia-expands-vera-cpu-platform-to-accelerate-scientific-discovery"
+            }
+          ],
+          "sourceNote": "NVIDIA 公司通稿，11月17日00:00（北京时间）。",
+          "publishedAt": "2026-11-17T00:00:00+08:00",
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-17-06",
+          "category": "生成视频",
+          "title": "火山引擎开放 Seedance 2.5 的 4K 接口",
+          "what": "按火山引擎接口文档，符合开通条件可调用标准版输出 10-bit 4K，亦可先生成 480P 草稿检查分镜；flash 版不支持 4K。",
+          "why": "团队可先低清审稿，再生成高分辨率成片；本次重点是接口开放，并非模型首次发布。",
+          "sources": [
+            {
+              "name": "火山引擎",
+              "url": "https://docs.volcengine.com/docs/ark/create-video-generation-task-api?lang=zh"
+            },
+            {
+              "name": "凤凰网科技",
+              "url": "https://original.ifeng.com/c/8y6CsicXp2B"
+            }
+          ],
+          "sourceNote": "火山引擎接口文档；凤凰网科技11月16日14:23报道（北京时间）。",
+          "publishedAt": "2026-11-16T14:23:03+08:00",
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-17-07",
+          "category": "业绩",
+          "title": "百度 AI 云基础设施季度收入 82 亿元",
+          "what": "百度披露第三季度 AI Cloud Infra 收入为人民币 82 亿元，同比增长 94%。",
+          "why": "这反映其 AI 云基础设施分项增速，并非百度整体 AI 业务或集团收入增速。",
+          "sourceNote": "百度投资者关系，11月16日财报；北京时间20:30召开业绩会。",
+          "publishedAt": null,
+          "sources": [
+            {
+              "name": "百度财报",
+              "url": "https://ir.baidu.com/news-releases/news-release-details/baidu-announces-third-quarter-2026-results"
+            }
+          ],
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-17-08",
+          "category": "产品应用",
+          "title": "Google Maps 加入 AI 行程与预约查询",
+          "what": "Ask Maps 增加按天排路线、实时查看交通和停车、查询可预约时段与搜索收藏清单；Google 同日宣布拓展至欧洲 30 多个国家。",
+          "why": "地图问答开始连接具体行程和服务；预约等能力按地区推出，不代表各地功能全部相同。",
+          "sources": [
+            {
+              "name": "Google Maps 功能公告",
+              "url": "https://blog.google/products-and-platforms/products/maps/ask-maps-holiday-travel-features-2026/"
+            },
+            {
+              "name": "Google 欧洲扩展公告",
+              "url": "https://blog.google/products-and-platforms/products/maps/ask-maps-is-coming-to-europe/"
+            }
+          ],
+          "sourceNote": "Google 官方博客，11月16日，未列钟点。",
+          "publishedAt": null,
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-17-09",
+          "category": "具身智能",
+          "title": "华为云发布 CloudRobo-WM1.2",
+          "what": "华为云展示昇腾原生具身世界模型 CloudRobo-WM1.2，用于预测物理场景变化并生成动作，同时宣布开放代码与权重。",
+          "why": "看点是把场景预测和动作规划放入同一个模型；宣布开放不代表已核实可下载或部署。",
+          "sourceNote": "华为云活动11月16日14:00开始；科创板日报16:02报道（北京时间）。",
+          "publishedAt": "2026-11-16T16:02:00+08:00",
+          "sources": [
+            {
+              "name": "华为云",
+              "url": "https://www.huaweicloud.com/about/live/261116.html"
+            },
+            {
+              "name": "科创板日报",
+              "url": "https://www.cls.cn/detail/2535460"
+            }
+          ],
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-17-10",
+          "category": "政策监管",
+          "title": "美国远程算力限制文本进入公开预览",
+          "what": "美国商务部工业与安全局临时最终规则涉及部分境外数据中心向指定对象提供大规模高级算力；《联邦公报》预览标注 11 月 19 日正式刊登。",
+          "why": "规则瞄准通过境外云服务取得受管制算力的路径，并非所有海外云服务一律禁用；预览不等于已经生效。",
+          "sources": [
+            {
+              "name": "联邦公报预览",
+              "url": "https://public-inspection.federalregister.gov/2026-23529.pdf"
+            },
+            {
+              "name": "路透",
+              "url": "https://www.reuters.com/legal/litigation/us-issues-rule-protect-advanced-ai-chips-being-accessed-remotely-2026-11-16/"
+            }
+          ],
+          "sourceNote": "BIS 通稿署美国当地11月15日、官网新闻列表列11月16日；路透11月16日21:46报道（北京时间）。",
+          "publishedAt": "2026-11-16T21:46:00+08:00",
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-17-11",
+          "category": "算力硬件",
+          "title": "中国 LineShine 领跑新一期 TOP500",
+          "what": "第 68 期 TOP500 榜单在 SC26 公布，中国的 LineShine 以 2.198 EFLOPS 的 HPL 成绩列第一；El Capitan 排第二，本期新增 27 台系统。",
+          "why": "这项排名比较标准双精度高性能计算测试，不能直接换算成大模型训练速度。",
+          "sources": [
+            {
+              "name": "TOP500 公告",
+              "url": "https://www.top500.org/news/top500-leadership-holds-steady-new-system-turnover-falls-historic-low/"
+            }
+          ],
+          "sourceNote": "TOP500，11月16日芝加哥发布，未列钟点。",
+          "publishedAt": null,
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-17-12",
+          "category": "算力硬件",
+          "title": "AMD 与 HPE 的 Lux 向科研用户开放",
+          "what": "橡树岭国家实验室的 Lux 搭载 AMD EPYC 和 Instinct MI355X，HPL 实测 220.79 PFLOPS，首次上榜排第 14。",
+          "why": "面向多个科研团队共用，支持 AI 训练、推理和传统高性能计算；榜单分数不是 AI 应用吞吐量。",
+          "sources": [
+            {
+              "name": "HPE",
+              "url": "https://www.hpe.com/us/en/newsroom/press-release/2026/11/hpe-built-lux-ai-cluster-debuts-at-no-14-on-the-top500.html"
+            },
+            {
+              "name": "AMD",
+              "url": "https://newsroom.amd.com/news/amd-powered-lux-supercomputer-opens-scientific-users/"
+            }
+          ],
+          "sourceNote": "HPE、AMD，11月16日当地发布，公告未列钟点。",
+          "publishedAt": null,
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-17-13",
+          "category": "并购",
+          "title": "Blackstone 拟收购 AWS 数据中心合资控股权",
+          "what": "Blackstone 旗下信托拟取得两家 AWS 数据中心合资公司 75.1% 权益，底层资产估值 50 亿美元，覆盖两座园区和 13 栋楼。",
+          "why": "交易仍待完成，50 亿美元是底层资产估值，并非股权收购支付额；AWS 将继续租用相关设施。",
+          "sourceNote": "Blackstone、SEC，11月16日披露，未列钟点。",
+          "publishedAt": null,
+          "sources": [
+            {
+              "name": "Blackstone",
+              "url": "https://www.blackstone.com/news/press/blackstone-digital-infrastructure-trust-announces-5-billion-acquisition-of-stabilized-data-center-portfolio/"
+            },
+            {
+              "name": "SEC",
+              "url": "https://www.sec.gov/Archives/edgar/data/2100161/000119312526461954/d115778d8k.htm"
+            }
+          ],
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-17-14",
+          "category": "科研应用",
+          "title": "OpenAI 扩大科研人员免费使用计划",
+          "what": "OpenAI 计划为全球最多 20 万名科研人员提供免费访问；11月23日开放下一轮 5 万份资格，每份覆盖申请人和最多两位合作者。",
+          "why": "这给科研团队提供了申请时间；同期研究分析 1,819 名用户的逾 58 万条科学相关消息，问卷中的节时感受不等于实测。",
+          "sources": [
+            {
+              "name": "OpenAI 科研计划",
+              "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers/"
+            },
+            {
+              "name": "OpenAI 使用研究",
+              "url": "https://openai.com/index/science-at-the-frontier/"
+            }
+          ],
+          "sourceNote": "OpenAI 两篇官方公告，11月16日，未列钟点。",
+          "publishedAt": null,
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-17-15",
+          "category": "科研开源",
+          "title": "NVIDIA 推出 Nemotron for Science",
+          "what": "NVIDIA 宣布科研智能体工具组合 Nemotron for Science，包括 Nemotron 3.5 Super VL 等组件，将多模态资料理解与科研任务串接。",
+          "why": "科研团队可逐个评估组件，而非把一套展示结果视作通用科研能力验证。",
+          "sources": [
+            {
+              "name": "NVIDIA 新闻室",
+              "url": "https://nvidianews.nvidia.com/news/nvidia-introduces-nemotron-for-science-to-accelerate-discoveries-with-agents"
+            }
+          ],
+          "sourceNote": "NVIDIA 新闻室，11月16日（当地），未列钟点。",
+          "publishedAt": null,
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-17-16",
+          "category": "开发者工具",
+          "title": "Hugging Face 推理接入 OpenRouter",
+          "what": "Hugging Face 宣布将 OpenRouter 加入 Inference Providers，沿用现有 HF 密钥和端点，把请求按规则分配给 80 多家提供商。",
+          "why": "可减少应用自行维护多个推理接口的工作；不同路由的延迟、容量与实际价格仍需实测。",
+          "sourceNote": "Hugging Face，11月16日，未列钟点。",
+          "publishedAt": null,
+          "sources": [
+            {
+              "name": "Hugging Face",
+              "url": "https://huggingface.co/blog/openrouter"
+            }
+          ],
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-17-17",
+          "category": "模型评测",
+          "title": "Databricks 发布企业 AI 使用指数",
+          "what": "Databricks 用旗下网关的匿名使用数据和私有代码任务评测，展示企业模型调用、开销与编码智能体表现。",
+          "why": "能观察其企业用户样本的成本与质量取舍；平台样本和内部基准不能代表整个市场或所有项目。",
+          "sourceNote": "Databricks 官方博客，11月16日，未列钟点。",
+          "publishedAt": null,
+          "sources": [
+            {
+              "name": "Databricks",
+              "url": "https://www.databricks.com/blog/introducing-databricks-ai-index-state-enterprise-ai-tokenomics"
+            }
+          ],
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-17-18",
+          "category": "自动驾驶",
+          "title": "小马智行第七代 Robotaxi 在广州示范运营",
+          "what": "小马智行与丰田共同开发的第七代铂智4X Robotaxi 在广州启动示范运营，公众可通过小马智行应用或小程序呼叫。",
+          "why": "从公开道路测试进入面向公众的服务；示范范围为广州，不代表全国上线。",
+          "sourceNote": "小马智行，11月16日，未列钟点。",
+          "publishedAt": null,
+          "sources": [
+            {
+              "name": "小马智行",
+              "url": "https://pony.ai/news/V501qW0v?lang=zh"
+            }
+          ],
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-17-19",
+          "category": "融资",
+          "title": "Corma 获 1.25 亿美元 A 轮融资",
+          "what": "防御型 AI 安全公司 Corma 宣布获得 NEA 领投的 1.25 亿美元 A 轮融资，投后估值 10 亿美元；多家原有投资人跟投。",
+          "why": "融资用于模型、算力和团队扩充；估值不等于营收或产品防护效果。",
+          "sourceNote": "Corma 公司公告，11月16日，未列钟点。",
+          "publishedAt": null,
+          "sources": [
+            {
+              "name": "Corma",
+              "url": "https://www.corma.ai/blog/three-months-in"
+            }
+          ],
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-17-20",
+          "category": "政策监管",
+          "title": "COP31 公布 Antalya AI Pledge",
+          "what": "COP31 主席国与国际电信联盟发布自愿承诺，涵盖清洁用电、数据中心节能节水、设备生命周期和环境足迹报告，并计划跟踪到 2030 年。",
+          "why": "它给 AI 基础设施的能耗、水耗与公开披露提供共同议程，不等同于强制法规。",
+          "sources": [
+            {
+              "name": "国际电信联盟",
+              "url": "https://www.itu.int/en/mediacentre/Pages/PR-2026-11-16-COP31-Antalya-AI-Pledge.aspx"
+            }
+          ],
+          "sourceNote": "国际电信联盟，11月16日，未列钟点。",
+          "publishedAt": null,
+          "timeStatus": "confirmed"
+        },
+        {
+          "category": "研究论文",
+          "title": "MMFlash 预印本尝试让视觉语言模型解码提速",
+          "what": "研究团队提出 MMFlash，在推测解码中强化对依赖图像的词元建模，并减少长视频中的重复计算。",
+          "why": "作者在 Qwen3.5-9B 的一项 ChartQA 配置报告最高 3.58 倍提速；这是特定实验设置的预印本结果。",
+          "sourceNote": "论文11月13日提交；Hugging Face 条目11月16日发布，未列钟点。",
+          "publishedAt": null,
+          "timeStatus": "confirmed",
+          "sources": [
+            {
+              "name": "Hugging Face 论文条目",
+              "url": "https://huggingface.co/papers/2611.18482"
+            },
+            {
+              "name": "arXiv 预印本",
+              "url": "https://arxiv.org/abs/2611.18482"
+            }
+          ],
+          "id": "2026-11-17-21"
+        },
+        {
+          "id": "2026-11-17-22",
+          "category": "开源工具",
+          "title": "llama.cpp 预发布增加本地语音合成",
+          "what": "llama.cpp 的 b12424 预发布增加对 Zonos3-mini 的本地文本转语音支持，包含文本规范化和生成流程。",
+          "why": "已有本地推理环境的团队可试验离线配音；这是预发布，不视为稳定版。",
+          "sources": [
+            {
+              "name": "llama.cpp GitHub",
+              "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12424"
+            }
+          ],
+          "sourceNote": "GitHub Releases，11月16日04:08（北京时间）。",
+          "publishedAt": "2026-11-16T04:08:00+08:00",
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-17-23",
+          "category": "AI人物发言",
+          "title": "Sam Altman 谈内存短缺与资源分配",
+          "what": "OpenAI 首席执行官 Sam Altman 在 Semafor 受访时表示，个人应能买到足量内存，但在供应紧张时，他也认为共享数据中心能提高内存使用效率。",
+          "why": "这是他对消费级供应和集中部署取舍的判断，不是 OpenAI 对内存供应的承诺。",
+          "sources": [
+            {
+              "name": "Semafor 原采访",
+              "url": "https://www.youtube.com/watch?v=oi-E6xB4wSU"
+            },
+            {
+              "name": "The Verge",
+              "url": "https://www.theverge.com/ai-artificial-intelligence/1034787/sam-altman-ram-shortage-semafor"
+            }
+          ],
+          "sourceNote": "Semafor 11月16日当地采访；The Verge 11月17日04:41报道（北京时间）。",
+          "publishedAt": "2026-11-17T04:41:00+08:00",
+          "timeStatus": "confirmed"
+        }
+      ],
+      "uncertainItems": [
+        {
+          "id": "2026-11-17-24",
+          "category": "热门消息｜未证实",
+          "title": "延续话题：黄仁勋复任说法未获董事会确认",
+          "what": "路透11月16日援引三名知情人士称，尽管有公开呼吁，NVIDIA 董事会未在考虑让黄仁勋重任 CEO；未查到董事会在本窗口公开证实这一说法。",
+          "why": "SEC 文件显示董事会于11月11日接受辞呈，翌日公司公开披露并宣布 Colette Kress 兼任临时 CEO；第一财经11月16日09:15转述请愿页累计约16.4万，系站方计数，不代表本期新增或全网热度。",
+          "sources": [
+            {
+              "name": "路透",
+              "url": "https://www.reuters.com/legal/transactional/silicon-valley-leaders-back-call-jensen-huangs-return-nvidia-2026-11-16/"
+            },
+            {
+              "name": "NVIDIA 投资者关系",
+              "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-CEO-Transition/"
+            },
+            {
+              "name": "SEC",
+              "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000082/nvda-20261111.htm"
+            },
+            {
+              "name": "第一财经",
+              "url": "https://www.yicai.com/news/103441596.html"
+            }
+          ],
+          "sourceNote": "路透11月16日21:46报道（北京时间）；NVIDIA 投资者关系11月12日公告为背景。",
+          "publishedAt": "2026-11-16T21:46:37+08:00",
+          "timeStatus": "uncertain"
+        },
+        {
+          "id": "2026-11-17-25",
+          "category": "热门消息｜未证实",
+          "title": "美媒称美国拟遴选 AI 出口重点企业",
+          "what": "《华尔街日报》引述知情人士称，美国政府拟为包括 NVIDIA、Microsoft、Amazon、OpenAI、Anthropic 在内的二十多家企业提供海外拓展支持；最终名单与政策安排未获官方确认。",
+          "why": "传闻若兑现，将影响海外项目融资与竞争；路透转述同一报道，并非独立证实。",
+          "sources": [
+            {
+              "name": "华尔街日报",
+              "url": "https://www.wsj.com/tech/ai/trump-administration-to-name-nvidia-among-ai-national-champions-c9284344"
+            },
+            {
+              "name": "路透",
+              "url": "https://www.reuters.com/business/retail-consumer/trump-administration-name-nvidia-other-ai-firms-us-national-champions-wsj-2026-11-16/"
+            }
+          ],
+          "sourceNote": "《华尔街日报》11月16日11:59报道，路透12:17转述（均为北京时间）。",
+          "publishedAt": "2026-11-16T11:59:00+08:00",
           "timeStatus": "uncertain"
         }
       ],
