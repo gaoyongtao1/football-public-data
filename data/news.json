@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "timezone": "Asia/Shanghai",
-  "updatedAt": "2026-11-17 08:05",
+  "updatedAt": "2026-11-18 08:07",
   "issues": [
     {
       "id": "2026-11-06",
@@ -2632,6 +2632,488 @@
           ],
           "sourceNote": "《华尔街日报》11月16日11:59报道，路透12:17转述（均为北京时间）。",
           "publishedAt": "2026-11-16T11:59:00+08:00",
+          "timeStatus": "uncertain"
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "2026-11-18",
+      "date": "2026-11-18",
+      "title": "AI早报｜2026年11月18日",
+      "summary": "NVIDIA 单季营收达1158亿美元，董事会明确无意恢复黄仁勋 CEO 职务；OpenAI 发布 GPT‑6.2 Astra 和 Sol，微软在 Ignite 公布七款 MAI 模型。",
+      "note": "统计采用北京时间。来源只列日期的，不补写钟点；报道时间不等于事件发生时间。传闻单列，不计入已核实条目。",
+      "windowStart": "2026-11-17T00:00:00+08:00",
+      "windowEnd": "2026-11-18T08:00:00+08:00",
+      "items": [
+        {
+          "id": "2026-11-18-01",
+          "category": "算力业绩",
+          "title": "NVIDIA 单季营收1158亿美元，数据中心贡献1076亿",
+          "what": "NVIDIA 公布2027财年第三季度营收同比增长103%，数据中心营收同比增长110%，Vera Rubin NVL72 已开始出货。",
+          "why": "下季营收指引为1300亿美元、上下浮动3%，未计入中国数据中心计算营收；这是公司预期，非已实现收入。",
+          "sourceNote": "NVIDIA 投资者关系，11月18日05:20（北京时间）。",
+          "publishedAt": "2026-11-18T05:20:00+08:00",
+          "sources": [
+            {
+              "name": "NVIDIA 财报",
+              "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/"
+            }
+          ],
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-18-02",
+          "category": "大模型",
+          "title": "OpenAI 发布 GPT‑6.2 Astra 和 Sol",
+          "what": "两款模型进入符合条件的 ChatGPT Work、Codex 和 API；每百万输入及输出词元，Astra 分别为8和40美元，Sol 为2和10美元。",
+          "why": "Astra 标准输入和输出价较 GPT‑6 Astra 低20%；Sol 沿用上一代价格，适合比较两档模型的成本与效果。",
+          "sourceNote": "OpenAI 官网11月17日（美国时间），未列钟点。",
+          "publishedAt": null,
+          "sources": [
+            {
+              "name": "OpenAI 公告",
+              "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/"
+            }
+          ],
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-18-03",
+          "category": "公司治理",
+          "title": "NVIDIA 董事长确认无意恢复黄仁勋 CEO 职务",
+          "what": "董事长 Harvey Jones 在财报会上称，董事会一致接受黄仁勋辞呈，目前无意让他复任；Colette Kress 继续担任临时 CEO。",
+          "why": "这是上期复任话题的最新公开进展：董事会立场已由董事长公开说明，不再只是匿名消息；并非对未来人事的永久判断。",
+          "sourceNote": "NVIDIA 财报会11月18日06:00开始（北京时间）；路透报道董事长表态。",
+          "publishedAt": null,
+          "sources": [
+            {
+              "name": "NVIDIA 财报会",
+              "url": "https://investor.nvidia.com/events-and-presentations/events-and-presentations/event-details/2026/NVIDIA-3rd-Quarter-FY27-Financial-Results/default.aspx"
+            },
+            {
+              "name": "路透",
+              "url": "https://www.reuters.com/business/nvidia-forecasts-quarterly-revenue-above-estimates-first-report-since-huangs-2026-11-17/"
+            }
+          ],
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-18-04",
+          "category": "大模型",
+          "title": "微软在 Ignite 公布七款 MAI 模型",
+          "what": "Code 2 和 Code 2 Flash 已进入 GitHub Copilot 和 Microsoft Foundry，分别侧重复杂编码与高频编辑；面向路由和分类的 Decision 1.1 正式可用。",
+          "why": "微软把模型按工作负载区分，并对合格客户提供部分权重授权；企业授权不等于开放权重。",
+          "sourceNote": "微软官方博客与 Microsoft AI，11月17日（美国时间），未列公告钟点。",
+          "publishedAt": null,
+          "sources": [
+            {
+              "name": "微软官方博客",
+              "url": "https://blogs.microsoft.com/blog/2026/11/17/ignite-2026-building-the-frontier-ecosystem/"
+            },
+            {
+              "name": "Microsoft AI",
+              "url": "https://microsoft.ai/news/microsoft-ignite-2026/"
+            }
+          ],
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-18-05",
+          "category": "政策监管",
+          "title": "商务部回应美国先进芯片远程访问限制",
+          "what": "中国商务部表示反对并要求美方纠正；如美方执意实施，中方将采取必要反制。",
+          "why": "这是上期美国规则预览后的中方正式回应；条件性表态不等于已有反制措施落地。",
+          "sourceNote": "商务部，11月17日20:20（北京时间）。",
+          "publishedAt": "2026-11-17T20:20:00+08:00",
+          "sources": [
+            {
+              "name": "商务部",
+              "url": "https://www.mofcom.gov.cn/xwfb/xwfyrth/art/2026/art_c9c0beb01b8640d3ba9160b73d315716.html"
+            }
+          ],
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-18-06",
+          "category": "具身智能融资",
+          "title": "Genesis AI 融资5亿美元，投后估值35亿美元",
+          "what": "Genesis AI 宣布完成 A 轮，Premji Invest、Khosla Ventures 和 Eclipse 共同领投，资金用于研发与部署旗舰机器人 Eno。",
+          "why": "融资重点是让机器人完成更复杂的操作并进入客户现场；公司目标不代表当前已达到人类灵巧度。",
+          "sourceNote": "Genesis AI 通稿与路透，11月17日；路透北京时间22:04报道。",
+          "publishedAt": "2026-11-17T22:04:00+08:00",
+          "sources": [
+            {
+              "name": "Genesis AI 通稿",
+              "url": "https://www.prnewswire.com/news-releases/genesis-ai-raises-500m-series-a-at-3-5b-valuation-to-master-human-level-dexterity-in-general-purpose-robots-and-deploy-at-scale-302941249.html"
+            },
+            {
+              "name": "路透",
+              "url": "https://www.reuters.com/business/finance/french-robot-maker-genesis-raises-500-million-35-billion-valuation-2026-11-17/"
+            }
+          ],
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-18-07",
+          "category": "融资",
+          "title": "Isomorphic Labs 宣布50亿美元 C 轮",
+          "what": "Greenoaks 与 Sequoia Capital 共同领投，Alphabet 继续参与；公司将资金用于扩展 AI 药物研发与项目管线。",
+          "why": "这显示投资人愿意为研发能力投入长期资本；融资金额不能证明候选药物的临床有效性。",
+          "sourceNote": "Isomorphic Labs，11月17日（英国时间），未列钟点。",
+          "publishedAt": null,
+          "sources": [
+            {
+              "name": "Isomorphic Labs",
+              "url": "https://www.isomorphiclabs.com/articles/isomorphic-labs-announces-series-c-investment-round"
+            }
+          ],
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-18-08",
+          "category": "芯片并购",
+          "title": "AMD 完成收购推理芯片企业 Taalas",
+          "what": "AMD 宣布完成收购 Taalas；此前监管披露的约29亿美元现金加股票对价中，包括最高约14亿美元的条件性支付。",
+          "why": "AMD 此次获得的是推理专用芯片团队，与上期报道的 World Labs 空间智能收购不同；披露的总额不等于已付金额。",
+          "sourceNote": "AMD 新闻室11月17日（美国时间），未列钟点；对价来自监管文件。",
+          "publishedAt": null,
+          "sources": [
+            {
+              "name": "AMD 新闻室",
+              "url": "https://newsroom.amd.com/news/amd-completes-acquisition-taalas-advance-ai-inference-innovation/"
+            },
+            {
+              "name": "SEC 文件",
+              "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000191/R12.htm"
+            }
+          ],
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-18-09",
+          "category": "公司治理",
+          "title": "NVIDIA 设立出口管制与国家安全监督委员会",
+          "what": "新设董事会常设委员会由 Suzanne Nora Johnson 担任主席，至少每季度开会，监督出口合规及全球贸易风险。",
+          "why": "将合规风险纳入董事会常设监督，不等于监管机构已对具体争议作出结论。",
+          "sourceNote": "NVIDIA 新闻室，11月17日18:00（北京时间）。",
+          "publishedAt": "2026-11-17T18:00:00+08:00",
+          "sources": [
+            {
+              "name": "NVIDIA 新闻室",
+              "url": "https://nvidianews.nvidia.com/news/nvidia-board-of-directors-establishes-national-security-and-export-control-oversight-committee"
+            }
+          ],
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-18-10",
+          "category": "硬件供应链",
+          "title": "NVIDIA 与景硕、矽品签扩产安排",
+          "what": "景硕桃园厂拟将专供 NVIDIA 的 ABF 基板产能扩大至现有3.5倍以上，目标2028年第三季度到位；矽品另签多年先进封装扩产协议。",
+          "why": "可缓解大规模算力系统的基板与封装瓶颈，但两个项目仍属计划，不是现有产能。",
+          "sourceNote": "NVIDIA 原通稿，11月18日06:18（北京时间）。",
+          "publishedAt": "2026-11-18T06:18:00+08:00",
+          "sources": [
+            {
+              "name": "NVIDIA 通稿",
+              "url": "https://www.globenewswire.com/news-release/2026/11/17/3405251/0/en/nvidia-expands-commitments-with-supply-chain-partners-to-support-ai-infrastructure-buildout.html"
+            }
+          ],
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-18-11",
+          "category": "AI 应用",
+          "title": "Google 向六个市场逐步开放 Gemini Tasks",
+          "what": "基于 Gemini 4 Hydrogen 的 Tasks 免费版逐步面向美国、日本、韩国、加拿大、澳大利亚和印度开放；高级操作从美国起推。",
+          "why": "助理正从回答问题走向经授权预约、购物等任务，各地区功能与开放时间不同。",
+          "sourceNote": "Google 官方博客11月17日（美国时间），未列钟点。",
+          "publishedAt": null,
+          "sources": [
+            {
+              "name": "Google 官方博客",
+              "url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/"
+            }
+          ],
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-18-12",
+          "category": "政策监管",
+          "title": "纽约州成立 AI 安全执法小组",
+          "what": "纽约州总检察长 Letitia James 宣布成立 ASSET，负责 AI 安全标准与法规执法，涵盖计划于2027年1月1日生效的纽约 RAISE Act。",
+          "why": "州级监管开始配置专门执法力量；成立小组不等于该法已正式生效。",
+          "sourceNote": "纽约州总检察长办公室11月17日（美国时间），未列钟点。",
+          "publishedAt": null,
+          "sources": [
+            {
+              "name": "纽约州总检察长办公室",
+              "url": "https://ag.ny.gov/press-release/2026/attorney-general-james-announces-creation-ai-safety-standards-enforcement-and"
+            }
+          ],
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-18-13",
+          "category": "行业调查",
+          "title": "路透梳理中国机构公开文件中的模型蒸馏实践",
+          "what": "路透审阅300余份论文、专利、招聘及政府文件，报道使用领先模型输出来训练其他模型的做法已从学术扩展到部分产业场景。",
+          "why": "文档能支持具体案例，不能据此认定所有国产模型都使用同一方法，也不能量化其对能力差距的贡献。",
+          "sourceNote": "路透，11月17日11:42（北京时间）。",
+          "publishedAt": "2026-11-17T11:42:00+08:00",
+          "sources": [
+            {
+              "name": "路透原始调查",
+              "url": "https://www.reuters.com/world/china/china-taps-us-ai-models-train-homegrown-rivals-chip-curbs-bite-2026-11-17/"
+            }
+          ],
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-18-14",
+          "category": "具身智能应用",
+          "title": "星动纪元 M7 在广东邮政11个节点落地",
+          "what": "据澎湃新闻报道，星动纪元物流机器人 M7 已在广东8市11个邮区节点应用，广州试点从3月启动。",
+          "why": "从单点试用扩展到多节点；企业披露的试点供件效率不能外推到全网。",
+          "sourceNote": "澎湃新闻，11月17日20:34（北京时间）。",
+          "publishedAt": "2026-11-17T20:34:00+08:00",
+          "sources": [
+            {
+              "name": "澎湃新闻",
+              "url": "https://www.thepaper.cn/newsDetail_forward_34492516"
+            }
+          ],
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-18-15",
+          "category": "AI 应用",
+          "title": "Meta 将 Muse 助手推向澳大利亚",
+          "what": "Meta 宣布个人 AI 助手 Muse 在澳大利亚开放，是这款产品的地区扩展。",
+          "why": "实际开放范围比新增模型名称更值得关注；这不是对全球市场统一上线的承诺。",
+          "sourceNote": "Meta 新闻室11月17日，未列钟点。",
+          "publishedAt": null,
+          "sources": [
+            {
+              "name": "Meta 新闻室",
+              "url": "https://about.fb.com/news/2026/11/muse-is-now-available-in-australia/"
+            }
+          ],
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-18-16",
+          "category": "开源研究",
+          "title": "K2-Horizon 公布六种配置的技术报告",
+          "what": "Institute for Foundation Models 在 Hugging Face 介绍六种模型配置；其中四种共用22万亿词元语料，报告披露数据处理与评估流程。",
+          "why": "共用语料便于比较模型设计差异；本期新进展是技术报告披露，模型并非首次发布。",
+          "sourceNote": "Hugging Face 作者发布11月17日，未列钟点；arXiv 初次提交在北京时间11月16日。",
+          "publishedAt": null,
+          "sources": [
+            {
+              "name": "Hugging Face 论文条目",
+              "url": "https://huggingface.co/papers/2611.21003"
+            },
+            {
+              "name": "arXiv",
+              "url": "https://arxiv.org/abs/2611.21003"
+            }
+          ],
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-18-17",
+          "category": "研究预印本",
+          "title": "AgentFaultBench 按实际系统状态检验智能体恢复",
+          "what": "研究团队在隔离环境中比较智能体遇到故障后的任务恢复；1944次计划运行中有1883次结束。",
+          "why": "检查实际应用状态，比询问模型是否做完更可靠；实验结论应限于所测任务和框架。",
+          "sourceNote": "arXiv 11月17日列出，11月16日提交，未据此推断正式发表。",
+          "publishedAt": null,
+          "sources": [
+            {
+              "name": "arXiv",
+              "url": "https://arxiv.org/abs/2611.20711"
+            }
+          ],
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-18-18",
+          "category": "开发者工具",
+          "title": "Claude Platform 测试第三方应用关联计费",
+          "what": "已经直接向 Anthropic 支付 API 费用的客户，可把第三方应用用量计入自己的 Claude 组织，并设置该应用的支出上限。",
+          "why": "企业可集中管理账单，并可随时解除关联；当前仍是测试功能，适用范围有限。",
+          "sourceNote": "Anthropic 平台更新日志11月17日，未列钟点。",
+          "publishedAt": null,
+          "sources": [
+            {
+              "name": "Anthropic 官方日志",
+              "url": "https://platform.claude.com/docs/en/release-notes/overview"
+            }
+          ],
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-18-19",
+          "category": "算力硬件",
+          "title": "阿里云公布 APG 训推一体服务器八卡版",
+          "what": "服务器整机配备8颗平头哥真武 M890，面向企业本地化训练及高并发智能体推理。",
+          "why": "这是将国产加速卡以整机交付的进展，并非发布新芯片，也不表示单台机器能训练所有万亿参数模型。",
+          "sourceNote": "阿里云开发者社区11月17日，未列钟点。",
+          "publishedAt": null,
+          "sources": [
+            {
+              "name": "阿里云开发者社区",
+              "url": "https://developer.aliyun.com/article/1784738"
+            }
+          ],
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-18-20",
+          "category": "产业政策",
+          "title": "广东发布数字广东建设“十五五”规划",
+          "what": "规划提出，到2030年数字经济核心产业增加值占全省生产总值18%，并布局跨境算力走廊，支持广州和深圳重大算力设施。",
+          "why": "布局体现算力跨区域协同方向，目标值和走廊均不代表已实现。",
+          "sourceNote": "南方网·粤学习，11月17日20:01（北京时间）。",
+          "publishedAt": "2026-11-17T20:01:00+08:00",
+          "sources": [
+            {
+              "name": "南方网·粤学习",
+              "url": "https://news.southcn.com/node_54a44f01a2/a82c024d22.shtml"
+            }
+          ],
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-18-21",
+          "category": "开源工具",
+          "title": "vLLM v0.34.0 更新显存分配与模型支持",
+          "what": "新版根据预热后剩余显存动态确定键值缓存容量，并增加对 Mistral Large 4、MiniMax-M3.1-Flash 等模型的支持。",
+          "why": "更适合显存和并发需求不同的推理部署；旧版运行器被移除，升级前应进行兼容测试。",
+          "sourceNote": "GitHub Releases，11月16日23:22（UTC）。",
+          "publishedAt": "2026-11-17T07:22:00+08:00",
+          "sources": [
+            {
+              "name": "vLLM GitHub",
+              "url": "https://github.com/vllm-project/vllm/releases/tag/v0.34.0"
+            }
+          ],
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-18-22",
+          "category": "AI人物发言",
+          "title": "黄仁勋称若获董事会邀请，愿意回任",
+          "what": "NVIDIA 联合创始人黄仁勋表示，若董事会认为回归符合股东、员工等利益，他愿意重任 CEO。",
+          "why": "这是本人有条件表达意愿，不是任命消息；董事长在随后财报会确认无意恢复其职务。",
+          "sourceNote": "黄仁勋本人11月18日00:18（北京时间）；美联社和路透援引其公开声明。",
+          "publishedAt": "2026-11-18T00:18:00+08:00",
+          "sources": [
+            {
+              "name": "黄仁勋 X 原帖",
+              "url": "https://x.com/JensenHuang/status/2122726005219737649"
+            },
+            {
+              "name": "美联社",
+              "url": "https://apnews.com/article/3026bcbe04ab57b844884382e583422a"
+            }
+          ],
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-18-23",
+          "category": "AI人物发言",
+          "title": "纳德拉称模型的自我评价不能证明安全",
+          "what": "Microsoft CEO Satya Nadella 在 Ignite 强调安全需要验证，微软宣布扩大与美国国家标准与技术研究院等机构的合作。",
+          "why": "把安全承诺与可复核标准区分开；合作公告不代表标准已定稿或通过外部认证。",
+          "sourceNote": "微软官方 Ignite 公告，11月17日（美国时间），未列具体发言钟点。",
+          "publishedAt": null,
+          "sources": [
+            {
+              "name": "微软官方博客",
+              "url": "https://blogs.microsoft.com/blog/2026/11/17/ignite-2026-building-the-frontier-ecosystem/"
+            }
+          ],
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-18-24",
+          "category": "社交热点追踪",
+          "title": "郑渊洁恢复更新，用 AI 改编自己的童话",
+          "what": "作家郑渊洁称已尝试将自己的童话制成动画短片，并授权指定抖音账号免费发布。",
+          "why": "这是著作权人主动改编自有作品的案例，不代表第三方作品可直接用于生成或改编。",
+          "sourceNote": "本人微博11月17日发文；凤凰网16:14、澎湃21:58转述（北京时间）；未核实跨平台热度。",
+          "publishedAt": null,
+          "sources": [
+            {
+              "name": "凤凰网（附本人微博截图）",
+              "url": "https://news.ifeng.com/c/8y87giK6zXi"
+            },
+            {
+              "name": "澎湃新闻",
+              "url": "https://www.thepaper.cn/newsDetail_forward_34492911"
+            }
+          ],
+          "timeStatus": "confirmed"
+        }
+      ],
+      "uncertainItems": [
+        {
+          "id": "2026-11-18-25",
+          "category": "热门消息｜未证实",
+          "title": "未证实：美媒称 SEC 就 NVIDIA 投资者披露展开调查",
+          "what": "《华尔街日报》援引知情人士报道，美国证券交易委员会据称就投资者披露展开民事调查；未查到 SEC 官方公开确认。",
+          "why": "不要把这一报道与已公开的部门调查或 NVIDIA 董事会治理措施混为一谈，调查也不等于违法认定。",
+          "sourceNote": "《华尔街日报》11月18日04:56（北京时间）；事实待确认。",
+          "publishedAt": "2026-11-18T04:56:00+08:00",
+          "sources": [
+            {
+              "name": "华尔街日报",
+              "url": "https://www.wsj.com/business/sec-is-probing-nvidia-amid-departure-of-ceo-jensen-huang-ee7643f8"
+            }
+          ],
+          "timeStatus": "uncertain"
+        },
+        {
+          "id": "2026-11-18-26",
+          "category": "热门消息｜未证实",
+          "title": "未证实：Anthropic 可能提高 IPO 定价",
+          "what": "《华尔街日报》援引知情人士称，认购需求强劲，发行价可能高于初步招股文件的70至78美元区间；本期未见最终定价。",
+          "why": "市场询价并不等于实际发行结果；需要看最终招股文件，报道也不构成投资建议。",
+          "sourceNote": "《华尔街日报》11月18日01:02（北京时间）；初步区间见招股书。",
+          "publishedAt": "2026-11-18T01:02:00+08:00",
+          "sources": [
+            {
+              "name": "华尔街日报",
+              "url": "https://www.wsj.com/finance/anthropic-plans-to-raise-ipo-price-after-strong-demand-1a6b0af1"
+            },
+            {
+              "name": "Anthropic 初步招股书",
+              "url": "https://ipo.anthropic.com/documents/us/prospectus.pdf"
+            }
+          ],
+          "timeStatus": "uncertain"
+        },
+        {
+          "id": "2026-11-18-27",
+          "category": "热门消息｜未证实",
+          "title": "未证实：X 上流传 Gemini 4 Neon 代码线索",
+          "what": "AI Tracker Bot 与 TestingCatalog 称在 Gemini 网页代码发现相关字样；Google 官方模型目录未列 Neon，未证实其定位、上线或价格。",
+          "why": "FourWeekMBA 11月17日查看时记录一条转述帖约3.8万浏览，仅为该帖累计可见数，不是新增或全网热度。",
+          "sourceNote": "两条帖文时间经媒体核对为北京时间11月17日04:07及04:32；原帖访问受限，事实待确认。",
+          "publishedAt": "2026-11-17T04:07:00+08:00",
+          "sources": [
+            {
+              "name": "FourWeekMBA 核查",
+              "url": "https://fourweekmba.com/ai-gemini-4-neon-spotted-in-gemini-web-code-google-lists-3/"
+            },
+            {
+              "name": "Google 模型目录",
+              "url": "https://ai.google.dev/gemini-api/docs/models"
+            }
+          ],
           "timeStatus": "uncertain"
         }
       ],
