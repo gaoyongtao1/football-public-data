@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-18 06:06",
+  "updatedAt": "2026-11-18 18:20",
   "timezone": "Asia/Shanghai",
-  "coverageEnd": "2026-11-17",
+  "coverageEnd": "2026-11-18",
   "plans": [
     {
       "id": "20261102-0",
@@ -999,6 +999,74 @@
           ],
           "kickoff": "2026-11-18 03:45",
           "source": "https://www.skysports.com/football/hungary-vs-northern-ireland/554131",
+          "handicap": null,
+          "finishedAt": null
+        }
+      ]
+    },
+    {
+      "id": "20261118-0",
+      "date": "2026-11-18",
+      "label": "主推",
+      "kind": "reference",
+      "snapshot": "北京时间2026-11-18 18:20核验；500网国内固定奖金逐场历史记录，竞彩猫页面列4场可售；官方奖金更新时间、终端实售状态及实时性未核实。",
+      "note": "500网：周三002 16:36记录1.10，初值1.11；周三003 17:18记录1.85，初值1.82。参考组合2.0350。博塔弗戈常规时间不败才命中，科林蒂安赢一球是让平；首发未确认。",
+      "legs": [
+        {
+          "number": "周三002",
+          "home": "弗拉门戈",
+          "away": "巴拉纳竞技",
+          "pick": "主胜",
+          "odds": 1.1,
+          "score": null,
+          "kickoff": "2026-11-19 07:30",
+          "source": "",
+          "handicap": null,
+          "finishedAt": null
+        },
+        {
+          "number": "周三003",
+          "home": "科林蒂安",
+          "away": "博塔弗戈",
+          "pick": "让负",
+          "odds": 1.85,
+          "score": null,
+          "kickoff": "2026-11-19 08:30",
+          "source": "",
+          "handicap": -1,
+          "finishedAt": null
+        }
+      ]
+    },
+    {
+      "id": "20261118-1",
+      "date": "2026-11-18",
+      "label": "备选",
+      "kind": "reference",
+      "snapshot": "北京时间2026-11-18 18:20核验；500网国内固定奖金逐场历史记录，竞彩猫页面列4场可售；官方奖金更新时间、终端实售状态及实时性未核实。",
+      "note": "500网：周三002 16:36记录1.10，初值1.11；周三001 16:34记录1.78，初值1.92。参考组合1.9580。主备共用弗拉门戈主胜；首发未确认。",
+      "legs": [
+        {
+          "number": "周三002",
+          "home": "弗拉门戈",
+          "away": "巴拉纳竞技",
+          "pick": "主胜",
+          "odds": 1.1,
+          "score": null,
+          "kickoff": "2026-11-19 07:30",
+          "source": "",
+          "handicap": null,
+          "finishedAt": null
+        },
+        {
+          "number": "周三001",
+          "home": "科里蒂巴",
+          "away": "桑托斯",
+          "pick": "客胜",
+          "odds": 1.78,
+          "score": null,
+          "kickoff": "2026-11-19 06:30",
+          "source": "",
           "handicap": null,
           "finishedAt": null
         }
