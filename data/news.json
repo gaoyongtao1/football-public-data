@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "timezone": "Asia/Shanghai",
-  "updatedAt": "2026-11-18 08:07",
+  "updatedAt": "2026-11-19 08:07",
   "issues": [
     {
       "id": "2026-11-06",
@@ -3114,6 +3114,356 @@
               "url": "https://ai.google.dev/gemini-api/docs/models"
             }
           ],
+          "timeStatus": "uncertain"
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "2026-11-19",
+      "date": "2026-11-19",
+      "title": "AI早报｜2026年11月19日",
+      "windowStart": "2026-11-18T00:00:00+08:00",
+      "windowEnd": "2026-11-19T08:00:00+08:00",
+      "summary": "NVIDIA 暂停向中国发运获许可的 Hopper 数据中心产品，Palo Alto Networks 拟以45亿美元收购 Applied Compute；Anthropic 的 IPO 定价和募资规模已有具体报道，仍待发行人最终文件确认。",
+      "note": "对照 NVIDIA 投资者关系及 SEC 披露，未在本期核实到新的正式任命或监管调查结论。已扫查公开社交线索，未取得可比较的跨平台传播数据，不据此判断全网热度。",
+      "items": [
+        {
+          "id": "2026-11-19-01",
+          "category": "算力与出口",
+          "title": "NVIDIA 停止向中国发运获许可的 Hopper 数据中心产品",
+          "what": "临时 CEO Colette Kress 在财报会上说，截至10月25日的财季在中国售出24亿美元获许可的 Hopper 数据中心产品，目前已停止这一类产品的发运。",
+          "why": "这个变化涉及包括 H200 在内的 Hopper 产品，不是所有 NVIDIA 芯片一律停售；公司并未说明是否永久停止。",
+          "sources": [
+            {
+              "name": "路透社",
+              "url": "https://www.reuters.com/world/china/nvidia-stops-shipping-us-approved-ai-chips-china-2026-11-18/"
+            },
+            {
+              "name": "NVIDIA 向 SEC 提交的财报披露",
+              "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/nvda-20261117.htm"
+            }
+          ],
+          "sourceNote": "路透社北京时间11月18日17:16报道，停运说法归因于财报会。",
+          "publishedAt": "2026-11-18T17:16:00+08:00",
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-19-02",
+          "category": "产业并购",
+          "title": "Palo Alto Networks 拟以45亿美元收购 Applied Compute",
+          "what": "Palo Alto Networks 签署全股票收购协议，交易估值45亿美元、可按协议调整；标的业务是开放权重模型的后训练和推理。",
+          "why": "安全厂商将企业模型定制和部署纳入产品布局；已签约不等于已交割。",
+          "sources": [
+            {
+              "name": "SEC 收录的并购公告",
+              "url": "https://www.sec.gov/Archives/edgar/data/1327567/000132756726000030/ex992pressrelease_november.htm"
+            },
+            {
+              "name": "路透社",
+              "url": "https://www.reuters.com/technology/palo-alto-buy-ai-startup-applied-compute-45-billion-2026-11-18/"
+            }
+          ],
+          "sourceNote": "公告标美国当地11月18日；路透社北京时间11月19日05:09报道。",
+          "publishedAt": "2026-11-19T05:09:00+08:00",
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-19-03",
+          "category": "国内财报",
+          "title": "腾讯季度营收增长8%，管理层区分云推理与模型训练",
+          "what": "腾讯第三季度营收约2073亿元。总裁刘炽平称新芯片限制可能拖慢下一款模型的训练；首席战略官 James Mitchell 认为以推理为主的云收入不会受到重大冲击。",
+          "why": "同一项算力限制可能对训练和推理产生不同影响，两位高管的判断都不是后续经营结果。",
+          "sources": [
+            {
+              "name": "腾讯第三季度财报",
+              "url": "https://www.tencent.com/wp-content/uploads/2026/11/Tencent-Announces-2026-Third-Quarter-Results.pdf"
+            },
+            {
+              "name": "路透社",
+              "url": "https://www.reuters.com/technology/tencent-q3-revenue-growth-slows-8-misses-estimates-2026-11-18/"
+            }
+          ],
+          "sourceNote": "腾讯财报11月18日；路透社北京时间11月18日16:43发稿。",
+          "publishedAt": "2026-11-18T16:43:00+08:00",
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-19-04",
+          "category": "开放权重",
+          "title": "腾讯混元开放 Hy4 flash 系列权重",
+          "what": "腾讯本期公开 Hy4 flash、FP8 和 Base 权重；模型总参数约2240亿，每个词元约120亿参数激活，支持百万词元上下文。",
+          "why": "新进展是用户可自行部署，而不是再发布一款模型；使用仍受 Tencent Hy License 约束。",
+          "sources": [
+            {
+              "name": "腾讯模型卡",
+              "url": "https://huggingface.co/tencent/Hy4-flash"
+            },
+            {
+              "name": "腾讯混元原帖",
+              "url": "https://x.com/TencentHunyuan/status/2122912575302119554"
+            },
+            {
+              "name": "IT之家",
+              "url": "https://www.ithome.com/1/028/701.htm"
+            }
+          ],
+          "sourceNote": "腾讯混元发帖时间为北京时间11月18日12:39；原模型公告为11月16日。",
+          "publishedAt": "2026-11-18T12:39:00+08:00",
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-19-05",
+          "category": "开放权重",
+          "title": "商汤发布 SenseNova Loop-9B",
+          "what": "商汤公开 SenseNova Loop-9B 权重和相关代码，称9B参数模型在部分测试中可接近27B模型。",
+          "why": "这给显存有限的部署增加了一个选项；厂商对比不代表不同任务都有同样的表现。",
+          "sources": [
+            {
+              "name": "商汤模型公告",
+              "url": "https://www.sensetime.com/en/news/sensenova-loop-9b-release-20261118-1435"
+            }
+          ],
+          "sourceNote": "商汤标11月18日，未核实发布时分。",
+          "publishedAt": null,
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-19-06",
+          "category": "国内模型",
+          "title": "Phancy 发布 Phai-A1 和 Phai-M1",
+          "what": "Phai-A1 宣称原生支持百万词元上下文并可按硬件条件本地部署；Phai-M1 面向同步音视频生成，厂商测试约3分钟生成15秒720p视频。",
+          "why": "长上下文和视频生成面向不同任务；测试时长不是服务保证，公告还将权重开放列为后续安排。",
+          "sources": [
+            {
+              "name": "Phancy 经 Media OutReach 发布的公告",
+              "url": "https://bizhub.vietnamnews.vn/phancy-launches-phai-a1-language-model-and-phai-m1-video-generation-model-post419004.html"
+            }
+          ],
+          "sourceNote": "企业通讯稿11月18日，转载页面钟点未标明时区。",
+          "publishedAt": null,
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-19-07",
+          "category": "国内财报",
+          "title": "商汤前三季度收入增长30.4%，毛利率升至43.4%",
+          "what": "商汤自愿披露，2026年前三季度收入约37.9亿元，毛利率较上年同期提高4.3个百分点。",
+          "why": "营收和毛利率同升提供了商业化观察线索，但不能据此推断已经实现净利润。",
+          "sources": [
+            {
+              "name": "港交所公告检索",
+              "url": "https://www1.hkexnews.hk/search/titlesearch.xhtml?category=0&market=SEHK&stockId=1000127397"
+            },
+            {
+              "name": "商汤经营更新",
+              "url": "https://sensetime.com/en/news/sensetime-business-update-revenue-growth-20261118-1945"
+            }
+          ],
+          "sourceNote": "港交所披露时间为北京时间11月18日18:04。",
+          "publishedAt": "2026-11-18T18:04:00+08:00",
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-19-08",
+          "category": "产品安全",
+          "title": "路透调查 Meta Muse 的隐私和信息准确性问题",
+          "what": "路透依据内部资料并作复核测试，报道了 Muse 的隐私与错误回复问题；Meta 发言人把所举情况称为个别事件。",
+          "why": "问题显示可读取个人内容的助手需要明确权限和验证机制；报道不能用于推算整体发生率。",
+          "sources": [
+            {
+              "name": "路透社",
+              "url": "https://www.reuters.com/investigations/meta-bets-big-muse-ai-agent-early-safety-mishaps-surface-2026-11-18/"
+            }
+          ],
+          "sourceNote": "路透社北京时间11月18日19:01报道；与上期的澳大利亚上线是不同事件。",
+          "publishedAt": "2026-11-18T19:01:00+08:00",
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-19-09",
+          "category": "政策监管",
+          "title": "美国两名参议员敦促白宫加强关键基础设施的 AI 防御",
+          "what": "Maria Cantwell 与 Mike Rounds 联名敦促白宫组织 AI 开发者和防御方协调，加强关键基础设施防护。",
+          "why": "这是议员提出的防御建议，还没有变成监管义务。",
+          "sources": [
+            {
+              "name": "美国参议院商务委员会",
+              "url": "https://www.commerce.senate.gov/press/dem/release/cantwell-rounds-warn-ai-cyber-threats-are-outpacing-u-s-defenses-call-for-urgent-white-house-action-to-protect-critical-infrastructure/"
+            },
+            {
+              "name": "路透社",
+              "url": "https://www.reuters.com/legal/government/us-senators-warn-white-house-that-ai-enabled-cyber-threats-are-outpacing-2026-11-18/"
+            }
+          ],
+          "sourceNote": "委员会公告标11月18日；路透社北京时间11月18日18:32报道。",
+          "publishedAt": "2026-11-18T18:32:00+08:00",
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-19-10",
+          "category": "政策监管",
+          "title": "xAI 请求上诉法院阻止加州训练数据披露法",
+          "what": "美国第九巡回上诉法院就 xAI 针对加州生成式 AI 训练数据摘要披露规则的请求听取辩论。",
+          "why": "争议在透明度与商业秘密的边界；本期是听证，不是法院已叫停该法。",
+          "sources": [
+            {
+              "name": "路透社",
+              "url": "https://www.reuters.com/legal/government/musks-xai-urges-us-appeals-court-block-california-ai-disclosure-law-2026-11-18/"
+            }
+          ],
+          "sourceNote": "路透社北京时间11月19日07:36报道。",
+          "publishedAt": "2026-11-19T07:36:00+08:00",
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-19-11",
+          "category": "海外算力",
+          "title": "马来西亚就先进 AI 芯片新规向美国寻求澄清",
+          "what": "马来西亚投资、贸易及工业部长 Johari Abdul Ghani 表示，将询问许可证和向第三方提供数据中心服务等问题，同时要求运营商遵守新限制。",
+          "why": "数据中心能建设并不等于可把受限芯片算力提供给所有客户，具体执行细节仍待澄清。",
+          "sources": [
+            {
+              "name": "马来西亚国家通讯社",
+              "url": "https://web26.bernama.com/en/region/news.php?id=2636201"
+            },
+            {
+              "name": "路透社",
+              "url": "https://www.reuters.com/business/finance/malaysia-says-data-centres-must-comply-with-us-ai-chip-rules-2026-11-18/"
+            }
+          ],
+          "sourceNote": "路透社北京时间11月18日20:17报道。",
+          "publishedAt": "2026-11-18T20:17:00+08:00",
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-19-12",
+          "category": "企业应用",
+          "title": "Replit 扩大 Microsoft Fabric、Windows 与 Teams 集成",
+          "what": "Replit 在 Ignite 宣布上述三项集成正式开放；将应用发布到企业自身 Azure 租户仍属早期访问。",
+          "why": "企业可以在既有平台内构建和部署应用，但开发环境完全迁入 Azure 仍是后续计划。",
+          "sources": [
+            {
+              "name": "Replit Ignite 公告",
+              "url": "https://replit.com/blog/build-where-your-business-works-replit-at-microsoft-ignite"
+            }
+          ],
+          "sourceNote": "Replit 标美国当地11月18日，未核实发布时分。",
+          "publishedAt": null,
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-19-13",
+          "category": "融资动态",
+          "title": "工业自动化平台 Botsync 融资1100万美元",
+          "what": "Botsync 公布由 IvyCap Ventures 领投的1100万美元融资，继续拓展其连接工厂设备和机器人系统的 SyncOS 平台。",
+          "why": "工厂部署的一个实际难点是不同设备能否协同；融资金额不等于产品部署或订单金额。",
+          "sources": [
+            {
+              "name": "Botsync 公告",
+              "url": "https://www.botsync.co/blog/weve-raised-us11-million-to-help-factories-run-as-one"
+            }
+          ],
+          "sourceNote": "企业官网标11月18日，未核实发布时分。",
+          "publishedAt": null,
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-19-14",
+          "category": "创作工具",
+          "title": "Suno 的 Visuals 为歌曲制作视频和封面",
+          "what": "Suno 新工具可为歌曲生成短片、歌词视频或封面，并接受参考图；视觉积分与歌曲积分分开计算。",
+          "why": "创作者可以在音乐工具内制作发布素材，但新增使用成本和素材授权仍需分别考虑。",
+          "sources": [
+            {
+              "name": "Suno 产品公告",
+              "url": "https://suno.com/blog/introducing-visuals"
+            },
+            {
+              "name": "The Verge",
+              "url": "https://www.theverge.com/ai-artificial-intelligence/1036415/suno-visuals-ai-generated-video-images-feature"
+            }
+          ],
+          "sourceNote": "Suno 标11月17日未列时分；The Verge 北京时间11月18日19:16跟进。",
+          "publishedAt": "2026-11-18T19:16:00+08:00",
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-19-15",
+          "category": "AI人物发言",
+          "title": "前 OpenAI 研究员 Jacob Coxon 称拟捐出所持股权",
+          "what": "Coxon 在本人 X 帖文表示，拟将持有的 OpenAI 股权捐给 AI 安全事业，并重申放慢先进 AI 研发竞赛的主张。",
+          "why": "这是他公开披露的意向和政策立场；未核实是否已捐出，也没有可靠的金额或可比热度数据。",
+          "sources": [
+            {
+              "name": "Jacob Coxon 的 X 原帖",
+              "url": "https://x.com/hilbertspaess/status/2123105964014604781"
+            },
+            {
+              "name": "Business Insider",
+              "url": "https://www.businessinsider.com/ex-anthropic-engineer-will-donate-openai-equity-to-ai-safety-2026-11"
+            }
+          ],
+          "sourceNote": "原帖经公开镜像核对为北京时间11月19日01:28；媒体03:46发布。",
+          "publishedAt": "2026-11-19T01:28:00+08:00",
+          "timeStatus": "confirmed"
+        }
+      ],
+      "uncertainItems": [
+        {
+          "id": "2026-11-19-16",
+          "category": "融资与上市",
+          "title": "未证实：路透称 Anthropic IPO 定价83美元，募资813.1亿美元",
+          "what": "路透援引知情人士称，发行价为每股83美元，高于此前70至78美元指引，随后报道募资额为813.1亿美元。",
+          "why": "相较上期的提价传闻，本期新增了具体价格与规模；截至截稿未核实发行人的最终定价文件，募资额不等同于市值。",
+          "sources": [
+            {
+              "name": "路透社",
+              "url": "https://www.reuters.com/business/anthropic-clinches-biggest-ever-ipo-with-81-billion-offering-2026-11-18/"
+            },
+            {
+              "name": "SEC 招股书修订稿",
+              "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026074338/anthropicpbc-sx1ax3.htm"
+            }
+          ],
+          "sourceNote": "延续话题，事实待官方确认。路透后续报道北京时间11月19日07:19。",
+          "publishedAt": "2026-11-19T07:19:00+08:00",
+          "timeStatus": "uncertain"
+        },
+        {
+          "id": "2026-11-19-17",
+          "category": "政策监管",
+          "title": "未证实：美国政府据报考虑要求披露对中国 AI 模型的使用",
+          "what": "路透援引三名知情人士称，美国政府讨论要求美国企业公开其对中国模型的使用。",
+          "why": "披露要求与禁止使用是两回事；尚未核实已发布的规则文本或生效日期。",
+          "sources": [
+            {
+              "name": "路透社",
+              "url": "https://www.investing.com/news/stock-market-news/exclusivetrump-administration-weighs-forcing-us-firms-to-disclose-chinese-ai-use-5035455"
+            }
+          ],
+          "sourceNote": "事实存疑。路透社原稿的 Investing 转载显示美东11月18日06:04。",
+          "publishedAt": "2026-11-18T19:04:00+08:00",
+          "timeStatus": "uncertain"
+        },
+        {
+          "id": "2026-11-19-18",
+          "category": "开发工具",
+          "title": "时间待核：Gemini API 文档出现 Office 直传与多模态切片说明",
+          "what": "变更跟踪记录显示，Gemini API 文档增加 Office、OpenDocument 文件直传及文档、表格、音视频按片段处理的说明。",
+          "why": "应用可减少发送无关内容；文档写入、功能生效与正式公告可能不是同一天。",
+          "sources": [
+            {
+              "name": "Google Gemini API 更新日志",
+              "url": "https://ai.google.dev/gemini-api/docs/changelog"
+            },
+            {
+              "name": "DocsWatch 变更记录",
+              "url": "https://docswatch.stevetoth.ai/gemini/gemini-api-changelog/2026-11-18/"
+            }
+          ],
+          "sourceNote": "11月18日观测到文档更新，记录内的生效日期是11月6日，未将其认作本期正式上线。",
+          "publishedAt": null,
           "timeStatus": "uncertain"
         }
       ],
