@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-19 09:43",
+  "updatedAt": "2026-11-19 10:40",
   "timezone": "Asia/Shanghai",
   "coverageEnd": "2026-11-18",
   "plans": [
@@ -1033,9 +1033,12 @@
           "away": "博塔弗戈",
           "pick": "让负",
           "odds": 1.85,
-          "score": null,
+          "score": [
+            4,
+            0
+          ],
           "kickoff": "2026-11-19 08:30",
-          "source": "",
+          "source": "https://ge.globo.com/sp/futebol/brasileirao-serie-a/jogo/18-11-2026/corinthians-botafogo.ghtml",
           "handicap": -1,
           "finishedAt": null
         }
