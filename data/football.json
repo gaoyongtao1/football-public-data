@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-18 18:20",
+  "updatedAt": "2026-11-19 09:43",
   "timezone": "Asia/Shanghai",
   "coverageEnd": "2026-11-18",
   "plans": [
@@ -1018,9 +1018,12 @@
           "away": "巴拉纳竞技",
           "pick": "主胜",
           "odds": 1.1,
-          "score": null,
+          "score": [
+            2,
+            1
+          ],
           "kickoff": "2026-11-19 07:30",
-          "source": "",
+          "source": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/11/18/flamengo-x-athletico-pr-pelo-campeonato-brasileiro.ghtm",
           "handicap": null,
           "finishedAt": null
         },
@@ -1052,9 +1055,12 @@
           "away": "巴拉纳竞技",
           "pick": "主胜",
           "odds": 1.1,
-          "score": null,
+          "score": [
+            2,
+            1
+          ],
           "kickoff": "2026-11-19 07:30",
-          "source": "",
+          "source": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/11/18/flamengo-x-athletico-pr-pelo-campeonato-brasileiro.ghtm",
           "handicap": null,
           "finishedAt": null
         },
@@ -1064,9 +1070,12 @@
           "away": "桑托斯",
           "pick": "客胜",
           "odds": 1.78,
-          "score": null,
+          "score": [
+            0,
+            1
+          ],
           "kickoff": "2026-11-19 06:30",
-          "source": "",
+          "source": "https://ge.globo.com/pr/futebol/brasileirao-serie-a/jogo/18-11-2026/coritiba-santos.ghtml",
           "handicap": null,
           "finishedAt": null
         }
