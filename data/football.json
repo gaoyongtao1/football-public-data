@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-19 10:40",
+  "updatedAt": "2026-11-19 18:22",
   "timezone": "Asia/Shanghai",
-  "coverageEnd": "2026-11-18",
+  "coverageEnd": "2026-11-19",
   "plans": [
     {
       "id": "20261102-0",
@@ -1080,6 +1080,74 @@
           "kickoff": "2026-11-19 06:30",
           "source": "https://ge.globo.com/pr/futebol/brasileirao-serie-a/jogo/18-11-2026/coritiba-santos.ghtml",
           "handicap": null,
+          "finishedAt": null
+        }
+      ]
+    },
+    {
+      "id": "20261119-0",
+      "date": "2026-11-19",
+      "label": "主推",
+      "kind": "reference",
+      "snapshot": "北京时间2026-11-19 18:22核验；竞彩猫国内固定奖金同一可见快照，页面列4场可投注；足彩网和唯彩看球交叉核对赛程。竞彩网官方及逐场奖金更新时间、终端实售状态未核实。",
+      "note": "参考组合2.0868。两场均为主队−1让负，客队常规时间不败才命中；MLS外卡平局后直接点球，不计入常规赛果。首发及同口径赔率历史未核实。",
+      "legs": [
+        {
+          "number": "周四002",
+          "home": "圣保罗",
+          "away": "弗鲁米嫩塞",
+          "pick": "让负",
+          "odds": 1.41,
+          "score": null,
+          "kickoff": "2026-11-20 08:30",
+          "source": "",
+          "handicap": -1,
+          "finishedAt": null
+        },
+        {
+          "number": "周四003",
+          "home": "奥兰多城",
+          "away": "辛辛那提FC",
+          "pick": "让负",
+          "odds": 1.48,
+          "score": null,
+          "kickoff": "2026-11-20 08:30",
+          "source": "",
+          "handicap": -1,
+          "finishedAt": null
+        }
+      ]
+    },
+    {
+      "id": "20261119-1",
+      "date": "2026-11-19",
+      "label": "备选",
+      "kind": "reference",
+      "snapshot": "北京时间2026-11-19 18:22核验；竞彩猫国内固定奖金同一可见快照，页面列4场可投注；足彩网和唯彩看球交叉核对赛程。竞彩网官方及逐场奖金更新时间、终端实售状态未核实。",
+      "note": "参考组合2.1432。周四001主队＋1，维多利亚常规时间赢或平才命中。主备共用周四002，不构成对冲；首发及同口径赔率历史未核实。",
+      "legs": [
+        {
+          "number": "周四002",
+          "home": "圣保罗",
+          "away": "弗鲁米嫩塞",
+          "pick": "让负",
+          "odds": 1.41,
+          "score": null,
+          "kickoff": "2026-11-20 08:30",
+          "source": "",
+          "handicap": -1,
+          "finishedAt": null
+        },
+        {
+          "number": "周四001",
+          "home": "维多利亚",
+          "away": "布拉干蒂诺RB",
+          "pick": "让胜",
+          "odds": 1.52,
+          "score": null,
+          "kickoff": "2026-11-20 06:30",
+          "source": "",
+          "handicap": 1,
           "finishedAt": null
         }
       ]
