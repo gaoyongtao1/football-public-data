@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-20 18:20",
+  "updatedAt": "2026-11-21 05:58",
   "timezone": "Asia/Shanghai",
   "coverageEnd": "2026-11-20",
   "plans": [
@@ -1178,11 +1178,14 @@
           "away": "西班牙人",
           "pick": "主胜",
           "odds": 1.3,
-          "score": null,
+          "score": [
+            0,
+            1
+          ],
           "kickoff": "2026-11-21 04:00",
-          "source": "",
+          "source": "https://www.europapress.es/deportes/partidos-en-directo/noticia-athletic-bilbao-espanyol-directo-hoy-sigue-partido-laliga-ea-sports-minuto-minuto-20261120200120.html",
           "handicap": null,
-          "finishedAt": null
+          "finishedAt": "2026-11-21 05:54"
         },
         {
           "number": "周五005",
@@ -1190,9 +1193,12 @@
           "away": "芬洛",
           "pick": "让负",
           "odds": 1.58,
-          "score": null,
+          "score": [
+            1,
+            0
+          ],
           "kickoff": "2026-11-21 03:00",
-          "source": "",
+          "source": "https://www.knvb.nl/node/15417",
           "handicap": -1,
           "finishedAt": null
         }
@@ -1212,11 +1218,14 @@
           "away": "西班牙人",
           "pick": "主胜",
           "odds": 1.3,
-          "score": null,
+          "score": [
+            0,
+            1
+          ],
           "kickoff": "2026-11-21 04:00",
-          "source": "",
+          "source": "https://www.europapress.es/deportes/partidos-en-directo/noticia-athletic-bilbao-espanyol-directo-hoy-sigue-partido-laliga-ea-sports-minuto-minuto-20261120200120.html",
           "handicap": null,
-          "finishedAt": null
+          "finishedAt": "2026-11-21 05:54"
         },
         {
           "number": "周五004",
@@ -1224,11 +1233,14 @@
           "away": "马格德堡",
           "pick": "让负",
           "odds": 1.6,
-          "score": null,
+          "score": [
+            1,
+            2
+          ],
           "kickoff": "2026-11-21 01:30",
-          "source": "",
+          "source": "https://www.sportschau.de/live-und-ergebnisse/ma12195007/liveticker",
           "handicap": -1,
-          "finishedAt": null
+          "finishedAt": "2026-11-21 03:25"
         }
       ]
     }
