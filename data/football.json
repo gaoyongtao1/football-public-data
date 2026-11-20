@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-20 11:23",
+  "updatedAt": "2026-11-20 18:20",
   "timezone": "Asia/Shanghai",
-  "coverageEnd": "2026-11-19",
+  "coverageEnd": "2026-11-20",
   "plans": [
     {
       "id": "20261102-0",
@@ -1160,6 +1160,74 @@
           "kickoff": "2026-11-20 06:30",
           "source": "https://ge.globo.com/ba/futebol/times/vitoria/noticia/2026/11/19/vitoria-2-x-1-bragantino-assista-aos-gols-e-aos-melhores-momentos.ghtml",
           "handicap": 1,
+          "finishedAt": null
+        }
+      ]
+    },
+    {
+      "id": "20261120-0",
+      "date": "2026-11-20",
+      "label": "主推",
+      "kind": "reference",
+      "snapshot": "北京时间2026-11-20 18:20核验；采用500彩票网逐场国内奖金，周五008普通主胜为11月20日16:09所列，004让负为10:45所列，005让负为18:12所列。竞彩猫及足彩网005仍显示1.62。官方更新时间、终端实售状态未核实。",
+      "note": "组合参考2.0540。周五008须主队获胜，主队中卫和两名前锋缺阵；周五005须芬洛不败，芬洛上轮负且有缺阵及停赛。没有核实最终首发或可比预期进球。",
+      "legs": [
+        {
+          "number": "周五008",
+          "home": "毕尔巴鄂竞技",
+          "away": "西班牙人",
+          "pick": "主胜",
+          "odds": 1.3,
+          "score": null,
+          "kickoff": "2026-11-21 04:00",
+          "source": "",
+          "handicap": null,
+          "finishedAt": null
+        },
+        {
+          "number": "周五005",
+          "home": "登博思",
+          "away": "芬洛",
+          "pick": "让负",
+          "odds": 1.58,
+          "score": null,
+          "kickoff": "2026-11-21 03:00",
+          "source": "",
+          "handicap": -1,
+          "finishedAt": null
+        }
+      ]
+    },
+    {
+      "id": "20261120-1",
+      "date": "2026-11-20",
+      "label": "备选",
+      "kind": "reference",
+      "snapshot": "北京时间2026-11-20 18:20核验；采用500彩票网逐场国内奖金，周五008普通主胜为11月20日16:09所列，004让负为10:45所列，005让负为18:12所列。竞彩猫及足彩网005仍显示1.62。官方更新时间、终端实售状态未核实。",
+      "note": "组合参考2.0800。周五004须马格德堡不败，比勒菲尔德近5轮4胜且本季联赛主场未败，马格德堡有后卫停赛。主备共用周五008，不构成对冲。没有核实最终首发或可比预期进球。",
+      "legs": [
+        {
+          "number": "周五008",
+          "home": "毕尔巴鄂竞技",
+          "away": "西班牙人",
+          "pick": "主胜",
+          "odds": 1.3,
+          "score": null,
+          "kickoff": "2026-11-21 04:00",
+          "source": "",
+          "handicap": null,
+          "finishedAt": null
+        },
+        {
+          "number": "周五004",
+          "home": "比勒菲尔德",
+          "away": "马格德堡",
+          "pick": "让负",
+          "odds": 1.6,
+          "score": null,
+          "kickoff": "2026-11-21 01:30",
+          "source": "",
+          "handicap": -1,
           "finishedAt": null
         }
       ]
