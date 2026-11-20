@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-20 10:46",
+  "updatedAt": "2026-11-20 11:23",
   "timezone": "Asia/Shanghai",
   "coverageEnd": "2026-11-19",
   "plans": [
@@ -1113,9 +1113,12 @@
           "away": "辛辛那提FC",
           "pick": "让负",
           "odds": 1.48,
-          "score": null,
+          "score": [
+            1,
+            3
+          ],
           "kickoff": "2026-11-20 08:30",
-          "source": "",
+          "source": "https://vancouvertelevision.ca/after-the-whistle.php?game=fc-cincinnati-orlando-city-sc-2026-11-19-mls-401933535",
           "handicap": -1,
           "finishedAt": null
         }
