@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-19 18:22",
+  "updatedAt": "2026-11-20 10:46",
   "timezone": "Asia/Shanghai",
   "coverageEnd": "2026-11-19",
   "plans": [
@@ -1098,9 +1098,12 @@
           "away": "弗鲁米嫩塞",
           "pick": "让负",
           "odds": 1.41,
-          "score": null,
+          "score": [
+            0,
+            1
+          ],
           "kickoff": "2026-11-20 08:30",
-          "source": "",
+          "source": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/11/19/sao-paulo-x-fluminense-como-foi-o-jogo-pelo-brasileirao-2026.ghtm",
           "handicap": -1,
           "finishedAt": null
         },
@@ -1132,9 +1135,12 @@
           "away": "弗鲁米嫩塞",
           "pick": "让负",
           "odds": 1.41,
-          "score": null,
+          "score": [
+            0,
+            1
+          ],
           "kickoff": "2026-11-20 08:30",
-          "source": "",
+          "source": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/11/19/sao-paulo-x-fluminense-como-foi-o-jogo-pelo-brasileirao-2026.ghtm",
           "handicap": -1,
           "finishedAt": null
         },
@@ -1144,9 +1150,12 @@
           "away": "布拉干蒂诺RB",
           "pick": "让胜",
           "odds": 1.52,
-          "score": null,
+          "score": [
+            2,
+            1
+          ],
           "kickoff": "2026-11-20 06:30",
-          "source": "",
+          "source": "https://ge.globo.com/ba/futebol/times/vitoria/noticia/2026/11/19/vitoria-2-x-1-bragantino-assista-aos-gols-e-aos-melhores-momentos.ghtml",
           "handicap": 1,
           "finishedAt": null
         }
