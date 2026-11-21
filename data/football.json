@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-22 01:13",
+  "updatedAt": "2026-11-22 02:32",
   "timezone": "Asia/Shanghai",
   "coverageEnd": "2026-11-21",
   "plans": [
@@ -1298,9 +1298,12 @@
           "away": "伊普斯维奇",
           "pick": "主胜",
           "odds": 1.31,
-          "score": null,
+          "score": [
+            2,
+            0
+          ],
           "kickoff": "2026-11-21 23:00",
-          "source": "",
+          "source": "https://www.skysports.com/football/spurs-vs-ipswich/report/559553",
           "handicap": null,
           "finishedAt": null
         },
@@ -1310,11 +1313,14 @@
           "away": "PSV埃因霍温",
           "pick": "客胜",
           "odds": 1.46,
-          "score": null,
+          "score": [
+            1,
+            4
+          ],
           "kickoff": "2026-11-21 23:30",
-          "source": "",
+          "source": "https://nos.nl/liveblog/2640424-utrecht-cambuur-stilgelegd-feyenoord-en-excelsior-scoren-vroeg-1-1",
           "handicap": null,
-          "finishedAt": null
+          "finishedAt": "2026-11-22 01:27"
         }
       ]
     }
