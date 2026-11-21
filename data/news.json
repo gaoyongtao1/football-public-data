@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "timezone": "Asia/Shanghai",
-  "updatedAt": "2026-11-19 08:07",
+  "updatedAt": "2026-11-21 08:12",
   "issues": [
     {
       "id": "2026-11-06",
@@ -3468,6 +3468,224 @@
         }
       ],
       "images": []
+    },
+    {
+      "id": "2026-11-21",
+      "date": "2026-11-21",
+      "title": "AI圈新闻早报",
+      "summary": "Anthropic 完成 IPO 及同期私募，合计约1195亿美元；腾讯混元开放 Hy4 旗舰权重。",
+      "windowStart": "2026-11-20T00:00:00+08:00",
+      "windowEnd": "2026-11-21T08:00:00+08:00",
+      "items": [
+        {
+          "id": "2026-11-21-01",
+          "category": "投融资",
+          "title": "Anthropic 完成 IPO，连同私募合计约1195亿美元",
+          "what": "Anthropic 完成每股83美元、共11.27亿股的 IPO，发行总额约935亿美元，其中公司取得约916亿美元；同期向 AMD、Google、Microsoft、NVIDIA、TSMC 等七家机构私募约260亿美元。",
+          "why": "这是较上一期定价阶段的新进展：承销商全额行使增购权，1195亿美元是含售股股东所得的合计毛额，不是公司净募资。",
+          "sources": [
+            {
+              "name": "Anthropic",
+              "url": "https://www.anthropic.com/news/ipo-close"
+            },
+            {
+              "name": "金融时报",
+              "url": "https://www.ft.com/content/149d497e-0567-4467-bcfb-269b8b8eb157"
+            }
+          ],
+          "sourceNote": "Anthropic 公告（美国当地11月20日，未列时分）；《金融时报》（北京时间11月20日20:02）",
+          "publishedAt": "2026-11-20T20:02:46+08:00",
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-21-02",
+          "category": "模型与开源",
+          "title": "腾讯混元公开 Hy4 旗舰权重",
+          "what": "腾讯混元提供 Hy4 正式版、FP8 版和预训练基座权重；语言主干总参数7700亿、每个词元激活490亿，支持百万词元上下文。",
+          "why": "这次是权重开放，不是模型首次发布；开发者可以自行评估部署，商用仍需核对腾讯混元许可证。",
+          "sources": [
+            {
+              "name": "腾讯混元 GitHub",
+              "url": "https://github.com/Tencent-Hunyuan/Hy4"
+            },
+            {
+              "name": "腾讯混元公告镜像",
+              "url": "https://www.nitter.gq/TencentHunyuan/status/2123625549147070538"
+            }
+          ],
+          "sourceNote": "腾讯混元官方账号公告（北京时间11月20日11:52）；腾讯混元 GitHub",
+          "publishedAt": "2026-11-20T11:52:00+08:00",
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-21-03",
+          "category": "芯片与监管",
+          "title": "美国众议院委员会披露 NVIDIA、AMD 对华许可数据",
+          "what": "委员会披露相关申请涉及约340万颗 AI 芯片，美国商务部工业与安全局批准超过87.9万颗；另有议员向商务部询问对新加坡 Megaspeed 的调查处理。",
+          "why": "申请量、获准量和实际出货量并不等同；议员问询也不等于认定企业违规。",
+          "sources": [
+            {
+              "name": "众院外交事务委员会",
+              "url": "https://foreignaffairs.house.gov/news/press-releases/chairman-brian-mast-exercises-legislative-authority-to-publicly-release-ai-chip-license-information-for-china"
+            },
+            {
+              "name": "委员会少数党办公室",
+              "url": "https://democrats-foreignaffairs.house.gov/2026/11/meeks-kamlager-dove-demand-answers-from-commerce-on-megaspeed/"
+            }
+          ],
+          "sourceNote": "美国众议院外交事务委员会（华盛顿11月19日下午公布许可数据、11月20日发布问询说明）",
+          "publishedAt": null,
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-21-04",
+          "category": "模型与应用",
+          "title": "OpenAI 将 GPT-Live-1.1 开放给 API 开发者",
+          "what": "OpenAI 开放 GPT-Live-1.1，并让 GPT-Live-1 和 1.1 的 WebRTC 会话在连续静音5至60秒后可暂停推理，待机费率每分钟0.02美元，有人说话时恢复。",
+          "why": "更新面向实时语音应用，长会话中的静音时段可少占推理资源；这不是 ChatGPT 语音首次上线。",
+          "sources": [
+            {
+              "name": "OpenAI API 更新日志",
+              "url": "https://developers.openai.com/api/docs/changelog"
+            },
+            {
+              "name": "OpenAI 开发者公告镜像",
+              "url": "https://www.xitter.gq/OpenAIDevs/status/2123506763144245744"
+            }
+          ],
+          "sourceNote": "OpenAI 开发者官方账号（北京时间11月20日04:00）；OpenAI API 更新日志",
+          "publishedAt": "2026-11-20T04:00:00+08:00",
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-21-05",
+          "category": "政策与监管",
+          "title": "中国网信办公布新增133款生成式 AI 服务备案",
+          "what": "国家网信办公布9至10月新增133款服务备案、224款应用或功能登记；截至10月31日，累计分别为1245款和955款。",
+          "why": "直接调用已备案模型的应用或功能和模型服务走不同流程，上线后仍须按要求公示所用模型名称及备案号或上线编号。",
+          "sources": [
+            {
+              "name": "中国网信网",
+              "url": "https://www.cac.gov.cn/2026-11/20/c_1796918603542950.htm"
+            }
+          ],
+          "sourceNote": "中国网信网（北京时间11月20日17:00）",
+          "publishedAt": "2026-11-20T17:00:00+08:00",
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-21-06",
+          "category": "政策与算力",
+          "title": "特朗普称拟向在海外建设 AI 数据中心的美国企业征税",
+          "what": "特朗普11月20日在白宫表示，计划对在海外建设 AI 数据中心的美国公司征收重税，但未公布税率、执行机制或生效日期。",
+          "why": "如形成正式规则，可能影响跨境算力选址；目前是政策表态，不是已经实施的税收措施。",
+          "sources": [
+            {
+              "name": "美联社",
+              "url": "https://apnews.com/article/f1ac03b73d13445400eeed8631d9d879"
+            },
+            {
+              "name": "路透社",
+              "url": "https://www.reuters.com/technology/trump-says-us-penalize-firms-building-data-centers-abroad-2026-11-20/"
+            }
+          ],
+          "sourceNote": "美联社（北京时间11月21日01:45）；路透社（北京时间11月21日02:08）",
+          "publishedAt": "2026-11-21T01:45:03+08:00",
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-21-07",
+          "category": "科研与评测",
+          "title": "OpenAI 介绍药物化学评测 MedChemBench",
+          "what": "OpenAI 发布评测介绍：MedChemBench 由99道来自已发表研究的题目组成，GPT‑6.2 Astra 在该评测高推理设置下的得分为84.5%。",
+          "why": "这是对研究推理的回顾性评测，分数不等于发现有效药物，也不能代替实验验证。",
+          "sources": [
+            {
+              "name": "OpenAI",
+              "url": "https://openai.com/index/introducing-medchembench/"
+            }
+          ],
+          "sourceNote": "OpenAI（11月20日，未列时分）；本期报道的是新公布的评测介绍，不把论文落款日期当成新发表",
+          "publishedAt": null,
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-21-08",
+          "category": "AI人物发言",
+          "title": "刘文强：预计2030年智算需求中推理占85%",
+          "what": "中国电子信息产业发展研究院党委书记、副院长刘文强在长沙世界计算大会上表示，到2030年我国智能算力占总算力比重预计超90%，智算需求中推理预计占85%。",
+          "why": "这是行业趋势研判，不是当前实测比例，也不是强制指标；它提示算力规划不能只看训练需求。",
+          "sources": [
+            {
+              "name": "新华社",
+              "url": "https://www.news.cn/20261120/1ff3155b0a1e4f1cad897df03e6e44f0/c.html"
+            },
+            {
+              "name": "湖南省政府",
+              "url": "https://www.hunan.gov.cn/hnszf/szf/zfld/wyo/wyohdyjh/202611/t20261120_34107784.html"
+            }
+          ],
+          "sourceNote": "新华社（北京时间11月20日17:11）；湖南省政府（17:02）",
+          "publishedAt": "2026-11-20T17:11:24+08:00",
+          "timeStatus": "confirmed"
+        }
+      ],
+      "uncertainItems": [
+        {
+          "id": "2026-11-21-09",
+          "category": "热门消息｜未证实",
+          "title": "未证实：DeepSeek 第二轮融资金额和估值",
+          "what": "每日经济新闻引述工商信息称，DeepSeek 运营主体新增股东，注册资本由约1645万元增至1991.87万元；约1055亿元募资、约6155亿元投后估值来自第三方数据和媒体报道，未见公司公开确认。",
+          "why": "工商变更与融资金额是不同口径，注册资本不能直接证明融资对价；本期收录的是披露进展，不把工商变更写成今天发生。",
+          "sources": [
+            {
+              "name": "每日经济新闻",
+              "url": "https://m.nbd.com.cn/articles/2026-11-20/4653473.html"
+            },
+            {
+              "name": "IT之家",
+              "url": "https://www.ithome.com/1/030/199.htm"
+            }
+          ],
+          "sourceNote": "每日经济新闻（北京时间11月20日09:39）；IT之家（18:47）。存疑为金额和估值，传播范围以所列报道为限。",
+          "publishedAt": "2026-11-20T09:39:00+08:00",
+          "timeStatus": "uncertain"
+        },
+        {
+          "id": "2026-11-21-10",
+          "category": "热门消息｜未证实",
+          "title": "未证实：DayOne 暂缓美国 IPO 计划",
+          "what": "彭博援引知情人士称，新加坡数据中心运营商 DayOne 暂缓美国上市计划；此前据报募资目标最高50亿美元，未见公司公开证实暂停。",
+          "why": "与已完成交割的 Anthropic 不同，这只是潜在发行计划的变动，不代表上市已取消。",
+          "sources": [
+            {
+              "name": "彭博",
+              "url": "https://news.bloomberglaw.com/capital-markets/dayone-is-said-to-pause-us-ipo-on-data-center-market-concerns"
+            }
+          ],
+          "sourceNote": "彭博（北京时间11月20日13:41）。存疑为暂停决定及后续安排，热度证据限于该报道和多家媒体转载。",
+          "publishedAt": "2026-11-20T13:41:00+08:00",
+          "timeStatus": "uncertain"
+        },
+        {
+          "id": "2026-11-21-11",
+          "category": "热门消息｜未证实",
+          "title": "未证实：Apple 在开发自主操作智能体",
+          "what": "彭博记者 Mark Gurman 援引新招聘信息与知情人士称，Apple 正开发可操作设备和应用、浏览网页及辅助编程的智能体；Apple 未发布产品或确认上线日期。",
+          "why": "招聘可以表明团队在招相关人才，不能据此确认产品范围或发布时间。",
+          "sources": [
+            {
+              "name": "彭博原文（雅虎财经转载）",
+              "url": "https://uk.finance.yahoo.com/news/apple-working-ai-agent-device-214456605.html"
+            }
+          ],
+          "sourceNote": "彭博（北京时间11月20日05:44）。存疑为产品范围及上线安排；传播范围以彭博原报道和记者转述为限。",
+          "publishedAt": "2026-11-20T05:44:00+08:00",
+          "timeStatus": "uncertain"
+        }
+      ],
+      "images": [],
+      "note": "8条已核实（含1条人物发言），3条未证实。另核对 NVIDIA 新闻室及 SEC 披露，黄仁勋离任和 Colette Kress 代理任命属前期公告，未作今日新消息。社交平台可复核信息纳入对应条目，不以转发代替证实；未核实到可单列的全平台热度变化。"
     }
   ]
 }
