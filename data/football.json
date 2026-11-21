@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-21 05:58",
+  "updatedAt": "2026-11-21 18:21",
   "timezone": "Asia/Shanghai",
-  "coverageEnd": "2026-11-20",
+  "coverageEnd": "2026-11-21",
   "plans": [
     {
       "id": "20261102-0",
@@ -1241,6 +1241,74 @@
           "source": "https://www.sportschau.de/live-und-ergebnisse/ma12195007/liveticker",
           "handicap": -1,
           "finishedAt": "2026-11-21 03:25"
+        }
+      ]
+    },
+    {
+      "id": "20261121-0",
+      "date": "2026-11-21",
+      "label": "主推",
+      "kind": "reference",
+      "snapshot": "北京时间2026-11-21 18:21查阅；采用竞彩雷达标注源自中国体育彩票的国内奖金快照：周六005 18:01、周六012 17:53。该时间为第三方页面更新，竞彩官方更新时间及终端实售状态未核实。",
+      "note": "组合参考1.9320。周六005曼城联赛三连败，两名后场球员出场存疑；周六012伯恩茅斯各项赛事八连胜，森林防守组织严密。两场都是英超国际比赛日后首轮，存在共同轮换不确定性。",
+      "legs": [
+        {
+          "number": "周六005",
+          "home": "曼彻斯特城",
+          "away": "富勒姆",
+          "pick": "主胜",
+          "odds": 1.2,
+          "score": null,
+          "kickoff": "2026-11-21 20:30",
+          "source": "",
+          "handicap": null,
+          "finishedAt": null
+        },
+        {
+          "number": "周六012",
+          "home": "伯恩茅斯",
+          "away": "诺丁汉森林",
+          "pick": "主胜",
+          "odds": 1.61,
+          "score": null,
+          "kickoff": "2026-11-21 23:00",
+          "source": "",
+          "handicap": null,
+          "finishedAt": null
+        }
+      ]
+    },
+    {
+      "id": "20261121-1",
+      "date": "2026-11-21",
+      "label": "备选",
+      "kind": "reference",
+      "snapshot": "北京时间2026-11-21 18:21查阅；采用竞彩雷达标注源自中国体育彩票的国内奖金快照：周六013 17:53、周六017 18:10。该时间为第三方页面更新，竞彩官方更新时间及终端实售状态未核实。",
+      "note": "组合参考1.9126。周六013热刺上轮负于利兹，特尔与托辛缺阵；周六017 PSV联赛两连胜，但奈梅亨各项赛事两连胜。赛前首发待确认，主备没有共用比赛，不构成对冲。",
+      "legs": [
+        {
+          "number": "周六013",
+          "home": "托特纳姆热刺",
+          "away": "伊普斯维奇",
+          "pick": "主胜",
+          "odds": 1.31,
+          "score": null,
+          "kickoff": "2026-11-21 23:00",
+          "source": "",
+          "handicap": null,
+          "finishedAt": null
+        },
+        {
+          "number": "周六017",
+          "home": "奈梅亨",
+          "away": "PSV埃因霍温",
+          "pick": "客胜",
+          "odds": 1.46,
+          "score": null,
+          "kickoff": "2026-11-21 23:30",
+          "source": "",
+          "handicap": null,
+          "finishedAt": null
         }
       ]
     }
