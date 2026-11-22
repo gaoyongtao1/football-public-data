@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-22 18:27",
+  "updatedAt": "2026-11-23 03:12",
   "timezone": "Asia/Shanghai",
   "coverageEnd": "2026-11-22",
   "plans": [
@@ -1338,11 +1338,14 @@
           "away": "威尼斯",
           "pick": "主胜",
           "odds": 1.22,
-          "score": null,
+          "score": [
+            4,
+            0
+          ],
           "kickoff": "2026-11-22 19:30",
-          "source": "",
+          "source": "https://www.virgilio.it/sport/dirette/live/serie-a/22-11-2026/juventus-venezia/2638235/",
           "handicap": null,
-          "finishedAt": null
+          "finishedAt": "2026-11-22 21:21"
         },
         {
           "number": "周日012",
@@ -1350,11 +1353,14 @@
           "away": "曼彻斯特联",
           "pick": "主胜",
           "odds": 1.57,
-          "score": null,
+          "score": [
+            4,
+            0
+          ],
           "kickoff": "2026-11-23 00:30",
-          "source": "",
+          "source": "https://www.theguardian.com/football/live/2026/nov/22/liverpool-v-manchester-united-premier-league-live",
           "handicap": null,
-          "finishedAt": null
+          "finishedAt": "2026-11-23 02:23"
         }
       ]
     },
