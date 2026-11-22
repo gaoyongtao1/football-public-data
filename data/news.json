@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "timezone": "Asia/Shanghai",
-  "updatedAt": "2026-11-21 08:12",
+  "updatedAt": "2026-11-22 08:11",
   "issues": [
     {
       "id": "2026-11-06",
@@ -3686,6 +3686,252 @@
       ],
       "images": [],
       "note": "8条已核实（含1条人物发言），3条未证实。另核对 NVIDIA 新闻室及 SEC 披露，黄仁勋离任和 Colette Kress 代理任命属前期公告，未作今日新消息。社交平台可复核信息纳入对应条目，不以转发代替证实；未核实到可单列的全平台热度变化。"
+    },
+    {
+      "id": "2026-11-22",
+      "date": "2026-11-22",
+      "title": "AI圈新闻早报",
+      "summary": "今日最值得关注：Oracle 称已筹足履行 OpenAI 算力合同所需资金，下一座吉瓦级园区已取得全部许可；资金到位不等于机架已交付。",
+      "windowStart": "2026-11-21T00:00:00+08:00",
+      "windowEnd": "2026-11-22T08:03:00+08:00",
+      "note": "统计窗口为北京时间11月21日00:00至11月22日08:03。下列涉调查、融资谈判及数学证明的未证实条目不计入已核实新闻。来源报道时间与事件发生时间分别标注。",
+      "images": [],
+      "items": [
+        {
+          "id": "2026-11-22-01",
+          "category": "算力基建",
+          "title": "Oracle 称已筹足 OpenAI 合同所需资金",
+          "what": "Oracle 表示本月早些时候完成最后一轮筹资，包含供应商融资；Abilene 园区接近完工，下一座吉瓦级园区 Shackelford 已取得全部许可。",
+          "why": "这直接回应了合同资金是否到位的问题；公司预计数周内移交 NVIDIA Vera Rubin 机架，仍是交付计划，不是已完成。",
+          "sources": [
+            {
+              "name": "Oracle 公司声明",
+              "url": "https://www.oracle.com/news/announcement/oracle-statement-2026-11-20/"
+            },
+            {
+              "name": "路透社报道",
+              "url": "https://www.investing.com/news/stock-market-news/oracle-says-openai-infrastructure-deal-is-fully-funded-after-final-capital-raise-5042771"
+            }
+          ],
+          "sourceNote": "Oracle 标注美国当地11月20日，未列时分；路透转刊北京时间11月21日06:11。",
+          "publishedAt": null,
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-22-02",
+          "category": "开放权重",
+          "title": "Thinking Machines Lab 发布 Inkling 2 Mini",
+          "what": "模型有264亿总参数、34亿单次激活参数，输入支持文字和图像；公司称模型约需20GB内存，权重已在 Hugging Face 提供。",
+          "why": "用循环计算替代一部分参数体量，让开发者能在部分个人电脑上运行多模态模型；实际内存占用仍随输入长度和推理框架变化。",
+          "sources": [
+            {
+              "name": "Thinking Machines Lab 发布说明",
+              "url": "https://thinkingmachines.ai/news/inkling-2-mini/"
+            },
+            {
+              "name": "Hugging Face 模型卡",
+              "url": "https://huggingface.co/thinkingmachines/Inkling-2-Mini"
+            }
+          ],
+          "sourceNote": "发布稿标注美国当地11月20日，官方账号北京时间11月21日04:10发帖。",
+          "publishedAt": "2026-11-21T04:10:00+08:00",
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-22-03",
+          "category": "国内算力",
+          "title": "长沙展示 CLink 高速互连三项技术文件",
+          "what": "湖南省政府门户网报道，11月20日世界计算大会集中介绍 CLink 总则、加速器互连、超节点平等架构互连三项国家标准化指导性技术文件。",
+          "why": "它们为加速器和智算超节点互连提供共同技术依据；全国标准信息公共服务平台登记的发布日期是10月30日，大会展示并非首次发布。",
+          "sources": [
+            {
+              "name": "湖南省政府门户网",
+              "url": "https://searchs.hunan.gov.cn/hnszf/hnyw/sxsp/202611/t20261121_34107817.html"
+            },
+            {
+              "name": "全国标准信息公共服务平台",
+              "url": "https://std.samr.gov.cn/search/orgDetailView?data_id=518079AC50316659E06397BE0A0A09F3"
+            }
+          ],
+          "sourceNote": "湖南省政府门户网报道：北京时间11月21日07:27。",
+          "publishedAt": "2026-11-21T07:27:00+08:00",
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-22-04",
+          "category": "模型安全",
+          "title": "OpenAI 公布反蒸馏防护评估",
+          "what": "OpenAI 称，在其内部自适应红队评估中，受保护推理内容的提取成功率从 GPT‑6 Astra 原防护下的54.0%降至 GPT‑6.2 Astra 更新防护下的0.2%。",
+          "why": "这是模型提供方自测、且跨版本和防护设置的比较，不能等同于所有场景中的拦截率，也不能单独归因给某项措施。",
+          "sources": [
+            {
+              "name": "OpenAI 官方研究",
+              "url": "https://openai.com/index/combatting-adversarial-distillation/"
+            }
+          ],
+          "sourceNote": "研究页面标注11月20日；官方账号北京时间11月21日03:33发布相关公告。",
+          "publishedAt": "2026-11-21T03:33:00+08:00",
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-22-05",
+          "category": "产品应用",
+          "title": "ChatGPT Space 向符合条件的 Plus 用户逐步开放",
+          "what": "OpenAI 更新日志称，Space 面向全球年满18岁的 Plus 用户逐步开放，可协作编辑交互页面和演示文稿，并可根据所连应用设置内容自动更新。",
+          "why": "共享项目有了可继续编辑的入口，但需由有 Space 访问资格且获授权的账号打开，暂不支持公开链接。",
+          "sources": [
+            {
+              "name": "OpenAI 帮助中心更新日志",
+              "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+            }
+          ],
+          "sourceNote": "更新日志日期11月20日，未列时分；官方社交公告在北京时间11月21日凌晨。",
+          "publishedAt": null,
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-22-06",
+          "category": "国内算力",
+          "title": "算电协同论坛发布五项技术产品",
+          "what": "长沙世界计算大会的算电协同论坛成立解决方案工作组，并发布800V直流电源系统、服务器能效联动方案、RISC‑V服务器CPU V100等五项成果。",
+          "why": "发布将高密度供电、服务器能效和算力调度放在同一场景检验；尚不能由发布推断已实现规模节电。",
+          "sources": [
+            {
+              "name": "湖南省政府门户网",
+              "url": "https://searchs.hunan.gov.cn/hnszf/hnyw/zwdt/202611/t20261121_34107819.html"
+            }
+          ],
+          "sourceNote": "论坛于11月20日举办；门户网报道为北京时间11月21日08:20。",
+          "publishedAt": "2026-11-21T08:20:00+08:00",
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-22-07",
+          "category": "AI人物发言",
+          "title": "美国财长贝森特称现行对华芯片限制无需再加码",
+          "what": "美国财长 Scott Bessent 在 CNBC 采访中表示，NVIDIA H200 仍是其所称的现行对华出口门槛，不预计政策会变化。",
+          "why": "这是财长对现有政策的表态，不是商务部新许可、取消限制或已交货的证明。",
+          "sources": [
+            {
+              "name": "CNBC 采访报道",
+              "url": "https://www.cnbc.com/2026/11/20/treasury-secretary-scott-bessent.html"
+            },
+            {
+              "name": "美联社交叉核对",
+              "url": "https://apnews.com/article/88142455395552afe74caec3399a648b"
+            }
+          ],
+          "sourceNote": "采访为美国当地11月20日；美联社北京时间11月21日06:36报道。",
+          "publishedAt": "2026-11-21T06:36:00+08:00",
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-22-08",
+          "category": "AI人物发言",
+          "title": "延续话题｜特朗普再次公开支持黄仁勋回任 NVIDIA",
+          "what": "美国总统特朗普在白宫记者会上提出，希望黄仁勋道歉后回任；NVIDIA 此前已表态无意重新任命。",
+          "why": "这次的新信息是总统公开提出回任前提，不是董事会改口，也不是继任决定；公司向美国证交会申报的临时CEO仍为 Colette Kress。",
+          "sources": [
+            {
+              "name": "彭博社现场报道",
+              "url": "https://news.bloomberglaw.com/artificial-intelligence/trump-says-huang-should-return-to-nvidia-after-big-apology-1"
+            },
+            {
+              "name": "NVIDIA 向美国证交会披露的8‑K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000082/nvda-20261111.htm"
+            },
+            {
+              "name": "路透社此前报道",
+              "url": "https://www.reuters.com/business/nvidia-board-forms-committee-national-security-export-control-oversight-2026-11-17/"
+            }
+          ],
+          "sourceNote": "彭博社报道：北京时间11月21日03:27；此前董事会立场仅作背景。",
+          "publishedAt": "2026-11-21T03:27:00+08:00",
+          "timeStatus": "confirmed"
+        }
+      ],
+      "uncertainItems": [
+        {
+          "id": "2026-11-22-09",
+          "category": "公司治理",
+          "title": "未证实｜路透称 NVIDIA 会计做法受到美国证交会审视",
+          "what": "路透援引两名知情人士称，美国证交会执法人员在审视 NVIDIA 潜在会计问题；证交会拒评，NVIDIA 当时未立即回应。",
+          "why": "较此前媒体报道，新的说法是审视涉及会计问题；启动日期、具体科目及有无违规未获官方证实。",
+          "sources": [
+            {
+              "name": "路透社独家报道",
+              "url": "https://www.reuters.com/world/us-secs-nvidia-probe-is-examining-potential-accounting-issues-sources-say-2026-11-20/"
+            }
+          ],
+          "sourceNote": "事实存疑：报道时间可核，为北京时间11月21日03:13；不是监管认定。",
+          "publishedAt": "2026-11-21T03:13:00+08:00",
+          "timeStatus": "uncertain"
+        },
+        {
+          "id": "2026-11-22-10",
+          "category": "科研进展",
+          "title": "未证实｜Claude 辅助的黎曼猜想证明出现独立机器核验",
+          "what": "Anthropic 数学家 Levent Alpöge 公开了与 Claude 合作的证明主张；MIT 数学家 Andrew Sutherland 公布175,187个 Lean 模块编译通过，两个独立实现的内核接受导出证明。",
+          "why": "机器核验推动了实质复核，但不等于克雷数学研究所正式认定；其官网仍将黎曼猜想列为未解决。",
+          "sources": [
+            {
+              "name": "Alpöge 原始说明",
+              "url": "https://alpo.ge/remark.pdf"
+            },
+            {
+              "name": "Sutherland 核验记录",
+              "url": "https://math.mit.edu/~drew/grh/"
+            },
+            {
+              "name": "克雷数学研究所",
+              "url": "https://www.claymath.org/millennium/Riemann-Hypothesis/"
+            }
+          ],
+          "sourceNote": "事实存疑：未将证明主张写成定论；核验页更新时间为北京时间11月21日20:55。",
+          "publishedAt": "2026-11-21T20:55:00+08:00",
+          "timeStatus": "uncertain"
+        },
+        {
+          "id": "2026-11-22-11",
+          "category": "科研进展",
+          "title": "未证实｜两位作者公开无外力流体方程的有限时爆破解法主张",
+          "what": "Tristan Buckmaster 与 Levent Alpöge 公布一份79页论文和部分 Lean 材料，主张三维无外力 Navier–Stokes 方程可从光滑初始条件出发发生有限时爆破。",
+          "why": "这与有外力版本的结果不同；作者公开的材料仍有缺项，论文发布不等于完整的独立复核或正式认定。",
+          "sources": [
+            {
+              "name": "作者 GitHub 仓库",
+              "url": "https://github.com/tristanbuckmaster/navier-stokes"
+            },
+            {
+              "name": "The Next Web 核对报道",
+              "url": "https://thenextweb.com/news/navier-stokes-blow-up-without-force-buckmaster-alpoge"
+            }
+          ],
+          "sourceNote": "事实存疑：所称结论尚未获正式认定；The Next Web 北京时间11月21日21:15报道。",
+          "publishedAt": "2026-11-21T21:15:00+08:00",
+          "timeStatus": "uncertain"
+        },
+        {
+          "id": "2026-11-22-12",
+          "category": "融资",
+          "title": "未证实｜Cognition 与 Databricks 分别传出融资洽谈",
+          "what": "彭博社称 Cognition 正就750亿美元估值洽谈新一轮融资；《华尔街日报》称 Databricks 初步洽谈按约2250亿美元估值融资数十亿美元。",
+          "why": "两个数字都是媒体报道的洽谈估值，并非融资金额或已完成交易；未查见两家公司确认该轮交易完成。",
+          "sources": [
+            {
+              "name": "路透社转述彭博社",
+              "url": "https://www.reuters.com/technology/cognition-ai-talks-be-valued-75-billion-latest-funding-round-bloomberg-news-2026-11-20/"
+            },
+            {
+              "name": "路透社转述《华尔街日报》",
+              "url": "https://www.channelnewsasia.com/business/databricks-in-early-talks-raise-funds-225-billion-valuation-wsj-reports-6570836"
+            }
+          ],
+          "sourceNote": "事实存疑：两项均为具名媒体援引知情人士的报道；北京时间11月21日早间传播。",
+          "publishedAt": null,
+          "timeStatus": "uncertain"
+        }
+      ]
     }
   ]
 }
