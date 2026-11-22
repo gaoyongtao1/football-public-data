@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-23 03:12",
+  "updatedAt": "2026-11-23 05:50",
   "timezone": "Asia/Shanghai",
   "coverageEnd": "2026-11-22",
   "plans": [
@@ -1378,9 +1378,12 @@
           "away": "乌迪内斯",
           "pick": "主胜",
           "odds": 1.47,
-          "score": null,
+          "score": [
+            1,
+            1
+          ],
           "kickoff": "2026-11-22 22:00",
-          "source": "",
+          "source": "https://www.udinese.it/Apps/WebObjects/Udinese.woa/wa/viewSection?id=93866&lang=ita",
           "handicap": null,
           "finishedAt": null
         },
@@ -1390,9 +1393,12 @@
           "away": "国际米兰",
           "pick": "客胜",
           "odds": 1.34,
-          "score": null,
+          "score": [
+            4,
+            4
+          ],
           "kickoff": "2026-11-23 03:45",
-          "source": "",
+          "source": "https://sport.sky.it/calcio/serie-a/partite/2026/giornata-12/atalanta-inter/risultato-gol",
           "handicap": null,
           "finishedAt": null
         }
