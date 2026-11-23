@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-23 18:26",
+  "updatedAt": "2026-11-24 06:38",
   "timezone": "Asia/Shanghai",
   "coverageEnd": "2026-11-23",
   "plans": [
@@ -1418,9 +1418,12 @@
           "away": "敦刻尔克",
           "pick": "让负",
           "odds": 1.45,
-          "score": null,
+          "score": [
+            2,
+            3
+          ],
           "kickoff": "2026-11-24 03:45",
-          "source": "",
+          "source": "https://www.ouest-france.fr/sport/football/resultats-matchs/match-dunkerque-sochaux-1291-1328/",
           "handicap": -1,
           "finishedAt": null
         },
@@ -1430,11 +1433,14 @@
           "away": "埃弗顿",
           "pick": "让负",
           "odds": 1.47,
-          "score": null,
+          "score": [
+            4,
+            0
+          ],
           "kickoff": "2026-11-24 04:00",
-          "source": "",
+          "source": "https://www.theguardian.com/football/live/2026/nov/23/brentford-v-everton-premier-league-live",
           "handicap": -1,
-          "finishedAt": null
+          "finishedAt": "2026-11-24 06:03"
         }
       ]
     },
@@ -1452,9 +1458,12 @@
           "away": "敦刻尔克",
           "pick": "让负",
           "odds": 1.45,
-          "score": null,
+          "score": [
+            2,
+            3
+          ],
           "kickoff": "2026-11-24 03:45",
-          "source": "",
+          "source": "https://www.ouest-france.fr/sport/football/resultats-matchs/match-dunkerque-sochaux-1291-1328/",
           "handicap": -1,
           "finishedAt": null
         },
