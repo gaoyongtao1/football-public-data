@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-23 05:50",
+  "updatedAt": "2026-11-23 18:26",
   "timezone": "Asia/Shanghai",
-  "coverageEnd": "2026-11-22",
+  "coverageEnd": "2026-11-23",
   "plans": [
     {
       "id": "20261102-0",
@@ -1400,6 +1400,74 @@
           "kickoff": "2026-11-23 03:45",
           "source": "https://sport.sky.it/calcio/serie-a/partite/2026/giornata-12/atalanta-inter/risultato-gol",
           "handicap": null,
+          "finishedAt": null
+        }
+      ]
+    },
+    {
+      "id": "20261123-0",
+      "date": "2026-11-23",
+      "label": "主推",
+      "kind": "reference",
+      "snapshot": "北京时间2026-11-23 18:23核对。500彩票网让球固定奖金走势，竞彩猫交叉核对；中国体彩网官方更新时间及终端可售状态未核实。 周一004和005奖金记录为11月23日17:09。",
+      "note": "组合参考2.1315。索肖联赛四连败且有缺阵，敦刻尔克上轮3:0胜甘冈但本年法乙零封偏少。布伦特福德中锋伊戈尔·蒂亚戈停赛，科林斯和希基伤缺；威尔逊可能顶替。双方首发未确认。两组共用周一004。预计11月24日可查常规赛果。",
+      "legs": [
+        {
+          "number": "周一004",
+          "home": "索肖",
+          "away": "敦刻尔克",
+          "pick": "让负",
+          "odds": 1.45,
+          "score": null,
+          "kickoff": "2026-11-24 03:45",
+          "source": "",
+          "handicap": -1,
+          "finishedAt": null
+        },
+        {
+          "number": "周一005",
+          "home": "布伦特福德",
+          "away": "埃弗顿",
+          "pick": "让负",
+          "odds": 1.47,
+          "score": null,
+          "kickoff": "2026-11-24 04:00",
+          "source": "",
+          "handicap": -1,
+          "finishedAt": null
+        }
+      ]
+    },
+    {
+      "id": "20261123-1",
+      "date": "2026-11-23",
+      "label": "备选",
+      "kind": "reference",
+      "snapshot": "北京时间2026-11-23 18:23核对。500彩票网让球固定奖金走势，竞彩猫交叉核对；中国体彩网官方更新时间及终端可售状态未核实。 周一004记录为11月23日17:09，周一008仅查到11月21日11:03旧快照。",
+      "note": "组合参考2.1025。索肖联赛四连败，但敦刻尔克零封不多。洛杉矶FC十月不败，圣路易斯城常规赛西部第三并有主场优势；季后赛首轮打平后直接罚点球，常规比分不计点球大战。两组共用周一004。预计11月24日可查常规赛果。",
+      "legs": [
+        {
+          "number": "周一004",
+          "home": "索肖",
+          "away": "敦刻尔克",
+          "pick": "让负",
+          "odds": 1.45,
+          "score": null,
+          "kickoff": "2026-11-24 03:45",
+          "source": "",
+          "handicap": -1,
+          "finishedAt": null
+        },
+        {
+          "number": "周一008",
+          "home": "圣路易斯城",
+          "away": "洛杉矶FC",
+          "pick": "让负",
+          "odds": 1.45,
+          "score": null,
+          "kickoff": "2026-11-24 09:00",
+          "source": "",
+          "handicap": -1,
           "finishedAt": null
         }
       ]
