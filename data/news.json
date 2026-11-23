@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "timezone": "Asia/Shanghai",
-  "updatedAt": "2026-11-22 08:11",
+  "updatedAt": "2026-11-23T08:08:08+08:00",
   "issues": [
     {
       "id": "2026-11-06",
@@ -3932,6 +3932,168 @@
           "timeStatus": "uncertain"
         }
       ]
+    },
+    {
+      "id": "2026-11-23",
+      "date": "2026-11-23",
+      "title": "AI圈新闻早报",
+      "summary": "Lean 与 Mathlib 社区公布对 Claude 辅助黎曼猜想证明的联合核验，既核对了所证命题，也验证了形式化证明；这还不是克雷数学研究所的正式认定。",
+      "windowStart": "2026-11-22T00:00:00+08:00",
+      "windowEnd": "2026-11-23T08:05:40+08:00",
+      "note": "以可追溯的公开报道、公告或发言时间为准，事件发生日不同的一并注明。公司自述、人物主张和并购传闻不等于独立或正式结论。配图为 AI 生成示意，非新闻现场。",
+      "items": [
+        {
+          "category": "科研复核",
+          "title": "延续话题｜Lean 与 Mathlib 社区确认黎曼猜想形式化证明通过核验",
+          "what": "两社区的联合声明称，独立工具确认了 Alpöge 与 Claude 合作的形式化证明所证命题与 Mathlib 中的黎曼猜想一致，多个验证器接受了导出的证明。",
+          "why": "相较前期单独的机器核验，这次明确核对了所证命题；这里确认的是联合声明和验证结果，克雷数学研究所仍将该题列为未解。",
+          "sources": [
+            {
+              "name": "Lean 与 Mathlib 联合声明",
+              "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/"
+            },
+            {
+              "name": "《卫报》更新报道",
+              "url": "https://www.theguardian.com/technology/2026/nov/21/anthropic-riemann-hypothesis-solved-claude-ai"
+            },
+            {
+              "name": "克雷数学研究所",
+              "url": "https://www.claymath.org/millennium/Riemann-Hypothesis/"
+            }
+          ],
+          "sourceNote": "联合声明页面标11月21日；《卫报》北京时间11月23日01:55更新纳入声明。",
+          "publishedAt": "2026-11-23T01:55:27+08:00",
+          "timeStatus": "confirmed",
+          "id": "2026-11-23-01"
+        },
+        {
+          "category": "推理平台与隐私",
+          "title": "OpenRouter 移除3家供应商，125个端点取消零留存资格",
+          "what": "OpenRouter 称已移除3家供应商、取消125个端点的零数据留存资格并通知可能受影响客户；其公告同时列出 Together AI 等相关供应商披露。",
+          "why": "125个包含预防性撤销，并非都已确认泄露；OpenRouter 称未发现平台本身被入侵，企业仍需核对所用端点的留存状态。",
+          "sources": [
+            {
+              "name": "OpenRouter 公告",
+              "url": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/"
+            },
+            {
+              "name": "Together AI 事件披露",
+              "url": "https://www.together.ai/blog/security-event-prompt-leakage-for-requests-in-june-and-july-of-2026"
+            }
+          ],
+          "sourceNote": "OpenRouter 官方账号北京时间11月22日09:32发布消息。",
+          "publishedAt": "2026-11-22T09:32:00+08:00",
+          "timeStatus": "confirmed",
+          "id": "2026-11-23-02"
+        },
+        {
+          "category": "芯片与公司治理",
+          "title": "延续话题｜美国财长称仍向 NVIDIA 追问出口合规",
+          "what": "美国财长 Scott Bessent 在 CBS 表示，美方已联系 NVIDIA 临时管理层、董事及律师，尚未拿到所需答复，仍在问谁负责相关合规。",
+          "why": "当前确认的是政府在追问，不是查实违法或宣布新的出口限制，也不是 NVIDIA 董事会公布新任 CEO。",
+          "sources": [
+            {
+              "name": "CBS 采访实录",
+              "url": "https://www.cbsnews.com/news/transcript-treasury-secretary-scott-bessent-face-the-nation-with-margaret-brennan-nov-22-2026/"
+            },
+            {
+              "name": "路透社",
+              "url": "https://www.reuters.com/world/china/us-seeks-answers-nvidias-sale-chips-china-bessent-says-2026-11-22/"
+            },
+            {
+              "name": "NVIDIA 此前8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000082/nvda-20261111.htm"
+            }
+          ],
+          "sourceNote": "CBS 采访为美国当地11月22日；路透社北京时间11月23日01:48报道。",
+          "publishedAt": "2026-11-23T01:48:34+08:00",
+          "timeStatus": "confirmed",
+          "id": "2026-11-23-03"
+        },
+        {
+          "category": "国内标准",
+          "title": "我国启动具身智能数据国家标准研制",
+          "what": "国家数据局透露，“十五五”期间拟陆续形成20余项专项国家标准，并同步试点验证，覆盖人形机器人、特种作业机器人和工业协作机械臂等应用。",
+          "why": "启动研制不是已发布或强制执行；试点可检验不同应用的数据规范能否共用。",
+          "sources": [
+            {
+              "name": "国家数据局转载央视新闻",
+              "url": "https://www.nda.gov.cn/sjj/swdt/mtsy/1122/20261122201646034268538_pc.html"
+            }
+          ],
+          "sourceNote": "央视新闻于北京时间11月22日报道，国家数据局同日发布。",
+          "publishedAt": null,
+          "timeStatus": "confirmed",
+          "id": "2026-11-23-04"
+        },
+        {
+          "category": "行业模型应用",
+          "title": "南水北调「天河」V2 接入27颗卫星和237部雷达",
+          "what": "最新版于11月21日发布；《北京日报》11月22日报道，系统汇集雨情、水情和工情数据，已将部分防汛形势分析从小时级压缩到分钟级。",
+          "why": "这是一项明确的水网应用；该耗时为报道所述的场景表现，不等于全国水网均已部署或由模型自动决策。",
+          "sources": [
+            {
+              "name": "中国水利网站",
+              "url": "https://www.chinawater.com.cn/df/bj/202611/t20261121_1075208.html"
+            },
+            {
+              "name": "北京日报",
+              "url": "https://m.takefoto.cn/news/2026/11/22/12039722.shtml"
+            }
+          ],
+          "sourceNote": "发布是北京时间11月21日；《北京日报》11月22日11:40报道应用细节。",
+          "publishedAt": "2026-11-22T11:40:00+08:00",
+          "timeStatus": "confirmed",
+          "id": "2026-11-23-05"
+        },
+        {
+          "category": "AI人物发言",
+          "title": "OpenAI 首席科学家建议为前沿训练设共同阈值",
+          "what": "Jakub Pachocki 公开部分模型的预训练评估数据，建议将困惑度与其他指标结合设立开发阈值，待监测达到明确里程碑后再跨越；Sam Altman 公开支持。",
+          "why": "困惑度衡量下一词元预测，不等于实际任务表现；在不同评估集上也难直接相比。当前是倡议，不是已达成的行业协议。",
+          "sources": [
+            {
+              "name": "OpenAI 原文",
+              "url": "https://openai.com/index/perplexity-and-intelligence/"
+            },
+            {
+              "name": "Sam Altman 的 X 原帖",
+              "url": "https://x.com/sama/status/2124551594691932405"
+            },
+            {
+              "name": "路透社",
+              "url": "https://www.reuters.com/business/openai-scientist-proposes-industry-ai-limits-tied-model-intelligence-metric-2026-11-22/"
+            }
+          ],
+          "sourceNote": "OpenAI 署11月22日；路透社北京时间11月23日07:09报道。",
+          "publishedAt": "2026-11-23T07:09:53+08:00",
+          "timeStatus": "confirmed",
+          "id": "2026-11-23-06"
+        }
+      ],
+      "uncertainItems": [
+        {
+          "category": "热门消息｜未证实",
+          "title": "未证实｜《金融时报》称 Amazon 接近以约75亿美元收购 Decart",
+          "what": "《金融时报》援引知情人士报道，Amazon 与视频模型初创企业 Decart 的并购谈判进入后期；未查见双方正式签约或交割公告。",
+          "why": "被报道的是谈判与拟议价格，不是已完成交易；若落实，将涉及视频模型及推理软件团队的整合。",
+          "sources": [
+            {
+              "name": "《金融时报》原报道",
+              "url": "https://www.ft.com/content/dc7749dc-0f40-44a6-80bc-7f747d383616"
+            },
+            {
+              "name": "The Information 转述",
+              "url": "https://www.theinformation.com/briefings/amazon-nearing-7-5-billion-purchase-decart"
+            }
+          ],
+          "sourceNote": "事实未证实。原报道北京时间11月22日01:21；The Information 转述的是同一消息。",
+          "publishedAt": "2026-11-22T01:21:36+08:00",
+          "timeStatus": "uncertain",
+          "id": "2026-11-23-07"
+        }
+      ],
+      "images": []
     }
   ]
 }
