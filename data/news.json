@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "timezone": "Asia/Shanghai",
-  "updatedAt": "2026-11-23T08:08:08+08:00",
+  "updatedAt": "2026-11-24T08:03:09+08:00",
   "issues": [
     {
       "id": "2026-11-06",
@@ -4093,6 +4093,319 @@
           "id": "2026-11-23-07"
         }
       ],
+      "images": []
+    },
+    {
+      "id": "2026-11-24",
+      "date": "2026-11-24",
+      "title": "2026年11月24日｜AI圈新闻早报",
+      "summary": "今日最值得关注：NVIDIA 董事会一致同意黄仁勋复任 CEO；独立调查继续，公司将物色首席合规官。",
+      "note": "统计时间为北京时间；公司评测、管理层判断与未证实消息分别归因。来源只列日期的不补写钟点。第17条原报道早于本期统计窗口，不计入本期，网页文字版不收录。",
+      "windowStart": "2026-11-23T00:00:00+08:00",
+      "windowEnd": "2026-11-24T08:00:00+08:00",
+      "items": [
+        {
+          "id": "2026-11-24-01",
+          "category": "公司治理｜延续话题",
+          "title": "NVIDIA 恢复黄仁勋 CEO 职务，独立调查继续",
+          "what": "NVIDIA 董事会一致决定让黄仁勋复任总裁、CEO 及董事；Harvey Jones 留任董事长，Colette Kress 继续担任 CFO，公司将物色首席合规官。",
+          "why": "复任结束了临时 CEO 安排，但不等于调查结案。董事会称复任不构成国家安全风险，仍将完成独立调查并配合政府问询。",
+          "sources": [
+            {
+              "name": "NVIDIA 公告",
+              "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director"
+            },
+            {
+              "name": "SEC 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000090/nvda-20261122.htm"
+            },
+            {
+              "name": "路透社",
+              "url": "https://www.reuters.com/technology/nvidia-reinstates-jensen-huang-ceo-2026-11-23/"
+            }
+          ],
+          "sourceNote": "8-K 载明董事会11月22日作出决定；公司11月23日公开，路透在北京时间11月23日21:59报道。",
+          "publishedAt": "2026-11-23T21:59:25+08:00",
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-24-02",
+          "category": "并购｜延续话题",
+          "title": "Amazon 签约购买 Decart 优化技术，未公布金额",
+          "what": "Amazon 公布已签协议，拟购买 Decart Optimization Stack 背后的专有技术，并吸纳三位联合创始人与研究、工程团队。",
+          "why": "协议范围是技术与团队，不等于收购整个公司；仍须满足监管审批等交割条件，约75亿美元的媒体估值未获公司确认。",
+          "sources": [
+            {
+              "name": "Amazon 公告",
+              "url": "https://www.aboutamazon.com/news/company-news/amazon-decart-ai-optimization"
+            },
+            {
+              "name": "路透社",
+              "url": "https://www.reuters.com/business/retail-consumer/amazon-buy-decarts-ai-chip-optimization-tech-latest-ai-talent-grab-2026-11-23/"
+            }
+          ],
+          "sourceNote": "Amazon 公告标美国当地11月23日；路透北京时间11月23日23:33报道。",
+          "publishedAt": "2026-11-23T23:33:30+08:00",
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-24-03",
+          "category": "算力基建",
+          "title": "Applied Digital 签下150兆瓦、18年数据中心租约",
+          "what": "Applied Digital 称已与一家未具名的投资级超大规模云厂商签下租约，基础租期合同收入约54亿美元。",
+          "why": "租约帮助锁定长期算力需求，但合同收入不等于已入账收入；127亿美元是租约续期选项全部行使的情景。",
+          "sources": [
+            {
+              "name": "Applied Digital 投资者关系",
+              "url": "https://ir.applieddigital.com/news-events/press-releases/detail/165/applied-digital-secures-new-150-mw-18-year-lease-with"
+            },
+            {
+              "name": "路透社",
+              "url": "https://www.reuters.com/business/applied-digital-signs-54-billion-ai-data-center-lease-with-hyperscaler-2026-11-23/"
+            }
+          ],
+          "sourceNote": "公司公告标美国当地11月23日；路透北京时间11月23日21:52报道。",
+          "publishedAt": "2026-11-23T21:52:52+08:00",
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-24-04",
+          "category": "大模型",
+          "title": "智谱发布 GLM-5.4，首发接入 Coding Plan",
+          "what": "智谱称 GLM-5.4 是其首款基于 Loop Transformer 的旗舰模型，在7500亿参数基座上安排部分层循环计算，并加入视觉输入。",
+          "why": "模型已接入 Coding Plan，官方称部分套餐额度提升至1.5倍；API 待安全评估后开放，权重未随本次发布同步开放。",
+          "sources": [
+            {
+              "name": "智谱认证微博",
+              "url": "https://www.sina.cn/news/detail/5368477856826133.html"
+            }
+          ],
+          "sourceNote": "官方微博北京时间11月23日18:05发布。",
+          "publishedAt": "2026-11-23T18:05:00+08:00",
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-24-05",
+          "category": "产品更新",
+          "title": "GPT-6.2 开始推送至 ChatGPT 的聊天页",
+          "what": "OpenAI 宣布向 Plus、Pro、Business、Enterprise 的聊天页逐步推送基于 GPT-6.2 Sol 的版本；公司内部的图像理解测试得分由 GPT-6 的47.4%升至71.7%。",
+          "why": "这是聊天体验更新，不改变 Work 或 Codex 所用模型；评测提升是公司内部结果，Enterprise 是否可用还取决于管理员设置。",
+          "sources": [
+            {
+              "name": "OpenAI 更新日志",
+              "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+            }
+          ],
+          "sourceNote": "官方日志标11月23日，未列发布钟点。",
+          "publishedAt": null,
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-24-06",
+          "category": "研究与开源",
+          "title": "Google DeepMind 用 Gemini 4 与 Lean 改进量子算法",
+          "what": "Google DeepMind 介绍由 Gemini 4 智能体搜索、Lean 核验的量子电路优化，并称某一 Grover 搜索实现的速度提升2.57倍。",
+          "why": "团队公开用于核验的 Lean 库；这是对指定算法实现的资源估计和形式化证明，不代表已在量子硬件上实测。",
+          "sources": [
+            {
+              "name": "Google DeepMind",
+              "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/"
+            }
+          ],
+          "sourceNote": "研究团队文章标11月23日，未列钟点。",
+          "publishedAt": null,
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-24-07",
+          "category": "工程工具",
+          "title": "Anthropic 发布面向 GitHub 团队的 Claude Ship",
+          "what": "Anthropic 将已正式可用的 Code Review 与测试中的 PR Steward、Claude Approvals 组合，用于辅助团队审查改动、处理常规流程问题及按规则审批。",
+          "why": "代码审查开始和团队既有审批规则衔接；两项能力仍在测试，启用不等于可以取消人工责任或审计。",
+          "sources": [
+            {
+              "name": "Anthropic 公告",
+              "url": "https://claude.com/resources/articles/introducing-claude-ship"
+            },
+            {
+              "name": "TechCrunch",
+              "url": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/"
+            }
+          ],
+          "sourceNote": "官宣标美国当地11月23日；TechCrunch 北京时间11月24日06:05报道。",
+          "publishedAt": "2026-11-24T06:05:00+08:00",
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-24-08",
+          "category": "算力硬件",
+          "title": "微软在 Azure 实验室验证 AMD Helios 整机柜",
+          "what": "AMD 称微软首套 Helios 已在 Azure 实验室通电，采用 MI455X 加速器的系统已成功执行早期验证负载。",
+          "why": "进展由交付进入工作负载验证，说明 Azure 正评估另一种整机柜推理方案，不等于客户已能规模使用。",
+          "sources": [
+            {
+              "name": "AMD 新闻室",
+              "url": "https://newsroom.amd.com/news/microsoft-running-workload-validation-amd-helios-rackscale-solution/"
+            }
+          ],
+          "sourceNote": "AMD 11月23日发布，未列钟点。",
+          "publishedAt": null,
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-24-09",
+          "category": "开放权重",
+          "title": "腾讯微信 AI 开放 WePocketModel 1.0",
+          "what": "腾讯微信 AI 开放2B和4B两档权重，以共享视觉语言骨干支持表征、生成与候选决策三类任务。",
+          "why": "有助探索在本机共用一套多模态模型；公开的约8 GB数字只算4B模型的 BF16 权重，实际运行内存更高。",
+          "sources": [
+            {
+              "name": "腾讯官方 GitHub",
+              "url": "https://github.com/Tencent/WePocketModel"
+            }
+          ],
+          "sourceNote": "仓库发布记录标11月23日，未列钟点。",
+          "publishedAt": null,
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-24-10",
+          "category": "行业模型",
+          "title": "蚂蚁阿福公开 LingSante 医疗健康模型系列",
+          "what": "蚂蚁集团宣布推出 LingSante 系列，首先亮相 LingSante-3.1-air-VL 和 LingSante-3.1-flash，后续分阶段开放系列权重。",
+          "why": "开发者可检查率先公开的模型资料；医疗问答评测不等于临床验证，也不意味着可替代专业诊断。",
+          "sources": [
+            {
+              "name": "蚂蚁集团公告",
+              "url": "https://www.antgroup.com/en/news-media/press-releases/1795402800000"
+            },
+            {
+              "name": "inclusionAI 模型卡",
+              "url": "https://huggingface.co/inclusionAI/LingSante-3.1-flash"
+            }
+          ],
+          "sourceNote": "蚂蚁集团公告标11月23日，未列钟点。",
+          "publishedAt": null,
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-24-11",
+          "category": "推理价格",
+          "title": "华为云下调贵阳一区 DeepSeek 模型缓存命中价",
+          "what": "华为云对贵阳一地域的 DeepSeek-V4.1-Flash-1017，将缓存命中输入价格降为原价的20%，其余价格不变。",
+          "why": "利好重复发送相同上下文的应用；此次不是模型全面降价，也不能外推到其他地域。",
+          "sources": [
+            {
+              "name": "华为云公告",
+              "url": "https://www.huaweicloud.com/notice/20261120184415438.html"
+            },
+            {
+              "name": "财联社",
+              "url": "https://api3.cls.cn/share/article/2541230"
+            }
+          ],
+          "sourceNote": "新价北京时间11月23日00:00生效；财联社11月23日报道。",
+          "publishedAt": null,
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-24-12",
+          "category": "行业治理",
+          "title": "证券业 AI 联盟由21家机构共同发起",
+          "what": "据中国证券业协会消息，协会牵头、证监会科技监管司指导的证券业人工智能应用发展联盟，由券商与科技企业等21家机构共同发起。",
+          "why": "联盟将协作推进标准、合规与风险治理；成立协作平台不等于出台对全行业生效的新规则。",
+          "sources": [
+            {
+              "name": "第一财经",
+              "url": "https://www.yicai.com/brief/103449873.html"
+            },
+            {
+              "name": "新华财经",
+              "url": "https://www.cnfin.com/gs-lb/detail/20261123/4498910_1.html"
+            }
+          ],
+          "sourceNote": "成立大会在11月20日召开；第一财经北京时间11月23日11:08报道。",
+          "publishedAt": "2026-11-23T11:08:00+08:00",
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-24-13",
+          "category": "语音产品",
+          "title": "Sarvam 发布覆盖英语及22种印度语言的 Dictate",
+          "what": "Sarvam 推出语音听写产品 Dictate，可把口语整理成文字，并支持多语言混说和指定转写形式。",
+          "why": "听写产品开始针对真实的语言混用，而不只追求逐字转录；效果仍需按具体语种和使用场景评估。",
+          "sources": [
+            {
+              "name": "Sarvam 官方博客",
+              "url": "https://www.sarvam.ai/blogs/sarvam-dictate"
+            }
+          ],
+          "sourceNote": "官方博文标印度当地11月23日，未列钟点。",
+          "publishedAt": null,
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-24-14",
+          "category": "国际治理",
+          "title": "联合国科学小组比较五条 AI 能力建设路径",
+          "what": "联合国独立国际人工智能科学小组发布简报，比较采购商业模型、改造开放权重模型和自建模型等五种路径的成本、数据需求与控制权。",
+          "why": "报告建议加强本地语言测试；能接入模型，并不意味着它能在当地语言和公共服务场景可靠运行。",
+          "sources": [
+            {
+              "name": "联合国科学小组简报通稿",
+              "url": "https://www.un.org/independent-international-scientific-panel-ai/sites/default/files/2026-11/Press%20Release_%20Thematic%20Brief%20on%20AI%20Capacity%20Building%20-%20AI%20Scientific%20Panel_0.pdf"
+            }
+          ],
+          "sourceNote": "通稿所列公开时间为北京时间11月23日08:00。",
+          "publishedAt": "2026-11-23T08:00:00+08:00",
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-24-15",
+          "category": "AI人物发言",
+          "title": "燧原科技赵立东：争取2027年实现合并报表盈利",
+          "what": "燧原科技董事长兼 CEO 赵立东在业绩会上表示，预计未来一段时期腾讯销售占比较高的情况仍会持续，公司也在拓展其他客户。",
+          "why": "2027年盈利是管理层预期，不是已实现利润；客户结构能否改善是验证后续经营表现的一项指标。",
+          "sources": [
+            {
+              "name": "巨潮资讯会议公告",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-11-14/1225671577.PDF"
+            },
+            {
+              "name": "新京报贝壳财经",
+              "url": "https://www.bjnews.com.cn/detail/1795430587129544.html"
+            }
+          ],
+          "sourceNote": "业绩会北京时间11月23日16:00至17:00；新京报当日报道。",
+          "publishedAt": null,
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-24-16",
+          "category": "社交热点追踪",
+          "title": "延续话题：黄仁勋复任引发 X 讨论，美国议员要求说明",
+          "what": "《华盛顿邮报》记录 NVIDIA 在美国当地11月23日下午早些时候登上其所见 X 热门榜首；同日美国议员公开表达质疑，参议院银行委员会列出12月3日听证安排。",
+          "why": "榜单只说明一个时点的讨论度，不能代表普遍立场；听证安排及议员声明也不是执法结论。",
+          "sources": [
+            {
+              "name": "华盛顿邮报",
+              "url": "https://www.washingtonpost.com/business/2026/11/23/hes-so-back-silicon-valley-celebrates-jensen-huangs-return/"
+            },
+            {
+              "name": "美国参议院银行委员会听证页",
+              "url": "https://www.banking.senate.gov/hearings/protecting-americas-ai-advantage-oversight-of-us-export-controls"
+            },
+            {
+              "name": "参议员 Warren 声明",
+              "url": "https://www.banking.senate.gov/newsroom/minority/senator-warren-statement-on-jensen-huang-reinstatement-as-nvidia-ceo"
+            }
+          ],
+          "sourceNote": "热榜观察来自媒体，未独立复测；《华盛顿邮报》北京时间11月24日04:44刊发。",
+          "publishedAt": "2026-11-24T04:44:51+08:00",
+          "timeStatus": "confirmed"
+        }
+      ],
+      "uncertainItems": [],
       "images": []
     }
   ]
