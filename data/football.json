@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-24 18:20",
+  "updatedAt": "2026-11-25 06:49",
   "timezone": "Asia/Shanghai",
   "coverageEnd": "2026-11-24",
   "plans": [
@@ -1498,9 +1498,12 @@
           "away": "LASK林茨",
           "pick": "主胜",
           "odds": 1.27,
-          "score": null,
+          "score": [
+            1,
+            0
+          ],
           "kickoff": "2026-11-25 01:45",
-          "source": "",
+          "source": "https://www.glimt.no/lag/import/tournament/uefa-champions-league-3986887272195024897/season/fotballsesongen-2026/match/uefa-champions-league-bodo-glimt-x-lask",
           "handicap": null,
           "finishedAt": null
         },
@@ -1510,9 +1513,12 @@
           "away": "朗斯",
           "pick": "让胜",
           "odds": 1.63,
-          "score": null,
+          "score": [
+            3,
+            1
+          ],
           "kickoff": "2026-11-25 04:00",
-          "source": "",
+          "source": "https://www.rclens.fr/fr/compte-rendu-rbleipzig-rclens-liguedeschampions-20261124",
           "handicap": -1,
           "finishedAt": null
         }
@@ -1532,11 +1538,14 @@
           "away": "那不勒斯",
           "pick": "主胜",
           "odds": 1.14,
-          "score": null,
+          "score": [
+            2,
+            2
+          ],
           "kickoff": "2026-11-25 04:00",
-          "source": "",
+          "source": "https://www.mancity.com/news/mens/manchester-city-v-napoli-uefa-champions-league-match-report-63931143",
           "handicap": null,
-          "finishedAt": null
+          "finishedAt": "2026-11-25 05:51"
         },
         {
           "number": "周二011",
@@ -1544,9 +1553,12 @@
           "away": "波尔图",
           "pick": "让胜",
           "odds": 1.68,
-          "score": null,
+          "score": [
+            0,
+            1
+          ],
           "kickoff": "2026-11-25 04:00",
-          "source": "",
+          "source": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-uefa-champions-league-all-the-league-phase-fixtures/",
           "handicap": 1,
           "finishedAt": null
         }
