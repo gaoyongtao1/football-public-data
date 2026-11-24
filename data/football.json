@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-24 06:38",
+  "updatedAt": "2026-11-24 12:03",
   "timezone": "Asia/Shanghai",
   "coverageEnd": "2026-11-23",
   "plans": [
@@ -1473,9 +1473,12 @@
           "away": "洛杉矶FC",
           "pick": "让负",
           "odds": 1.45,
-          "score": null,
+          "score": [
+            3,
+            2
+          ],
           "kickoff": "2026-11-24 09:00",
-          "source": "",
+          "source": "https://www.shensuansports.com/zh/match/st-louis-city-sc-73924-v-los-angeles-fc-45111-2026-11-21-4666483",
           "handicap": -1,
           "finishedAt": null
         }
