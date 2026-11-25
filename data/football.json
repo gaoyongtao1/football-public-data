@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-25 06:49",
+  "updatedAt": "2026-11-25 18:22",
   "timezone": "Asia/Shanghai",
-  "coverageEnd": "2026-11-24",
+  "coverageEnd": "2026-11-25",
   "plans": [
     {
       "id": "20261102-0",
@@ -1560,6 +1560,74 @@
           "kickoff": "2026-11-25 04:00",
           "source": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-uefa-champions-league-all-the-league-phase-fixtures/",
           "handicap": 1,
+          "finishedAt": null
+        }
+      ]
+    },
+    {
+      "id": "20261125-0",
+      "date": "2026-11-25",
+      "label": "主推",
+      "kind": "reference",
+      "snapshot": "北京时间2026-11-25 18:22核对。500彩票网国内固定奖金历史记录，竞彩猫交叉核验；官方实时报价及更新时间、终端可售状态、最终首发未核实。周三009记录为11月25日15:20，周三007记录为11月25日16:11。",
+      "note": "组合参考1.8720。巴黎前4轮欧冠进20球，两名边路攻击手列为缺阵，罗马马伦连续3场欧冠进球。利物浦前4轮进14失10，布鲁日反击有威胁；两队所选方向均须常规时间取胜。两场预计11月26日06:00结束，实际时间可能变化。",
+      "legs": [
+        {
+          "number": "周三009",
+          "home": "巴黎圣日耳曼",
+          "away": "罗马",
+          "pick": "主胜",
+          "odds": 1.3,
+          "score": null,
+          "kickoff": "2026-11-26 04:00",
+          "source": "",
+          "handicap": null,
+          "finishedAt": null
+        },
+        {
+          "number": "周三007",
+          "home": "布鲁日",
+          "away": "利物浦",
+          "pick": "客胜",
+          "odds": 1.44,
+          "score": null,
+          "kickoff": "2026-11-26 04:00",
+          "source": "",
+          "handicap": null,
+          "finishedAt": null
+        }
+      ]
+    },
+    {
+      "id": "20261125-1",
+      "date": "2026-11-25",
+      "label": "备选",
+      "kind": "reference",
+      "snapshot": "北京时间2026-11-25 18:22核对。500彩票网国内固定奖金历史记录，竞彩猫交叉核验；官方实时报价及更新时间、终端可售状态、最终首发未核实。周三006记录为11月25日10:31，周三011记录为11月25日13:24。",
+      "note": "组合参考2.0160。国米连续两轮欧冠零封取胜，斯图加特前4轮7分、恰尔汗奥卢列为缺阵。斯托克城主队−1，让负要求主队平或负，赢1球是让平。两场预计11月26日06:00结束，实际时间可能变化；两组没有共用比赛。",
+      "legs": [
+        {
+          "number": "周三006",
+          "home": "国际米兰",
+          "away": "斯图加特",
+          "pick": "主胜",
+          "odds": 1.26,
+          "score": null,
+          "kickoff": "2026-11-26 04:00",
+          "source": "",
+          "handicap": null,
+          "finishedAt": null
+        },
+        {
+          "number": "周三011",
+          "home": "斯托克城",
+          "away": "米尔沃尔",
+          "pick": "让负",
+          "odds": 1.6,
+          "score": null,
+          "kickoff": "2026-11-26 04:00",
+          "source": "",
+          "handicap": -1,
           "finishedAt": null
         }
       ]
