@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "timezone": "Asia/Shanghai",
-  "updatedAt": "2026-11-24T08:03:09+08:00",
+  "updatedAt": "2026-11-25 08:11",
   "issues": [
     {
       "id": "2026-11-06",
@@ -4406,6 +4406,476 @@
         }
       ],
       "uncertainItems": [],
+      "images": []
+    },
+    {
+      "id": "2026-11-25",
+      "date": "2026-11-25",
+      "title": "2026年11月25日｜AI早报",
+      "summary": "今日最值得关注：美国将7家东南亚实体列入出口管制清单，马来西亚随后表明本地登记口径，并将向数据中心运营商发出提示。",
+      "note": "时间均为北京时间，另有说明除外。公告、报道、模型可用及事件发生时间分别注明；存疑消息不计入已确认条目。",
+      "windowStart": "2026-11-24T00:00:00+08:00",
+      "windowEnd": "2026-11-25T08:00:00+08:00",
+      "items": [
+        {
+          "id": "2026-11-25-01",
+          "category": "政策监管",
+          "title": "美国将7家东南亚实体列入出口管制清单",
+          "what": "美国商务部BIS将记录在马来西亚、新加坡、泰国项下的7家实体列入清单，对受EAR管辖的所有物项要求许可，并原则上推定拒绝。",
+          "why": "BIS称此举针对先进计算物项可能被转移的风险；马来西亚方面称只有2家在其本地记录中，并将提醒数据中心运营商勿向这7家提供服务。",
+          "sources": [
+            {
+              "name": "美国《联邦公报》预公开文件",
+              "url": "https://public-inspection.federalregister.gov/2026-23999.pdf"
+            },
+            {
+              "name": "马新社转述马来西亚投资、贸易及工业部",
+              "url": "https://web26.bernama.com/en/region/news.php?id=2638595"
+            }
+          ],
+          "sourceNote": "北京时间11月24日05:15提交公开查阅；美国正式刊登排期为当地11月25日，马方11月24日回应。",
+          "publishedAt": "2026-11-24T05:15:00+08:00",
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-25-02",
+          "category": "开放权重",
+          "title": "百度开放 ERNIE 5.5 Flash Preview 权重",
+          "what": "百度以 Apache 2.0 发布文心 ERNIE 5.5 Flash Preview 权重，模型总参数2800亿、每词元激活140亿，上下文最长100万词元。",
+          "why": "这是此前API预览版的权重开放，不是正式版发布；团队强调后训练仍在进行。",
+          "sources": [
+            {
+              "name": "百度文心 Hugging Face 模型卡",
+              "url": "https://huggingface.co/baidu/ERNIE-5.5-Flash-Preview"
+            },
+            {
+              "name": "百度文心 X 账号",
+              "url": "https://x.com/Baidu_ERNIE/status/2125072735336546546"
+            }
+          ],
+          "sourceNote": "百度文心X公告北京时间11月24日11:43；此前API上线并非本次权重开放。",
+          "publishedAt": "2026-11-24T11:43:16+08:00",
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-25-03",
+          "category": "产品与监管",
+          "title": "Meta 将 Muse 带到英国，监管方同步划出边界",
+          "what": "Meta 向英国18岁及以上用户开放 Muse，支持在应用、网页和 WhatsApp 中使用；按公司说明，发邮件或购买等重要操作须先获授权。",
+          "why": "英国CMA强调消费者保护法适用于个人AI智能体，FCA另提醒部分金融用途可能需要监管许可，产品可用不等于拥有金融牌照。",
+          "sources": [
+            {
+              "name": "Meta 新闻室",
+              "url": "https://about.fb.com/news/2026/11/introducing-muse-in-the-uk-a-personal-ai-agent-you-control/"
+            },
+            {
+              "name": "英国CMA",
+              "url": "https://competitionandmarkets.blog.gov.uk/2026/11/24/cma-statement-on-uk-launch-of-meta-muse/"
+            },
+            {
+              "name": "英国FCA",
+              "url": "https://www.fca.org.uk/firms/innovation/ai-approach/agentic-ai"
+            }
+          ],
+          "sourceNote": "Meta网页列11月23日及24日；CMA确认英国当地11月24日上线，未披露具体时刻。",
+          "publishedAt": null,
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-25-04",
+          "category": "融资披露",
+          "title": "知乎披露参投基金已间接投资 DeepSeek",
+          "what": "知乎在港交所披露，参投基金通过投资工具获得 DeepSeek 低个位数百分比股权；知乎在该基金中的合伙份额低于30%。",
+          "why": "披露确认了间接持股关系，不能将基金的股权比例写成知乎的直接持股，也不能据此倒推出 DeepSeek 本轮募资或估值。",
+          "sources": [
+            {
+              "name": "知乎港交所公告",
+              "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1123/2026112301442.pdf"
+            }
+          ],
+          "sourceNote": "香港当地11月23日公告；这是信息披露时间口径，并非成交日期。",
+          "publishedAt": null,
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-25-05",
+          "category": "模型开源",
+          "title": "腾讯混元开源 Hy-MT3，支持102种语言",
+          "what": "腾讯开放 Hy-MT3 的18亿、70亿和300亿参数三个版本的权重，并发布翻译评测工具 TransRubric。",
+          "why": "支持语言从上一代的38种扩到102种，常规翻译和低资源语种均可评测；误译样本减少43%是团队自身测试结果。",
+          "sources": [
+            {
+              "name": "腾讯混元 GitHub",
+              "url": "https://github.com/Tencent-Hunyuan/Hy-MT3"
+            },
+            {
+              "name": "Hy-MT3 技术报告",
+              "url": "https://arxiv.org/abs/2611.27673"
+            }
+          ],
+          "sourceNote": "团队记录11月24日开放权重；预印本初版早于权重发布。",
+          "publishedAt": null,
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-25-06",
+          "category": "产品应用",
+          "title": "豆包个人助理“小豆”开启邀请制公测",
+          "what": "字节跳动旗下豆包宣布“小豆”凭邀请码公测，授权接入日历等服务后可在后台跟进提醒、日程冲突或商品降价。",
+          "why": "这类助理从一次性问答走向持续跟进任务；公测资格及可接入范围仍有限。",
+          "sources": [
+            {
+              "name": "科技日报",
+              "url": "https://www.stdaily.com/web/gdxw/2026-11/24/content_618353.html"
+            },
+            {
+              "name": "36氪",
+              "url": "https://www.36kr.com/p/4083642845615751"
+            }
+          ],
+          "sourceNote": "11月24日公测；36氪北京时间20:22报道。",
+          "publishedAt": "2026-11-24T20:22:00+08:00",
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-25-07",
+          "category": "多模态模型",
+          "title": "商汤开放 SenseNova U1.6 权重",
+          "what": "商汤发布并开放 SenseNova U1.6 权重；其80亿参数级开放模型可先出图，再核对提示并修正画面中的文字问题。",
+          "why": "首稿与复核由同一模型处理；商汤报告 U1.6 Lite 在密集信息图测试中由86.04升至92.28，为公司内测，不能代表所有图像任务。",
+          "sources": [
+            {
+              "name": "商汤官方发布",
+              "url": "https://sensetime.com/cn/news/sensenova-u1-6-open-source-20261124-1152"
+            }
+          ],
+          "sourceNote": "商汤11月24日公告，页面未标具体时刻。",
+          "publishedAt": null,
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-25-08",
+          "category": "企业AI",
+          "title": "Anthropic 为 Claude 增加可安装应用及连接器文件流转",
+          "what": "Claude 11月24日更新日志列出可将生成的作品安装为 Mac 或 Windows 应用，以及在所连接应用之间取存文件，两项均属测试版。",
+          "why": "生成的工具可以脱离聊天窗口使用；团队和企业计划的连接器文件流转须由所有者启用，实际部署仍看账号权限。",
+          "sources": [
+            {
+              "name": "Claude 官方更新日志",
+              "url": "https://support.claude.com/en/articles/12138966-release-notes"
+            },
+            {
+              "name": "9to5Mac",
+              "url": "https://9to5mac.com/2026/11/24/anthropic-just-gave-claude-users-a-new-way-to-make-mac-apps/"
+            }
+          ],
+          "sourceNote": "9to5Mac北京时间11月25日03:56报道可安装应用；连接器功能见11月24日官方更新日志。",
+          "publishedAt": "2026-11-25T03:56:00+08:00",
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-25-09",
+          "category": "API更新",
+          "title": "OpenAI 更新 chat-latest，并增加4种医疗问答配置",
+          "what": "OpenAI 更新 API 别名 chat-latest 的指向，并为 Responses API 增加 Astra、Sol 等4种医疗问答配置；使用网页搜索时调用专用医疗来源索引。",
+          "why": "这与上一期的 ChatGPT 对话端升级是两个发布口径；可变的 chat-latest 适合测试聊天体验，OpenAI 仍建议生产应用用 GPT-6.2 系列。",
+          "sources": [
+            {
+              "name": "OpenAI API 更新日志",
+              "url": "https://developers.openai.com/api/docs/changelog"
+            }
+          ],
+          "sourceNote": "开发者日志11月24日条目，未标具体时刻。",
+          "publishedAt": null,
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-25-10",
+          "category": "数据基础设施",
+          "title": "蚂蚁 OceanBase 发布 OceanLake，宣布开源 OceanSeek",
+          "what": "OceanBase 在北京发布湖库一体AI数据平台 OceanLake，并宣布开源其AI数据库核心引擎 OceanSeek。",
+          "why": "平台尝试让事务数据、分析数据和多模态素材共用一套数据底座；开源对象是核心引擎，不是整个商业平台。",
+          "sources": [
+            {
+              "name": "OceanBase 大会",
+              "url": "https://www.oceanbase.com/conference2026"
+            },
+            {
+              "name": "量子位现场报道",
+              "url": "https://www.qbitai.com/2026/11/512383.html"
+            }
+          ],
+          "sourceNote": "量子位北京时间11月24日16:10报道。",
+          "publishedAt": "2026-11-24T16:10:43+08:00",
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-25-11",
+          "category": "端侧算力",
+          "title": "Ambarella 与 Liquid AI 联手推进端侧AI",
+          "what": "Ambarella 与 Liquid AI 签署面向端侧智能体的合作，同日披露其2027财年第三季度营收1.152亿美元，同比增长6.2%。",
+          "why": "合作把低功耗芯片和轻量模型放到同一部署链条；合作公告未等同于量产交付，季度营收也不能归因于该合作。",
+          "sources": [
+            {
+              "name": "Ambarella 合作公告",
+              "url": "https://www.globenewswire.com/news-release/2026/11/24/3409866/23306/en/ambarella-and-liquid-ai-partner-to-accelerate-device-native-agentic-ai-for-physical-ai-applications.html"
+            },
+            {
+              "name": "Ambarella 向美国证监会披露的财报",
+              "url": "https://www.sec.gov/Archives/edgar/data/1280263/000119312526475716/d912526dex991.htm"
+            }
+          ],
+          "sourceNote": "两则公司公告均于北京时间11月25日05:05通过通讯社发布。",
+          "publishedAt": "2026-11-25T05:05:00+08:00",
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-25-12",
+          "category": "多媒体生态",
+          "title": "MiniMax 汇集 H3 Family 及合作模型",
+          "what": "MiniMax 公布 H3 Family 集合，汇集 H3、H3-Image 等官方版本及 fal、Suno、HeyGen、Pika 等合作方的衍生能力。",
+          "why": "公司称 H3 开源百天累计出现1472个衍生模型、超过1.48亿次下载；这是统计口径下的下载次数，不是用户数或新模型首发数。",
+          "sources": [
+            {
+              "name": "MiniMax 官方研究博客",
+              "url": "https://www.minimax.cn/blog/minimax-h3-family"
+            }
+          ],
+          "sourceNote": "官方11月24日公告，未标具体时刻。",
+          "publishedAt": null,
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-25-13",
+          "category": "语音模型",
+          "title": "阿里云百炼增列两款 Qwen-Audio-3.1 型号",
+          "what": "百炼上线记录列出实时双工对话型号 Live 和音频打标型号 Captioner，前者可在后端处理委托时继续和用户通话，后者面向含说话人、时间戳和环境音的全量转写。",
+          "why": "新增的是百炼记录中的独立型号和部署能力，不是 Qwen-Audio-3.1 整个系列首发。",
+          "sources": [
+            {
+              "name": "阿里云百炼模型更新",
+              "url": "https://docs.bailian.console.aliyun.com/zh/model-studio/newly-released-models"
+            },
+            {
+              "name": "阿里云 Live 文档",
+              "url": "https://help.aliyun.com/zh/model-studio/qwen-audio-3-1-live"
+            }
+          ],
+          "sourceNote": "百炼11月23日上架记录；页面更新时间不等同于可用时刻。",
+          "publishedAt": null,
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-25-14",
+          "category": "开放模型",
+          "title": "AWS 开放5款 Strands Decider v2 决策模型",
+          "what": "AWS 的 Strands 团队发布基于 Gemma 4 的5款 Apache 2.0 决策模型，覆盖 E2B 到31B，可对既定选项直接输出概率。",
+          "why": "工具路由或分类不必每次让大模型生成长文；这些小模型面向有明确选项的判断，不替代通用推理模型。",
+          "sources": [
+            {
+              "name": "Strands Agents 官方博客",
+              "url": "https://strandsagents.com/blog/introducing-strands-decider-v2/"
+            },
+            {
+              "name": "VentureBeat",
+              "url": "https://venturebeat.com/data/awss-strands-decider-v2-targets-the-agent-decisions-that-hinge-on-a-single-detail"
+            }
+          ],
+          "sourceNote": "官方日期为美国11月23日；VentureBeat北京时间11月24日03:15报道。",
+          "publishedAt": "2026-11-24T03:15:00+08:00",
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-25-15",
+          "category": "产品应用",
+          "title": "Google 搜索 AI Mode 开始接入 Wallet",
+          "what": "Google 开始向用户开放在搜索 AI Mode 中主动连接 Wallet，Drive 与 Gemini 应用计划在未来数周陆续接入。",
+          "why": "个性化搜索的资料来源扩大；Google 表示 Wallet 连接仅供读取，不能移动、管理或投资资金，各接入项可由用户开关。",
+          "sources": [
+            {
+              "name": "Google 官方博客",
+              "url": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/"
+            },
+            {
+              "name": "TechCrunch",
+              "url": "https://techcrunch.com/2026/11/23/google-searchs-ai-mode-can-now-tap-into-drive-and-wallet-for-more-personalized-responses/"
+            }
+          ],
+          "sourceNote": "官方日期为美国11月23日；TechCrunch北京时间11月24日03:14报道。",
+          "publishedAt": "2026-11-24T03:14:00+08:00",
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-25-16",
+          "category": "防御工具",
+          "title": "OpenAI 与 Cisco 开放 Linux 临时防护项目 Shirudo",
+          "what": "OpenAI 与 Cisco 发布开源防御运行时 Shirudo，用于在永久补丁部署前保护正在运行的 Linux 系统，无需为该临时防护重启。",
+          "why": "它补的是补丁上线前的防御空档，而不是用临时措施代替正式修复。",
+          "sources": [
+            {
+              "name": "OpenAI 官方发布",
+              "url": "https://openai.com/index/introducing-shirudo/"
+            },
+            {
+              "name": "Cisco 通稿",
+              "url": "https://www.prnewswire.com/news-releases/cisco-and-openai-launch-shirudo-a-new-project-to-safeguard-agentic-ai-302948685.html"
+            }
+          ],
+          "sourceNote": "Cisco通稿北京时间11月24日05:36发布。",
+          "publishedAt": "2026-11-24T05:36:00+08:00",
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-25-17",
+          "category": "科学应用",
+          "title": "Codex 与 Astra 协助筛出系外行星候选信号",
+          "what": "OpenAI 披露，两名业余天文爱好者用 Codex 和 Astra 搜查公开望远镜数据，分别处理约10万颗和1900万颗恒星的观测。",
+          "why": "SETI 一名研究人员独立找出其中两个开普勒信号，另一位爱好者的候选已送交 TESS 研究人员；候选不等于确认发现行星。",
+          "sources": [
+            {
+              "name": "OpenAI 案例报告",
+              "url": "https://openai.com/index/searching-for-distant-planets-with-astra/"
+            }
+          ],
+          "sourceNote": "公司11月24日公开案例；未用披露日期代替研究发生时间。",
+          "publishedAt": null,
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-25-18",
+          "category": "融资",
+          "title": "Zipher 披露种子轮和A轮累计融资5300万美元",
+          "what": "Zipher 公布种子轮及A轮合计融资5300万美元，由 TLV Partners、Maor Investments 和 Glilot Capital 等支持。",
+          "why": "它针对企业数据任务的资源分配和调度，按客户给出的预算及服务目标运行；5300万美元是两轮累计，不是单笔A轮。",
+          "sources": [
+            {
+              "name": "Zipher 公司通稿（VentureBeat 刊载）",
+              "url": "https://venturebeat.com/business/zipher-raises-53m-to-rebuild-data-infrastructure-for-agents-by-agents"
+            }
+          ],
+          "sourceNote": "公司通稿北京时间11月24日21:00刊载。",
+          "publishedAt": "2026-11-24T21:00:00+08:00",
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-25-19",
+          "category": "具身研究",
+          "title": "NVIDIA 公开 Microduck 避障实机迁移教程",
+          "what": "NVIDIA 团队在 Hugging Face 公开 Microduck 双足机器人的避障流程：保持步态控制器不变，另用 Isaac Lab 和 Newton 训练局部避障。",
+          "why": "把避障与行走解耦，拓宽已有低成本双足平台的实机验证场景；教程不是新硬件发布。",
+          "sources": [
+            {
+              "name": "NVIDIA 团队 Hugging Face 技术博客",
+              "url": "https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance"
+            }
+          ],
+          "sourceNote": "项目方博客日期11月24日；页面只标日期。",
+          "publishedAt": null,
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-25-20",
+          "category": "AI人物发言",
+          "title": "Embo 创始人 Hafner：机器人既要从视频学，也要在模拟中练",
+          "what": "前 Google DeepMind 研究员、Embo 创始人 Danijar Hafner 在介绍公司时提出，机器人应先从大规模视频学习物理规律，再用机器人经验和模拟练习来完善动作；公司同日披露获 a16z 领投的1.1亿美元种子轮。",
+          "why": "这是创始人提出的技术路线和融资消息，融资已披露，但其对陌生场景可靠性的判断仍待公开实机测试。",
+          "sources": [
+            {
+              "name": "Hafner 的 X 原帖",
+              "url": "https://x.com/danijar/status/2124911019562811820"
+            },
+            {
+              "name": "Embo 公司公告",
+              "url": "https://embo.com/introducing-embo"
+            },
+            {
+              "name": "领投方 a16z",
+              "url": "https://a16z.com/announcement/investing-in-embo/"
+            }
+          ],
+          "sourceNote": "本人 X 发言为北京时间11月24日01:00；中文转述。",
+          "publishedAt": "2026-11-24T01:00:40+08:00",
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-25-21",
+          "category": "社交热点追踪",
+          "title": "延续话题｜黄仁勋复任话题仍上榜，股价回吐部分涨幅",
+          "what": "在11月24日的抽样档案中，黄仁勋复任话题出现在微博、抖音等5个平台；路透另报道，美股周二交易中 NVIDIA 一度跌超6%，前一交易日涨31.5%。",
+          "why": "新变化是复任后的股价回撤与跨平台讨论延续，不能据此断言全网舆论转向；公司董事会调查的背景不变。",
+          "sources": [
+            {
+              "name": "HotFlashNews 榜单采样",
+              "url": "https://hotflashnews.com/trends/day/2026-11-24"
+            },
+            {
+              "name": "路透社市场报道",
+              "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-11-24/"
+            }
+          ],
+          "sourceNote": "榜单为北京时间11月24日全日抽样，非全网；股价为报道所示交易时点，非自动计为收盘。",
+          "publishedAt": null,
+          "timeStatus": "confirmed"
+        }
+      ],
+      "uncertainItems": [
+        {
+          "id": "2026-11-25-22",
+          "category": "热门消息｜未证实",
+          "title": "未证实｜DeepSeek 新一轮融资金额和估值仍有不同口径",
+          "what": "21世纪经济报道转述市场称本轮融资1055亿元、估值6078亿元；证券时报引述交易人士的口径为融资1000亿至1055亿元、估值约6155亿元。",
+          "why": "已核实的知乎公告只确认其参投基金的间接投资，未披露 DeepSeek 整轮规模和估值；两个估值不应混用为官方数字。",
+          "sources": [
+            {
+              "name": "21世纪经济报道（新浪转载）",
+              "url": "https://cj.sina.com.cn/articles/view/1651428902/626ece2601901lzwl"
+            },
+            {
+              "name": "IT之家转引证券时报",
+              "url": "https://www.ithome.com/1/031/339.htm"
+            }
+          ],
+          "sourceNote": "存疑的是融资金额和估值，非报道时间：北京时间11月23日22:19及11月24日11:26。",
+          "publishedAt": "2026-11-24T11:26:17+08:00",
+          "timeStatus": "uncertain"
+        },
+        {
+          "id": "2026-11-25-23",
+          "category": "热门消息｜未证实",
+          "title": "未证实｜Axios 称两家AI实验室内部讨论未发布模型的风险",
+          "what": "Axios 引述未具名知情者称，OpenAI 和 Anthropic 正讨论部分未发布模型的安全性；OpenAI 发言人只称新安全要求可能放慢发布节奏。",
+          "why": "匿名消息涉及重要的发布治理问题，但没有公开测试材料独立证实，也不是两家公司宣布取消发布。",
+          "sources": [
+            {
+              "name": "Axios 原始报道",
+              "url": "https://www.axios.com/2026/11/24/anthropic-openai-unreleased-ai-safety-risks"
+            }
+          ],
+          "sourceNote": "存疑的是匿名描述；Axios北京时间11月24日18:45报道。",
+          "publishedAt": "2026-11-24T18:45:05+08:00",
+          "timeStatus": "uncertain"
+        },
+        {
+          "id": "2026-11-25-24",
+          "category": "热门消息｜未证实",
+          "title": "未证实｜路透称黄仁勋在内部会上谈及违反行为准则",
+          "what": "路透援引一名知情人士称，NVIDIA CEO 黄仁勋在11月24日员工会上表示曾违反部分公司行为准则；《纽约时报》据其查看的内部直播报道了道歉。",
+          "why": "这是复任后的新报道，不是公司正式公布的调查结论，董事会仍在调查的既有口径不因此改变。",
+          "sources": [
+            {
+              "name": "路透社原始报道",
+              "url": "https://www.reuters.com/business/retail-consumer/nvidia-slips-investors-assess-risks-surrounding-huangs-return-ceo-2026-11-24/"
+            },
+            {
+              "name": "NVIDIA 投资者关系",
+              "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Board-Reinstates-Jensen-Huang-as-President-CEO-and-Board-Director/default.aspx"
+            }
+          ],
+          "sourceNote": "存疑的是内部原话及事实范围；路透11月24日报道，未见公司公开会谈逐字稿。",
+          "publishedAt": null,
+          "timeStatus": "uncertain"
+        }
+      ],
       "images": []
     }
   ]
