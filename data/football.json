@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-25 18:22",
+  "updatedAt": "2026-11-26 06:22",
   "timezone": "Asia/Shanghai",
   "coverageEnd": "2026-11-25",
   "plans": [
@@ -1578,9 +1578,12 @@
           "away": "罗马",
           "pick": "主胜",
           "odds": 1.3,
-          "score": null,
+          "score": [
+            2,
+            2
+          ],
           "kickoff": "2026-11-26 04:00",
-          "source": "",
+          "source": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-league-phase-fixtures-a/",
           "handicap": null,
           "finishedAt": null
         },
@@ -1590,9 +1593,12 @@
           "away": "利物浦",
           "pick": "客胜",
           "odds": 1.44,
-          "score": null,
+          "score": [
+            0,
+            3
+          ],
           "kickoff": "2026-11-26 04:00",
-          "source": "",
+          "source": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-league-phase-fixtures-a/",
           "handicap": null,
           "finishedAt": null
         }
@@ -1612,9 +1618,12 @@
           "away": "斯图加特",
           "pick": "主胜",
           "odds": 1.26,
-          "score": null,
+          "score": [
+            2,
+            0
+          ],
           "kickoff": "2026-11-26 04:00",
-          "source": "",
+          "source": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-league-phase-fixtures-a/",
           "handicap": null,
           "finishedAt": null
         },
@@ -1624,9 +1633,12 @@
           "away": "米尔沃尔",
           "pick": "让负",
           "odds": 1.6,
-          "score": null,
+          "score": [
+            2,
+            1
+          ],
           "kickoff": "2026-11-26 04:00",
-          "source": "",
+          "source": "https://www.skysports.com/football/stoke-city-vs-millwall/560700",
           "handicap": -1,
           "finishedAt": null
         }
