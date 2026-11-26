@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-26 18:23",
+  "updatedAt": "2026-11-27 04:38",
   "timezone": "Asia/Shanghai",
   "coverageEnd": "2026-11-26",
   "plans": [
@@ -1658,9 +1658,12 @@
           "away": "本菲卡",
           "pick": "客胜",
           "odds": 1.29,
-          "score": null,
+          "score": [
+            4,
+            0
+          ],
           "kickoff": "2026-11-27 01:45",
-          "source": null,
+          "source": "https://www.slbenfica.pt/futebol/match-center/viktoria-plzen-benfica-26-novembro-2026",
           "handicap": null,
           "finishedAt": null
         },
@@ -1670,9 +1673,12 @@
           "away": "伯恩茅斯",
           "pick": "客胜",
           "odds": 1.61,
-          "score": null,
+          "score": [
+            1,
+            2
+          ],
           "kickoff": "2026-11-27 01:45",
-          "source": null,
+          "source": "https://www.theguardian.com/football/live/2026/nov/26/sunderland-v-jagiellonia-bialystok-crystal-palace-v-real-sociedad-and-more-europa-league-live",
           "handicap": null,
           "finishedAt": null
         }
