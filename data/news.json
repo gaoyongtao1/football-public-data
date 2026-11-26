@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "timezone": "Asia/Shanghai",
-  "updatedAt": "2026-11-25 08:11",
+  "updatedAt": "2026-11-26 08:07",
   "issues": [
     {
       "id": "2026-11-06",
@@ -4872,6 +4872,400 @@
             }
           ],
           "sourceNote": "存疑的是内部原话及事实范围；路透11月24日报道，未见公司公开会谈逐字稿。",
+          "publishedAt": null,
+          "timeStatus": "uncertain"
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "2026-11-26",
+      "date": "2026-11-26",
+      "title": "2026年11月26日｜AI早报",
+      "summary": "今日最值得关注：Google 正式开放 Workspace 智能体接口，并明确明年 AI 智能体访问 Gmail、日历和云端硬盘的配额及收费规则。",
+      "note": "时间均为北京时间，另有说明除外。公告、报道与产品上线分别注明；厂商测试和媒体披露不等于独立验证，存疑消息不计入已确认新闻。",
+      "windowStart": "2026-11-25T00:00:00+08:00",
+      "windowEnd": "2026-11-26T08:00:00+08:00",
+      "items": [
+        {
+          "id": "2026-11-26-01",
+          "category": "平台规则",
+          "title": "Google 正式开放 Workspace 智能体接口，公布分档计费规则",
+          "what": "Google 将 Gmail、日历、云端硬盘等8项服务的 MCP 接口及官方命令行工具转为正式可用；标准档每个项目、每项服务每天免费5000次请求。",
+          "why": "2027年2月1日起，访问 Workspace 数据的 AI 智能体原则上须走 MCP，直连 REST 只能用标准配额；4月1日起，高用量档的 Gmail、日历和云端硬盘 MCP 从首笔请求计费。",
+          "sources": [
+            {
+              "name": "Google Workspace 公告",
+              "url": "https://workspace.google.com/blog/product-announcements/built-for-trust-and-control-new-ai-agent-protections-and-developer-tools-in-google-workspace"
+            },
+            {
+              "name": "Google 开发者配额说明",
+              "url": "https://developers.google.com/workspace/guides/quota-usage-tiers"
+            },
+            {
+              "name": "Business Insider 报道",
+              "url": "https://www.businessinsider.com/google-ai-agent-access-limits-fees-gmail-drive-microsoft-copilot-2026-11"
+            }
+          ],
+          "sourceNote": "官方公告署11月24日；Business Insider 11月26日02:13报道。配额与收费按后续生效日执行。",
+          "publishedAt": "2026-11-26T02:13:40+08:00",
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-26-02",
+          "category": "算力财报",
+          "title": "Dell AI 服务器单季入账220亿美元，在手订单达1323亿",
+          "what": "Dell 2027财年第三季度 AI 优化服务器营收220亿美元，同比增291%；季度新接 AI 订单602亿美元，季末 AI 在手订单1323亿美元。",
+          "why": "公司把本财年 AI 优化服务器营收指引从740亿上调至780亿美元。在手订单尚未确认为收入，全年指引也不是实绩。",
+          "sources": [
+            {
+              "name": "Dell 财报",
+              "url": "https://investors.delltechnologies.com/news-events/press-releases/detail/1665/dell-technologies-delivers-third-quarter-fiscal-2027-financial-results"
+            },
+            {
+              "name": "Dell 财报会记录",
+              "url": "https://investors.delltechnologies.com/_assets/_4168568ad3b2a99ca990b00268d4e269/delltechnologies/db/3595/34778/webcast_transcript/Q3_FY27_Transcript.pdf"
+            },
+            {
+              "name": "路透财报报道",
+              "url": "https://www.reuters.com/business/dell-lifts-annual-forecasts-after-record-quarter-surging-ai-server-demand-2026-11-24/"
+            }
+          ],
+          "sourceNote": "路透11月25日05:06报道；Dell 财报会05:30开始。",
+          "publishedAt": "2026-11-25T05:06:57+08:00",
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-26-03",
+          "category": "视频模型",
+          "title": "三呆科技发布4800亿参数视频模型 MAGI-2",
+          "what": "Sand.ai 披露 MAGI-2 总参数4800亿、推理约激活280亿，支持同步音视频及1080p输出；截至发稿，厂商仅预告开放旗舰权重。",
+          "why": "据 IT之家报道，1080p 报价为每秒0.50元，面向批量视频制作；训练规模及效果来自公司披露，不等于独立排名。",
+          "sources": [
+            {
+              "name": "Sand.ai 技术公告",
+              "url": "https://sand.ai/blog/magi-2"
+            },
+            {
+              "name": "IT之家",
+              "url": "https://www.ithome.com/1/032/124.htm"
+            }
+          ],
+          "sourceNote": "厂商技术文署11月24日；IT之家11月25日14:50发布报道。",
+          "publishedAt": "2026-11-25T14:50:22+08:00",
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-26-04",
+          "category": "算力与出口｜跟进",
+          "title": "路透披露部分中国 AI 服务器融资记录",
+          "what": "路透称，查阅的融资登记文件列出最多764台或套 AI 服务器及模组，申报价值约2.70亿美元，另有约3100万美元的网络设备。",
+          "why": "这是本期媒体新披露的历史记录，不能据此认定设备使用受限芯片，也未说明设备何时、如何入境。同期未见 NVIDIA 官方重发任免公告。",
+          "sources": [
+            {
+              "name": "路透独家",
+              "url": "https://www.reuters.com/business/finance/alice-huang-linked-firms-listed-270-million-ai-servers-china-records-show-2026-11-25/"
+            },
+            {
+              "name": "NVIDIA 新闻室",
+              "url": "https://nvidianews.nvidia.com/"
+            }
+          ],
+          "sourceNote": "路透11月25日14:13报道。Megaspeed 被列入实体清单及 NVIDIA 人事公告是背景。",
+          "publishedAt": "2026-11-25T14:13:53+08:00",
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-26-05",
+          "category": "图像模型",
+          "title": "NVIDIA 公开 Nemotron-Labs 图像模型权重，限非商用研究",
+          "what": "NVIDIA 在 Hugging Face 放出 Nemotron-Labs-Image-30B-A3B；包含该模型的完整生成框架在官方列出的 BizGenEval 上为86.0分。",
+          "why": "86.0是完整框架分数，不代表裸模型在各项评测领先；下载许可仅允许非商业研究和评估，不等同于可商用开源。",
+          "sources": [
+            {
+              "name": "NVIDIA 模型卡",
+              "url": "https://huggingface.co/nvidia/Nemotron-Labs-Image-30B-A3B"
+            },
+            {
+              "name": "ORIENS 公布记录核对",
+              "url": "https://ai-oriens.com/news/nvidia-nemotron-labs-image-30b-a3b/"
+            }
+          ],
+          "sourceNote": "ORIENS 查到公开仓库的发布快照为11月25日05:55，不把后续提交当作首发。",
+          "publishedAt": "2026-11-25T05:55:00+08:00",
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-26-06",
+          "category": "编程模型",
+          "title": "Cognition 推出基于 Kimi K3 的 SWE-2.1",
+          "what": "Cognition 在 Devin 提供 SWE-2.1 和 Lightning；厂商 FrontierCode 2.0 自测由24.1%升至41.3%，Lightning 由 Cerebras 提供推理支持。",
+          "why": "评测看代码改动是否值得合并，比单看生成速度更贴近工程场景；限期免费只适用于 Devin 指定付费档。",
+          "sources": [
+            {
+              "name": "Cognition 官方 X",
+              "url": "https://x.com/cognition/status/2125305349414523061"
+            }
+          ],
+          "sourceNote": "官方 X 公告11月25日03:07；结果为厂商基准。",
+          "publishedAt": "2026-11-25T03:07:36+08:00",
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-26-07",
+          "category": "具身智能",
+          "title": "小鹏发布 VLA 3.0 图灵架构，IRON 首次公开亮相",
+          "what": "小鹏在广州科技日发布连接任务规划、动作和硬件控制的图灵物理 AI 架构（VLA 3.0），并展示人形机器人 IRON。",
+          "why": "公司计划2027年一季度在门店开展导购训练、二季度正式发布；首款面向商业运营的 YOYO-01 预计2027年发布，均非现已交付。",
+          "sources": [
+            {
+              "name": "小鹏汽车新闻室",
+              "url": "https://www.xpeng.com/pressroom/news/01a212b0d830a1e838d68a02a2110174"
+            }
+          ],
+          "sourceNote": "11月25日广州科技日，官网未列发布时间。",
+          "publishedAt": null,
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-26-08",
+          "category": "车载智能",
+          "title": "蔚来发布 NWM 3.0 与 NOMI Intelligence 4.0",
+          "what": "蔚来称 NWM 3.0 的整车控制延迟较此前降低54%；新版车载助手 NOMI 接入基础模型和可调用车内工具的智能体框架。",
+          "why": "NWM 3.0 拟于12月起向指定系统分批推送，以备案及获准为前提；厂商测试指标不等于开放道路条件下的独立安全结论。",
+          "sources": [
+            {
+              "name": "蔚来 NIO IN 2026 公告",
+              "url": "https://www.nio.com/news/20261125001"
+            }
+          ],
+          "sourceNote": "11月25日在广州发布，官网未列公告时刻。",
+          "publishedAt": null,
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-26-09",
+          "category": "开放权重",
+          "title": "PrismML 发布5.9 GB 的 Ternary Bonsai 2.5 27B",
+          "what": "PrismML 以 Apache 2.0 发布基于 Qwen3.8 27B 的三元量化模型，SWE-bench Verified 自测从上一代60.8%升至75.6%。",
+          "why": "5.9 GB 是权重规模，不是运行总内存；该项测试仍低于全精度基座的80.6%，适合按任务验证压缩代价。",
+          "sources": [
+            {
+              "name": "PrismML 技术公告",
+              "url": "https://prismml.com/news/bonsai-2-5-27b"
+            },
+            {
+              "name": "PrismML 官方 X",
+              "url": "https://x.com/PrismML/status/2125310762390552588"
+            }
+          ],
+          "sourceNote": "官方 X 公告11月25日03:29。",
+          "publishedAt": "2026-11-25T03:29:06+08:00",
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-26-10",
+          "category": "产品应用",
+          "title": "Meta 开始把 Muse 接入 Instagram 私信",
+          "what": "据 TechCrunch 援引 Meta 的发布说明，Instagram iOS、Android 私信开始向美国、加拿大、墨西哥、日本和新加坡用户分批开放 Muse。",
+          "why": "用户可在私信中询问帖子相关背景；这次是应用内入口扩展，不是此前的英国独立产品上线，也未覆盖全部地区。",
+          "sources": [
+            {
+              "name": "TechCrunch 援引 Meta",
+              "url": "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/"
+            }
+          ],
+          "sourceNote": "TechCrunch 11月25日01:00报道。",
+          "publishedAt": "2026-11-25T01:00:00+08:00",
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-26-11",
+          "category": "平台工程",
+          "title": "Anthropic 复盘 Messages API 从 Python 迁移到 Rust",
+          "what": "Anthropic 称用生产流量比对两套实现，并让 Claude 辅助定位和修正差异；完成迁移后，单次请求的 CPU 用量约降70%，首词元延迟中位数约降20%。",
+          "why": "这是正式服务的工程复盘，不是模型降价或新 API 上线；方法的关键是用生产行为验证兼容，而非只看测试通过率。",
+          "sources": [
+            {
+              "name": "Anthropic 工程博客",
+              "url": "https://www.anthropic.com/research/migrating-api-to-rust"
+            },
+            {
+              "name": "Anthropic 官方 X",
+              "url": "https://x.com/AnthropicAI/status/2125627317263466739"
+            }
+          ],
+          "sourceNote": "博客标11月25日；官方 X 北京时间11月26日00:26发布。",
+          "publishedAt": "2026-11-26T00:26:59+08:00",
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-26-12",
+          "category": "图像模型",
+          "title": "Midjourney 发布动漫模型 Niji V8",
+          "what": "Midjourney 与 Spellbrush 推出 Niji V8，改进提示词遵循和角色一致性，并增加专门的编辑模型。",
+          "why": "对同一角色反复修改、连续出图的创作更有参考价值；发布帖未公布新的独立价格或第三方比较结果。",
+          "sources": [
+            {
+              "name": "Niji Journey 官方博客",
+              "url": "https://nijijourney.com/blog/niji-8"
+            },
+            {
+              "name": "Midjourney 官方 X",
+              "url": "https://x.com/midjourney/status/2125328040624521639"
+            }
+          ],
+          "sourceNote": "官方 X 公告11月25日04:37。",
+          "publishedAt": "2026-11-25T04:37:46+08:00",
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-26-13",
+          "category": "芯片与治理",
+          "title": "光交换厂商 iPronics 晋升 Luis Torrijos-Morán 为 CTO",
+          "what": "面向 AI 基础设施研发硅光电路交换设备的 iPronics 宣布，Luis Torrijos-Morán 从研发岗位晋升为首席技术官。",
+          "why": "前任 Daniel Pérez-López 已在10月转任 CEO；本期新消息是技术负责人的交接，不是新融资、产品出货或 NVIDIA 人事变更。",
+          "sources": [
+            {
+              "name": "iPronics 公司新闻稿",
+              "url": "https://www.globenewswire.com/news-release/2026/11/25/3410202/0/en/ipronics-promotes-luis-torrijos-mor%C3%A1n-to-chief-technology-officer.html"
+            }
+          ],
+          "sourceNote": "公司11月25日21:52发布。",
+          "publishedAt": "2026-11-25T21:52:00+08:00",
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-26-14",
+          "category": "融资",
+          "title": "Mechademy 完成950万美元 A 轮融资",
+          "what": "Silverton Partners 领投 Mechademy 的950万美元 A 轮；其 Turbomechanica 面向发电等场景的关键旋转机械提供运行分析。",
+          "why": "这是把 AI 与设备物理模型结合的垂直应用融资；披露日不等于交割日。",
+          "sources": [
+            {
+              "name": "Mechademy 公司新闻稿",
+              "url": "https://www.globenewswire.com/news-release/2026/11/25/3410219/0/en/mechademy-raises-9-5-million-series-a-led-by-silverton-partners-to-bring-physics-based-ai-to-power-generation.html"
+            }
+          ],
+          "sourceNote": "11月25日22:00披露融资已完成。",
+          "publishedAt": "2026-11-25T22:00:00+08:00",
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-26-15",
+          "category": "融资",
+          "title": "隐私 AI 公司 Maple AI 披露530万美元种子轮",
+          "what": "Maple AI 宣布筹得530万美元，由 EPIC Ventures 领投，Draper Associates、Planetary VC 和 Epoch VC 跟投。",
+          "why": "团队主打用可信执行环境处理云端 AI 请求；隐私设计与保障范围应看其公开技术说明，融资不等同于独立安全认证。",
+          "sources": [
+            {
+              "name": "Maple AI 融资公告",
+              "url": "https://maple.ai/blog/maple-ai-seed-round"
+            },
+            {
+              "name": "TechCrunch",
+              "url": "https://techcrunch.com/2026/11/24/maple-raises-5-3m-to-build-ai-products-that-protect-your-data-even-from-itself/"
+            }
+          ],
+          "sourceNote": "公司公告标美国当地11月24日；TechCrunch 11月25日05:19报道。",
+          "publishedAt": "2026-11-25T05:19:00+08:00",
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-26-16",
+          "category": "AI人物发言",
+          "title": "Bubeck 称 OpenAI 预印本给出矩阵乘法指数9/4的匹配下界",
+          "what": "OpenAI 研究员 Sébastien Bubeck 在 X 介绍新稿，称内部模型给出了与10月报告的9/4上界相匹配的下界，Greg Brockman 随后转述。",
+          "why": "如果该主张成立，将给出所讨论算术模型下的精确指数；只有部分结果提供 Lean 形式化，不能写作整个论文已通过独立评审。",
+          "sources": [
+            {
+              "name": "Bubeck 本人 X",
+              "url": "https://x.com/SebastienBubeck/status/2125402576145572334"
+            },
+            {
+              "name": "OpenAI 预印本说明",
+              "url": "https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/README.md"
+            }
+          ],
+          "sourceNote": "Bubeck 11月25日09:33发帖；预印本系作者提出的数学结果。",
+          "publishedAt": "2026-11-25T09:33:56+08:00",
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-26-17",
+          "category": "社交热点追踪",
+          "title": "微博讨论 IRON 现场互动，试商用仍是下一步",
+          "what": "11月25日晚可见多条微博现场帖围绕 IRON 登台、与观众交流等演示展开；其中一篇汽车博主帖发布于19:40。",
+          "why": "讨论集中在现场互动的自然程度；一次展示不能证明跨场景可靠性。该样本是公开帖，不是微博全站或跨平台热度。",
+          "sources": [
+            {
+              "name": "新浪收录微博现场帖",
+              "url": "https://www.sina.cn/news/detail/5369226563159263.html"
+            },
+            {
+              "name": "小鹏新闻室",
+              "url": "https://www.xpeng.com/pressroom/news/01a212b0d830a1e838d68a02a2110174"
+            }
+          ],
+          "sourceNote": "11月26日发稿前核看11月25日公开帖及官方发布，不把帖子互动数外推。",
+          "publishedAt": "2026-11-25T19:40:00+08:00",
+          "timeStatus": "confirmed"
+        }
+      ],
+      "uncertainItems": [
+        {
+          "id": "2026-11-26-18",
+          "category": "热门消息｜未证实",
+          "title": "未证实：《财富》称 Amazon 与 Meta 就 Muse 购物接入进行磋商",
+          "what": "《财富》援引知情人士报道，两家公司讨论向 Muse 开放 Amazon 商店以及搜索、广告安排；双方均拒绝置评。",
+          "why": "这是英国上线之后的另一条商业消息；TechCrunch 为跟进转述，不构成独立确认。未见已签协议、解封或产品上线。",
+          "sources": [
+            {
+              "name": "《财富》独家",
+              "url": "https://fortune.com/2026/11/25/exclusive-amazon-meta-talks-deal-muse-ai-shopping-agent-blockade/"
+            },
+            {
+              "name": "TechCrunch 转述",
+              "url": "https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/"
+            }
+          ],
+          "sourceNote": "《财富》11月25日16:01报道；存疑的是磋商内容与结果。",
+          "publishedAt": "2026-11-25T16:01:00+08:00",
+          "timeStatus": "uncertain"
+        },
+        {
+          "id": "2026-11-26-19",
+          "category": "存疑条目｜时间",
+          "title": "DeepMind 公布日常任务可靠性评测 HFE",
+          "what": "Google DeepMind 宣布在 Kaggle 推出 Humanity’s First Exam，收录544道文本和图像任务，覆盖20类基础能力。",
+          "why": "重点看模型能否稳定答对原题和轻微改写题，而不只看模型有没有碰巧答对一次。",
+          "sources": [
+            {
+              "name": "Google DeepMind 博客",
+              "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/humanitys-first-exam/"
+            },
+            {
+              "name": "DeepMind 技术报告",
+              "url": "https://storage.googleapis.com/deepmind-media/papers/hfe_tech_paper.pdf"
+            }
+          ],
+          "sourceNote": "Google 原文只列11月24日；启动的北京时间暂未独立核实，时间存疑。",
+          "publishedAt": null,
+          "timeStatus": "uncertain"
+        },
+        {
+          "id": "2026-11-26-20",
+          "category": "存疑条目｜时间",
+          "title": "Mantic 披露 Inkling 2 Small 的预测任务后训练结果",
+          "what": "Mantic 与 Thinking Machines 称，在200道留出数值预测题上，后训练版平均准确性约与 Claude Fable 5.2 medium 相当，单次预测成本约为其十五分之一。",
+          "why": "这是团队在限定题集上的成本与质量对比，不能外推到所有领域或作为投资预测。",
+          "sources": [
+            {
+              "name": "Thinking Machines Lab 与 Mantic 联合文章",
+              "url": "https://thinkingmachines.ai/news/training-a-scalable-forecasting-agent/"
+            }
+          ],
+          "sourceNote": "官方文章标11月24日，尚未核实换算至北京时间的首发时点。",
           "publishedAt": null,
           "timeStatus": "uncertain"
         }
