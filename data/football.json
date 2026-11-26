@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-27 04:38",
+  "updatedAt": "2026-11-27 06:03",
   "timezone": "Asia/Shanghai",
   "coverageEnd": "2026-11-26",
   "plans": [
@@ -1698,9 +1698,12 @@
           "away": "格拉茨风暴",
           "pick": "主胜",
           "odds": 1.19,
-          "score": null,
+          "score": [
+            3,
+            1
+          ],
           "kickoff": "2026-11-27 04:00",
-          "source": null,
+          "source": "https://www.welt.de/article6b08aaa209772de3718509da",
           "handicap": null,
           "finishedAt": null
         },
@@ -1710,9 +1713,12 @@
           "away": "特温特",
           "pick": "主胜",
           "odds": 1.54,
-          "score": null,
+          "score": [
+            2,
+            1
+          ],
           "kickoff": "2026-11-27 04:00",
-          "source": null,
+          "source": "https://sport.sky.de/fussball/freiburg-vs-twente/daten/577945",
           "handicap": null,
           "finishedAt": null
         }
