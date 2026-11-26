@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-26 06:22",
+  "updatedAt": "2026-11-26 18:23",
   "timezone": "Asia/Shanghai",
-  "coverageEnd": "2026-11-25",
+  "coverageEnd": "2026-11-26",
   "plans": [
     {
       "id": "20261102-0",
@@ -1640,6 +1640,74 @@
           "kickoff": "2026-11-26 04:00",
           "source": "https://www.skysports.com/football/stoke-city-vs-millwall/560700",
           "handicap": -1,
+          "finishedAt": null
+        }
+      ]
+    },
+    {
+      "id": "20261126-0",
+      "date": "2026-11-26",
+      "label": "主推",
+      "kind": "reference",
+      "snapshot": "北京时间2026-11-26 18:22核对。500彩票网国内固定奖金历史记录，懂球帝交叉核验；官方实时报价、官方更新时间和终端可售未核实。周四004记录为11月26日10:45，周四005记录为11月26日16:13。",
+      "note": "组合参考2.0769。本菲卡与伯恩茅斯欧联前四轮均全胜，两腿均客场，打平即失手。比尔森上轮客胜；塞尔塔主场需要积分。本菲卡两名中前场球员训练情况有变数。 两场预计北京时间2026-11-27 03:45结束，可能因补时、延迟或延期变化；最终首发未核实。",
+      "legs": [
+        {
+          "number": "周四004",
+          "home": "比尔森胜利",
+          "away": "本菲卡",
+          "pick": "客胜",
+          "odds": 1.29,
+          "score": null,
+          "kickoff": "2026-11-27 01:45",
+          "source": null,
+          "handicap": null,
+          "finishedAt": null
+        },
+        {
+          "number": "周四005",
+          "home": "塞尔塔",
+          "away": "伯恩茅斯",
+          "pick": "客胜",
+          "odds": 1.61,
+          "score": null,
+          "kickoff": "2026-11-27 01:45",
+          "source": null,
+          "handicap": null,
+          "finishedAt": null
+        }
+      ]
+    },
+    {
+      "id": "20261126-1",
+      "date": "2026-11-26",
+      "label": "备选",
+      "kind": "reference",
+      "snapshot": "北京时间2026-11-26 18:22核对。500彩票网国内固定奖金历史记录，懂球帝交叉核验；官方实时报价、官方更新时间和终端可售未核实。周四009记录为11月26日12:54，周四011记录为11月26日17:24。",
+      "note": "组合参考1.8326。霍芬海姆和格拉茨风暴欧联前四轮各4分；特温特欧协联前三轮全胜，弗赖堡主帅表示可能调整首发。参考乘积低于1.9，两腿均须主队取胜，与主推不共用比赛。 两场预计北京时间2026-11-27 06:00结束，可能因补时、延迟或延期变化；最终首发未核实。",
+      "legs": [
+        {
+          "number": "周四009",
+          "home": "霍芬海姆",
+          "away": "格拉茨风暴",
+          "pick": "主胜",
+          "odds": 1.19,
+          "score": null,
+          "kickoff": "2026-11-27 04:00",
+          "source": null,
+          "handicap": null,
+          "finishedAt": null
+        },
+        {
+          "number": "周四011",
+          "home": "弗赖堡",
+          "away": "特温特",
+          "pick": "主胜",
+          "odds": 1.54,
+          "score": null,
+          "kickoff": "2026-11-27 04:00",
+          "source": null,
+          "handicap": null,
           "finishedAt": null
         }
       ]
