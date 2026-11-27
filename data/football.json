@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-27 18:24",
+  "updatedAt": "2026-11-28 06:08",
   "timezone": "Asia/Shanghai",
   "coverageEnd": "2026-11-27",
   "plans": [
@@ -1738,11 +1738,14 @@
           "away": "威廉二世",
           "pick": "主胜",
           "odds": 1.18,
-          "score": null,
+          "score": [
+            1,
+            1
+          ],
           "kickoff": "2026-11-28 03:00",
-          "source": "",
+          "source": "https://www.rotascore.com/nl/match/groningen-willem-ii/3glrw7hnelz8qdy",
           "handicap": null,
-          "finishedAt": null
+          "finishedAt": "2026-11-28 04:59"
         },
         {
           "number": "周五005",
@@ -1750,9 +1753,12 @@
           "away": "门兴格拉德巴赫",
           "pick": "主胜",
           "odds": 1.42,
-          "score": null,
+          "score": [
+            3,
+            3
+          ],
           "kickoff": "2026-11-28 03:30",
-          "source": "",
+          "source": "https://www.bundesliga.com/de/bundesliga/news/sv-werder-bremen-borussia-moenchengladbach-spieltag-11-spielbericht-highlights-40168",
           "handicap": null,
           "finishedAt": null
         }
