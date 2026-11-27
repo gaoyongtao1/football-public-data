@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "timezone": "Asia/Shanghai",
-  "updatedAt": "2026-11-26 08:07",
+  "updatedAt": "2026-11-27 08:07",
   "issues": [
     {
       "id": "2026-11-06",
@@ -5266,6 +5266,412 @@
             }
           ],
           "sourceNote": "官方文章标11月24日，尚未核实换算至北京时间的首发时点。",
+          "publishedAt": null,
+          "timeStatus": "uncertain"
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "2026-11-27",
+      "date": "2026-11-27",
+      "title": "2026年11月27日｜AI早报",
+      "summary": "今日最值得关注：国家数据局就 AI 训练和推理用数公开征求意见，拟完善数据授权、付费和风险防控规则。",
+      "note": "时间均为北京时间，另有说明除外。来源时间不等于产品上线时刻；媒体引述、厂商测试与独立核验分别标注，未证实与时间存疑不计入已确认新闻。",
+      "windowStart": "2026-11-26T00:00:00+08:00",
+      "windowEnd": "2026-11-27T08:00:00+08:00",
+      "items": [
+        {
+          "id": "2026-11-27-01",
+          "category": "政策监管",
+          "title": "国家数据局就 AI 用数规则征求意见",
+          "what": "征求意见稿提出十二项举措，涉及训练和推理的合法用数、鼓励为高质量数据付费，以及企业输出风险防控，意见征集至12月6日。",
+          "why": "对模型企业和数据供方，采购、授权和责任分工将更值得提前梳理；这些安排仍是草案。",
+          "sources": [
+            {
+              "name": "国家数据局",
+              "url": "https://www.nda.gov.cn/sjj/hdjl/yjzq/yjzqform/list/index_pc.html?code=ff808081-a1d5596e-01a2-17aa8b5d-096b"
+            },
+            {
+              "name": "新华社",
+              "url": "https://www.news.cn/20261126/5b846aa390674a86825f08cbac6c1d30/c.html"
+            }
+          ],
+          "sourceNote": "新华社11月26日23:15报道；征求意见日期来自国家数据局公告。",
+          "publishedAt": "2026-11-26T23:15:53+08:00",
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-27-02",
+          "category": "企业AI",
+          "title": "OpenAI 小范围测试 Private Inference",
+          "what": "Sam Altman 说少量客户正在试用 Private Inference；OpenAI 产品页将它列为 API 预览，以机密计算和访问控制保护推理过程中的提示和回答。",
+          "why": "企业处理敏感业务时，除了留存政策，也要看内容在计算过程中由谁接触；目前没有全面开放、公开定价或完整适用清单。",
+          "sources": [
+            {
+              "name": "Altman 本人 X",
+              "url": "https://x.com/sama/status/2125638790593274259"
+            },
+            {
+              "name": "OpenAI",
+              "url": "https://openai.com/business/private-intelligence/"
+            }
+          ],
+          "sourceNote": "Altman 本人 X 帖11月26日01:12；产品页用于核对预览状态。",
+          "publishedAt": "2026-11-26T01:12:34+08:00",
+          "timeStatus": "confirmed"
+        },
+        {
+          "category": "具身智能",
+          "title": "智源研究院新增 Innata-0 具身世界模型权重",
+          "what": "RoboAtlas 新列出面向 RoboDojo 和 RoboCasa365 仿真的两个世界动作模型版本，提供权重和与技术报告对应的评测入口。",
+          "why": "把模型用于不同仿真任务的版本分别开放，便于研究者复核；仿真成绩不代表真实机器人在现场的表现。",
+          "sources": [
+            {
+              "name": "智源研究院 RoboAtlas",
+              "url": "https://www.roboatlas.ai/en-US/models/innata-0"
+            },
+            {
+              "name": "Innata-0 技术报告",
+              "url": "https://arxiv.org/abs/2611.30254"
+            }
+          ],
+          "sourceNote": "RoboAtlas 标注版本日期为11月26日，未列钟点；技术报告早于本期。",
+          "publishedAt": null,
+          "timeStatus": "confirmed",
+          "id": "2026-11-27-03"
+        },
+        {
+          "id": "2026-11-27-04",
+          "category": "数据安全",
+          "title": "研究员向路透点名 MiniMax，平台说明转发请求处理",
+          "what": "Dragos 研究员在路透报道中指认 MiniMax 涉及早前的测试链接访问事件；MiniMax 此前称已停用相关自动访问流程，调查未发现提示内容或回答被披露给第三方的证据。",
+          "why": "经聚合平台调用模型时，隐私承诺需要逐段核查；测试链接被访问，并不能证明完整对话外泄。",
+          "sources": [
+            {
+              "name": "路透",
+              "url": "https://www.reuters.com/world/data-chinese-ai-firm-minimax-accessed-by-unidentified-parties-researcher-says-2026-11-26/"
+            },
+            {
+              "name": "MiniMax 声明",
+              "url": "https://www.minimax.io/blog/update-on-url-access-in-forwarded-api-requests-20261124"
+            }
+          ],
+          "sourceNote": "路透11月26日14:16报道；MiniMax 11月24日声明为背景。",
+          "publishedAt": "2026-11-26T14:16:42+08:00",
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-27-05",
+          "category": "公司治理",
+          "title": "NVIDIA 国会闭门访谈临近，万斯淡化赦免说法",
+          "what": "美国副总统 JD Vance 公开淡化黄仁勋可能需要赦免的说法；按众议院委员会已确认安排，黄仁勋和 NVIDIA 总法律顾问 Tim Teter 将分别于12月1日和2日接受记录在案的访谈。",
+          "why": "下一步可核对的是国会访谈安排；公开表态既没有改变调查程序，也不是责任认定。",
+          "sources": [
+            {
+              "name": "美联社（ABC News 刊载）",
+              "url": "https://abcnews.com/US/wireStory/vance-jensen-huang-pardon-scrutiny-nvidia-scandal-builds-138454307"
+            },
+            {
+              "name": "美国众议院外交委员会",
+              "url": "https://foreignaffairs.house.gov/news/press-releases/jensen-huang-and-nvidia-agree-to-appear-before-congress"
+            }
+          ],
+          "sourceNote": "美联社11月26日05:40报道；美国众议院委员会早前公告给出日期。",
+          "publishedAt": "2026-11-26T05:40:00+08:00",
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-27-06",
+          "category": "模型应用",
+          "title": "汤森路透称 Thomson 1.1 将采用 GLM 与 Gemma",
+          "what": "汤森路透首席技术官 Joel Hron 接受采访时表示，计划年底推出 Thomson 1.1，选用智谱 GLM 的计算机操作能力与 Google Gemma 的效率。",
+          "why": "同一企业可按任务组合不同来源的模型；这是产品计划，尚不是上线或效果公告。",
+          "sources": [
+            {
+              "name": "Business Insider 专访",
+              "url": "https://www.businessinsider.com/thomson-reuters-us-china-ai-cut-model-costs-2026-11"
+            }
+          ],
+          "sourceNote": "Business Insider 直接采访，11月26日18:00刊发。",
+          "publishedAt": "2026-11-26T18:00:00+08:00",
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-27-07",
+          "category": "产业政策",
+          "title": "八部门将大模型服务出海纳入服贸规划",
+          "what": "商务部等八部门印发服务贸易发展“十五五”规划，提出稳妥有序推动云计算、大模型等相关服务出海，并鼓励软硬件、算力和运营服务协同。",
+          "why": "政策关注的不只是模型 API，也包括部署、算力与运营；具体市场准入和数据合规仍要逐地核实。",
+          "sources": [
+            {
+              "name": "商务部规划通知",
+              "url": "https://www.mofcom.gov.cn/zcfb/zc/art/2026/art_6ed41ce4da7e40a4ba7c393a7135c784.html"
+            },
+            {
+              "name": "商务部解读",
+              "url": "https://www.mofcom.gov.cn/syxwfb/art/2026/art_b44ac1ab877649cd82623973926bd694.html"
+            }
+          ],
+          "sourceNote": "商务部11月26日16:00发布解读。",
+          "publishedAt": "2026-11-26T16:00:00+08:00",
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-27-08",
+          "category": "模型服务",
+          "title": "阿里云百炼上架结构化决策模型",
+          "what": "decision-model 支持文本或图像等输入，可在单次调用中做分类、是非判断及评分，并返回概率分布与置信信息。",
+          "why": "适合工单分流、审核或智能体路由；仍须按自己的样本评估置信度，不能直接当成准确率。",
+          "sources": [
+            {
+              "name": "阿里云模型文档",
+              "url": "https://help.aliyun.com/zh/model-studio/decision-model-stable"
+            },
+            {
+              "name": "阿里云上架记录",
+              "url": "https://help.aliyun.com/zh/model-studio/newly-released-models"
+            }
+          ],
+          "sourceNote": "阿里云百炼上架记录：北京11月25日，弗吉尼亚、法兰克福、东京及中国香港11月26日。",
+          "publishedAt": null,
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-27-09",
+          "category": "视频应用",
+          "title": "Higgsfield 公布 MAGI-2 网页与 API 用法",
+          "what": "继上期报道 Sand.ai 模型发布后，Higgsfield 介绍网页和 API 入口，支持生成4至30秒的1080p视频并同步生成声音，API 标价每秒0.08美元。",
+          "why": "此次新增的是可调用入口和用量成本，不是开放权重已交付；网页积分与 API 单价不同。",
+          "sources": [
+            {
+              "name": "Higgsfield 指南",
+              "url": "https://higgsfield.ai/blog/higgsfield-magi-2"
+            },
+            {
+              "name": "Higgsfield 官方 X",
+              "url": "https://x.com/higgsfield/status/2125679477459910964"
+            }
+          ],
+          "sourceNote": "Higgsfield 官方 X 帖11月26日03:54；价格及规格见平台说明。",
+          "publishedAt": "2026-11-26T03:54:15+08:00",
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-27-10",
+          "category": "本地模型",
+          "title": "印度发布 Chariot-1 文本与语音模型",
+          "what": "IndiaAI Mission 支持的 Chariot-1 含约110亿参数的混合专家语言模型，每词元激活约40亿参数；文本转语音覆盖英语及10种印度语言。",
+          "why": "为本地语言和不同设备提供专门模型；开发方的效率与准确率结果不等于所有场景表现。",
+          "sources": [
+            {
+              "name": "印度新闻信息局",
+              "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2341725"
+            }
+          ],
+          "sourceNote": "印度新闻信息局11月26日13:53发布。",
+          "publishedAt": "2026-11-26T13:53:00+08:00",
+          "timeStatus": "confirmed"
+        },
+        {
+          "category": "工业机器人",
+          "title": "具微科技展出轮足底座与无人换装基站",
+          "what": "深圳高交会上，具微科技展出 MOVENEW P3S 和 MICBOT PANDORA，据现场报道机器人演示自主返回补能，基站演示90秒内更换机械臂云台。",
+          "why": "让机器人持续值守还取决于补能、工具更换和调度；90秒是现场换装数据，不是充满电或长期可靠性指标。",
+          "sources": [
+            {
+              "name": "量子位现场报道",
+              "url": "https://www.qbitai.com/2026/11/512972.html"
+            }
+          ],
+          "sourceNote": "量子位11月26日18:07报道，数字为展会演示。",
+          "publishedAt": "2026-11-26T18:07:55+08:00",
+          "timeStatus": "confirmed",
+          "id": "2026-11-27-11"
+        },
+        {
+          "id": "2026-11-27-12",
+          "category": "开放权重",
+          "title": "BharatGen 推出印语文档模型 Patram 1.5",
+          "what": "BharatGen 开放约78亿参数的 Patram 1.5 权重，支持处理扫描件、表格和图表；页面证据不足时可选择不回答。",
+          "why": "对档案和表单数字化，明确不回答比凭空补数据更有用；跨语言和手写场景仍应按自己的数据测试。",
+          "sources": [
+            {
+              "name": "BharatGen 发布稿",
+              "url": "https://bharatgen.com/blogs/introducing-patram-1-5/"
+            },
+            {
+              "name": "BharatGen 模型卡",
+              "url": "https://huggingface.co/bharatgenai/Patram1.5-7B"
+            }
+          ],
+          "sourceNote": "BharatGen 媒体包标注11月26日11:30发布。",
+          "publishedAt": "2026-11-26T11:30:00+08:00",
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-27-13",
+          "category": "开源工具",
+          "title": "llama.cpp v1.1.0 扩大音频和模型支持",
+          "what": "llama.cpp v1.1.0 加入 Inkling 2 系列、Hy4 flash 等模型支持，并新增多种语音模型；旧的 llama_batch API 被标为弃用。",
+          "why": "本地部署可选模型更多；嵌入旧 API 的应用升级前应先检查兼容性。",
+          "sources": [
+            {
+              "name": "llama.cpp 发布记录",
+              "url": "https://github.com/ggml-org/llama.cpp/releases/tag/v1.1.0"
+            }
+          ],
+          "sourceNote": "项目 GitHub 发布页列11月26日；不同页面显示的时刻不一致，不补钟点。",
+          "publishedAt": null,
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-27-14",
+          "category": "研究工具",
+          "title": "Sakana Marlin 新增两档研究模式",
+          "what": "Sakana AI 新增 Twilight 2.0 和 Midnight 2.0，单次各消耗300点，原 Sunlight 为100点；三档同步更新 PowerPoint 输出。",
+          "why": "可按调研深度和成本选档；公司给出的来源数量和速度对比不能替代人工复核证据。",
+          "sources": [
+            {
+              "name": "Sakana AI",
+              "url": "https://sakana.ai/marlin-update-2/"
+            }
+          ],
+          "sourceNote": "Sakana AI 11月26日公告，日本时间，未列钟点。",
+          "publishedAt": null,
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-27-15",
+          "category": "教育应用",
+          "title": "Google 向澳大利亚教师开放免费 AI 课程",
+          "what": "Google 澳大利亚宣布开放 AI Educator Series，面向当地教师提供可自主安排进度的培训。",
+          "why": "这是此前全球扩围计划的本地落地；对教师最有用的是能拆成小单元学习，不代表其他地区已经开放。",
+          "sources": [
+            {
+              "name": "Google 澳大利亚",
+              "url": "https://blog.google/intl/en-au/company-news/outreach-initiatives/google-ai-educator-series/"
+            }
+          ],
+          "sourceNote": "Google 澳大利亚11月26日公布当地开放，未列钟点。",
+          "publishedAt": null,
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-27-16",
+          "category": "产业融资",
+          "title": "阿联酋成长基金签约投资 XEBO.ai 1050万美元",
+          "what": "Emirates Growth Fund 签订协议，作为 A 轮的一部分拟向迪拜客户体验管理企业 XEBO.ai 投资1050万美元。",
+          "why": "区域基金正在投向具体企业用途；签约不等于披露全部轮次规模或资金已到账。",
+          "sources": [
+            {
+              "name": "Emirates Growth Fund",
+              "url": "https://www.egf.gov.ae/en/news/emirates-growth-fund-invests-%2410.5-million-in-uae-built-ai-company-xebo.ai"
+            }
+          ],
+          "sourceNote": "Emirates Growth Fund 11月26日公告，未列钟点。",
+          "publishedAt": null,
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-27-17",
+          "category": "AI人物发言",
+          "title": "Amodei 反驳将人类治理交给 AI 的说法",
+          "what": "Anthropic 首席执行官 Dario Amodei 在回应 Axios 时区分两件事：他反对把社会治理权交给 AI，但认为在一些具体任务中，自动化可以有价值。",
+          "why": "这能说明本人公开立场，不代表行业已经就监督和控制边界形成共识。",
+          "sources": [
+            {
+              "name": "Axios 对公开回应的报道",
+              "url": "https://www.axios.com/2026/11/25/anthropic-dario-amodei-ai-free-will-contro-axios"
+            }
+          ],
+          "sourceNote": "Axios 11月26日03:28报道并引述其当日公开回应；原帖钟点未用于定时。",
+          "publishedAt": "2026-11-26T03:28:00+08:00",
+          "timeStatus": "confirmed"
+        },
+        {
+          "id": "2026-11-27-18",
+          "category": "社交热点追踪",
+          "title": "前 Claude Code 工程师 Thariq 宣布加入 OpenAI",
+          "what": "Thariq Shihipar 在本人 X 账号公布加入 OpenAI，并与 Latent Space 讨论开发者工具；未披露在新公司的具体职务。",
+          "why": "这是一则编码工具团队间的人才流动；不能据此推断产品路线，也未独立核实跨平台热度。",
+          "sources": [
+            {
+              "name": "Thariq 本人 X",
+              "url": "https://x.com/trq212/status/2125675533761671405"
+            },
+            {
+              "name": "Latent Space 访谈",
+              "url": "https://lspace.beehiiv.com/podcast/s/latent_space_the_ai_engineer_podcast/the_revolution_vs_the_renaissance_thariq_shihipar_openai"
+            }
+          ],
+          "sourceNote": "本人 X 帖11月26日03:38；Latent Space 访谈用于核实背景。",
+          "publishedAt": "2026-11-26T03:38:35+08:00",
+          "timeStatus": "confirmed"
+        }
+      ],
+      "uncertainItems": [
+        {
+          "id": "2026-11-27-19",
+          "category": "热门消息｜未证实",
+          "title": "未证实：英媒称 NVIDIA 要求暂停向东南亚四国发运部分服务器",
+          "what": "《金融时报》援引知情人士称，NVIDIA 告知合作伙伴暂停向马来西亚、新加坡、泰国、印度尼西亚发运搭载其芯片的服务器；未见当事公司公开确认范围与期限。",
+          "why": "惠誉另预计地区投资将更审慎；彭博称部分贷款方推迟审查一笔拟增至66亿美元的融资，不能将它写成已撤销贷款或四国全面禁运。",
+          "sources": [
+            {
+              "name": "金融时报",
+              "url": "https://www.ft.com/content/7838a715-07d4-4605-aa60-21f5af2b2370"
+            },
+            {
+              "name": "彭博原稿转载",
+              "url": "https://uk.finance.yahoo.com/news/billions-data-center-deals-grind-160100809.html"
+            },
+            {
+              "name": "路透转述惠誉",
+              "url": "https://www.reuters.com/world/asia-pacific/us-chip-curbs-will-slow-asia-data-center-investment-fitch-says-2026-11-26/"
+            }
+          ],
+          "sourceNote": "《金融时报》11月26日13:00报道，彭博及路透所引惠誉判断作背景；存疑为暂停范围、期限与融资结果。",
+          "publishedAt": "2026-11-26T13:00:19+08:00",
+          "timeStatus": "uncertain"
+        },
+        {
+          "id": "2026-11-27-20",
+          "category": "热门消息｜未证实",
+          "title": "未证实：路透称智谱与月之暗面新旗舰排期或受影响",
+          "what": "路透引述知情人士称，海外先进芯片算力许可限制及模型输出获取难度，可能影响 GLM-5.5 和月之暗面下一代旗舰的研发或发布节奏。",
+          "why": "11月19日生效的美国规则可核对；公司排期和影响幅度没有得到同等确认，不把推测写成延期公告。",
+          "sources": [
+            {
+              "name": "路透原始调查",
+              "url": "https://www.reuters.com/world/china/us-chip-curbs-distillation-crackdown-threaten-chinese-ai-model-development-2026-11-26/"
+            },
+            {
+              "name": "美国联邦公报",
+              "url": "https://www.govinfo.gov/content/pkg/FR-2026-11-19/html/2026-23529.htm"
+            }
+          ],
+          "sourceNote": "路透11月26日15:19报道；存疑为各模型进度。",
+          "publishedAt": "2026-11-26T15:19:35+08:00",
+          "timeStatus": "uncertain"
+        },
+        {
+          "id": "2026-11-27-21",
+          "category": "时间存疑",
+          "title": "AWS 预览 Transcribe Turbo，中文批量与实时能力不同",
+          "what": "AWS 在美国东部俄亥俄区域开放批量和流式转写预览；中文在批量预览范围内，不在首批六种流式语言中，语义轮次切换和实时提示首发为英语。",
+          "why": "语音智能体采购要区分录音批处理与实时对话；AWS 测试中的中文字符错误改善不等于实时中文能力。",
+          "sources": [
+            {
+              "name": "AWS 公告",
+              "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/transcribe-turbo-preview/"
+            },
+            {
+              "name": "AWS Builder Center",
+              "url": "https://builder.aws.com/content/3MbnTQKvOMxTZQbm34D6XV7hv8q/getting-started-with-amazon-transcribe-turbo-and-voice-agent-features"
+            }
+          ],
+          "sourceNote": "AWS 公告标11月25日，未列时区及钟点，无法确认进入北京时间窗口。",
           "publishedAt": null,
           "timeStatus": "uncertain"
         }
