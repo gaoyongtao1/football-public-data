@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "timezone": "Asia/Shanghai",
-  "updatedAt": "2026-11-27 08:07",
+  "updatedAt": "2026-11-28T08:09:28+08:00",
   "issues": [
     {
       "id": "2026-11-06",
@@ -5673,6 +5673,340 @@
           ],
           "sourceNote": "AWS 公告标11月25日，未列时区及钟点，无法确认进入北京时间窗口。",
           "publishedAt": null,
+          "timeStatus": "uncertain"
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "2026-11-28",
+      "date": "2026-11-28",
+      "title": "2026年11月28日｜AI早报",
+      "summary": "今日最值得关注：新加坡官方表示，尚未证实 NVIDIA 暂停向当地发运 AI 芯片服务器，正向企业了解影响。",
+      "note": "已核对 NVIDIA 官方新闻室、投资者关系和 SEC 披露，以及主要模型公司发布页。未把前期复任公告、匿名消息、活动预告或旧发布转贴当作本期新事实。",
+      "windowStart": "2026-11-27T00:00:00+08:00",
+      "windowEnd": "2026-11-28T08:00:00+08:00",
+      "items": [
+        {
+          "category": "芯片供应链",
+          "title": "新加坡尚未证实 NVIDIA 停发 AI 芯片服务器",
+          "what": "新加坡副总理兼贸工部长颜金勇在亚洲未来峰会上表示，政府尚未证实停发报道，正联系企业了解影响；他确认新加坡在审查防范芯片非法贸易的流程。",
+          "why": "这是对上一期报道的官方回应。企业不能把匿名消息当作统一停运通知，也不能从“尚未证实”推断发货照常。",
+          "sources": [
+            {
+              "name": "新加坡贸工部现场实录",
+              "url": "https://www.meti.gov.sg/newsroom/transcript-of-dialogue-by-dpm-gan-at-the-sph-asia-future-summit-2026/"
+            },
+            {
+              "name": "《金融时报》前情",
+              "url": "https://www.ft.com/content/7838a715-07d4-4605-aa60-21f5af2b2370"
+            }
+          ],
+          "sourceNote": "11月27日发言；11月26日《金融时报》报道为背景。",
+          "publishedAt": null,
+          "id": "2026-11-28-01",
+          "timeStatus": "confirmed"
+        },
+        {
+          "category": "科研支持",
+          "title": "Kimi 科研支持计划开放首期申请",
+          "what": "月之暗面面向自然科学、工程及相关交叉学科研究人员开放申请，入选者最高可获2万美元等值 Kimi API 额度（约70亿词元）及技术支持，首期截止12月8日。",
+          "why": "额度按评审结果而定，不是现金，也不保证每位入选者拿满；适合已有明确实验任务、需要批量调用模型的团队。",
+          "sources": [
+            {
+              "name": "Kimi 官方计划",
+              "url": "https://www.kimi.ai/news/kimi-for-science-program"
+            },
+            {
+              "name": "Kimi 官方 X",
+              "url": "https://x.com/Kimi_Moonshot/status/2126154696947871760"
+            },
+            {
+              "name": "南京工程学院科研通知",
+              "url": "https://njit.edu.cn/info/1043/28245.htm"
+            }
+          ],
+          "sourceNote": "官方 X 帖为11月27日11:22；截止日未见统一时点。",
+          "publishedAt": "2026-11-27T11:22:00+08:00",
+          "id": "2026-11-28-02",
+          "timeStatus": "confirmed"
+        },
+        {
+          "category": "模型应用",
+          "title": "知乎与 DeepSeek 达成内容检索合作",
+          "what": "据知乎向媒体披露，数据开放平台将为 DeepSeek 提供社区问答、文章、热榜及话题讨论的检索能力，覆盖科技、教育、财经等领域。",
+          "why": "这是内容检索合作，不等同于交付训练数据；实际引用范围与产品端覆盖仍应以功能实测为准。",
+          "sources": [
+            {
+              "name": "知乎原公告",
+              "url": "https://zhuanlan.zhihu.com/p/2109339480003799032"
+            },
+            {
+              "name": "界面新闻引述知乎",
+              "url": "https://www.jiemian.com/article/15380916.html"
+            },
+            {
+              "name": "知乎此前港交所公告",
+              "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/1123/2026112301443_c.pdf"
+            }
+          ],
+          "sourceNote": "11月27日媒体引述公司；11月23日的间接投资披露仅作背景。",
+          "publishedAt": null,
+          "id": "2026-11-28-03",
+          "timeStatus": "confirmed"
+        },
+        {
+          "category": "开放权重",
+          "title": "Sber 发布两个 GigaChat 4 权重版本",
+          "what": "GigaChat 4 提供7080亿参数、每词元激活410亿的大版，以及370亿参数、激活40亿的小版；两者均支持最长百万词元上下文和快速、推理两种模式。",
+          "why": "大版权重标 MIT，小版是面向个人的非商业许可，不能因都能下载就把两者当成同样可商用。",
+          "sources": [
+            {
+              "name": "GigaChat 官方博客",
+              "url": "https://giga.chat/blog/en/posts/gigachat-4"
+            },
+            {
+              "name": "708B 模型卡",
+              "url": "https://huggingface.co/ai-sage/GigaChat4-708B-A41B"
+            },
+            {
+              "name": "37B 模型卡",
+              "url": "https://huggingface.co/ai-sage/GigaChat4-37B-A4B"
+            }
+          ],
+          "sourceNote": "官方博客为11月26日；本期补录，未列确切钟点。",
+          "publishedAt": null,
+          "id": "2026-11-28-04",
+          "timeStatus": "confirmed"
+        },
+        {
+          "category": "政策监管",
+          "title": "欧盟 AI 办公室征集嵌入式评测专家",
+          "what": "欧盟 AI 办公室拟于2027年1月举办线上研讨会，讨论让独立评估者在较长时期接触有系统性风险的通用模型及内部资料；提案截止12月9日。",
+          "why": "监管关注从公开跑分深入到访问权限、报告发表权和独立性；这是研讨征集，不是新增强制义务。",
+          "sources": [
+            {
+              "name": "欧盟委员会公告",
+              "url": "https://digital-strategy.ec.europa.eu/en/news/call-participants-workshop-embedded-evaluations-gpai-models-systemic-risk"
+            }
+          ],
+          "sourceNote": "11月27日公告，未列钟点。",
+          "publishedAt": null,
+          "id": "2026-11-28-05",
+          "timeStatus": "confirmed"
+        },
+        {
+          "category": "视频应用",
+          "title": "豆包工作接入剪映，可交回多轨草稿",
+          "what": "据豆包官方消息，用户上传素材后可用文字指令剪口播、调整字幕，并继续对话修改或在剪映多轨草稿里细调；也可调用剪映 Hub 辅助制作短片。",
+          "why": "对做微课、口播和宣传片的人，有用的是保留可修改的工程，而不是只能拿到一条成片；开放范围以实际账号入口为准。",
+          "sources": [
+            {
+              "name": "第一财经引述豆包公告",
+              "url": "https://www.yicai.com/brief/103456678.html"
+            },
+            {
+              "name": "新浪科技引述豆包",
+              "url": "https://finance.sina.com.cn/tech/shenji/2026-11-27/doc-inkacvhk7908900.shtml"
+            }
+          ],
+          "sourceNote": "第一财经11月27日10:40报道。",
+          "publishedAt": "2026-11-27T10:40:00+08:00",
+          "id": "2026-11-28-06",
+          "timeStatus": "confirmed"
+        },
+        {
+          "category": "推理算力",
+          "title": "Trainium3 演示22至23秒生成10秒带声视频",
+          "what": "Hugging Face 工程团队用半台 Trainium3 实例的32个 NeuronCore 跑 LTX-2.5；在模型预加载后，生成一段2048×1024、10秒带声视频用时22至23秒。",
+          "why": "团队公布实现与测量口径，也试做了机器人头戴相机视频续写；演示不等同于在统一条件下超越 GPU，续写也不是机器人实测。",
+          "sources": [
+            {
+              "name": "Hugging Face 工程博客",
+              "url": "https://huggingface.co/blog/video-trainium3"
+            }
+          ],
+          "sourceNote": "11月27日发布，未列钟点；时延是工程案例数据。",
+          "publishedAt": null,
+          "id": "2026-11-28-07",
+          "timeStatus": "confirmed"
+        },
+        {
+          "category": "医疗多模态",
+          "title": "上海 AI 实验室公开 Sage-Med-Preview 研究权重",
+          "what": "Sage-Med-Preview 基于 Intern-S2-Preview，约350亿总参数、30亿激活参数，面向医学图像理解、报告生成和图像区域定位。",
+          "why": "模型卡的自报分数不是临床验证；截至核对，权重页未注明许可，不应把可下载等同于允许临床或商业使用。",
+          "sources": [
+            {
+              "name": "上海 AI 实验室模型卡",
+              "url": "https://huggingface.co/internlm/Sage-Med-Preview"
+            },
+            {
+              "name": "研究论文",
+              "url": "https://arxiv.org/abs/2611.34575"
+            }
+          ],
+          "sourceNote": "11月27日可核实同机构模型镜像；论文较早，不把镜像日期当首次发布。",
+          "publishedAt": null,
+          "id": "2026-11-28-08",
+          "timeStatus": "confirmed"
+        },
+        {
+          "category": "端侧推理",
+          "title": "腾讯混元开放 DFly2 多款投机解码权重",
+          "what": "AngelSlim 列出分别适配 Hy4 flash、DeepSeek-V4.1-Flash 和 GLM-5.3-Flash 的 DFly2 权重，腾讯同时提供 AngelSpec 相关训练框架。",
+          "why": "草稿模型负责加快生成，原模型仍负责验收；长上下文的加速幅度不能直接套到每个端到端工作流。",
+          "sources": [
+            {
+              "name": "AngelSlim 官方模型页",
+              "url": "https://huggingface.co/AngelSlim/models"
+            },
+            {
+              "name": "腾讯 AngelSpec",
+              "url": "https://github.com/Tencent/AngelSpec"
+            },
+            {
+              "name": "IT之家同步报道",
+              "url": "https://m.ithome.com/html/1032929.htm"
+            }
+          ],
+          "sourceNote": "11月26日16:26公开报道，本期补录；和此前的 Hy4 模型发布是两件事。",
+          "publishedAt": "2026-11-26T16:26:00+08:00",
+          "id": "2026-11-28-09",
+          "timeStatus": "confirmed"
+        },
+        {
+          "category": "具身智能",
+          "title": "Sber 展出基于 GreenVLA 2.0 的三款机器人",
+          "what": "Sber 在 AI Journey 展示可移动并操作物体的人形 Green 2.0、侧重运动的 Yuni，以及面向末端配送的机器人，三者使用同系列视觉语言动作模型。",
+          "why": "同一模型底座跨本体应用值得关注；展会上展示的动作不能代替量产、长期运行或真实交付数据。",
+          "sources": [
+            {
+              "name": "Sber Business 官方报道",
+              "url": "https://sberbusiness.live/news/sber-predstavil-novoe-semeistvo-ii-robotov"
+            },
+            {
+              "name": "IT之家",
+              "url": "https://www.ithome.com/1/033/512.htm"
+            }
+          ],
+          "sourceNote": "11月26日展会展示，11月27日国内报道。",
+          "publishedAt": null,
+          "id": "2026-11-28-10",
+          "timeStatus": "confirmed"
+        },
+        {
+          "category": "本地部署",
+          "title": "llama.cpp 与 AMD 提供公开推理性能看板",
+          "what": "ggml 团队和 AMD 的看板允许按 Ryzen、Radeon 硬件、模型、量化方式与软件版本比较提示处理和生成性能，并提供测试流程与底层结果。",
+          "why": "同一台电脑的速度会随版本和量化改变；分开看提示处理和生成，更适合做本地部署比较。",
+          "sources": [
+            {
+              "name": "ggml 团队博客",
+              "url": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench"
+            }
+          ],
+          "sourceNote": "团队博客11月26日发布；区别于上一期所报 llama.cpp 版本更新。",
+          "publishedAt": null,
+          "id": "2026-11-28-11",
+          "timeStatus": "confirmed"
+        },
+        {
+          "category": "端侧芯片",
+          "title": "瑞芯微称面向端侧大模型的协处理器已规模出货",
+          "what": "瑞芯微在三季度业绩说明会上称，相关产品已用于办公、家庭、机器人、工业边缘和车载方向；未在该报道中公布同口径出货数量。",
+          "why": "观察已出货型号和收入比重，比把厂商对未来两三年的增长预期当成已实现成绩更有用。",
+          "sources": [
+            {
+              "name": "财联社业绩会报道",
+              "url": "https://api3.cls.cn/share/article/2546540?app=&os=CailianpressWeb&sv=845"
+            },
+            {
+              "name": "瑞芯微三季报",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-27/1225627336.PDF"
+            }
+          ],
+          "sourceNote": "11月27日业绩说明会；10月27日三季报为产品进展背景。",
+          "publishedAt": null,
+          "id": "2026-11-28-12",
+          "timeStatus": "confirmed"
+        },
+        {
+          "category": "AI人物发言",
+          "title": "颜金勇谈芯片合规：跨境执法需要证据合作",
+          "what": "颜金勇在峰会对话中说，新加坡执行本国规则，但期望企业遵守其开展业务所在国的规则；涉及国际交易时，采取执法行动仍需要其他国家协助提供证据。",
+          "why": "这是新加坡副总理兼贸工部长对本国执法分工的说明，不等于对个别企业或已报道事件定责。",
+          "sources": [
+            {
+              "name": "新加坡贸工部现场实录",
+              "url": "https://www.meti.gov.sg/newsroom/transcript-of-dialogue-by-dpm-gan-at-the-sph-asia-future-summit-2026/"
+            }
+          ],
+          "sourceNote": "11月27日现场问答，中文转述；与头条同场，侧重执法表态。",
+          "publishedAt": null,
+          "id": "2026-11-28-13",
+          "timeStatus": "confirmed"
+        }
+      ],
+      "uncertainItems": [
+        {
+          "category": "热门消息｜未证实",
+          "title": "未证实：彭博称上海机房出现 Blackwell 设备",
+          "what": "彭博称其查阅的贷款材料显示，一家企业曾以 Blackwell GB300 机柜作抵押；报道把设备与上海一处数据中心联系起来。",
+          "why": "报道所述文件不是监管裁定；无法据此确认芯片的完整交付线路、许可证状况或相关方责任。",
+          "sources": [
+            {
+              "name": "彭博原始报道",
+              "url": "https://news.bloomberglaw.com/business-and-practice/nvidia-blackwell-chips-turn-up-at-china-site-tied-to-alice-huang"
+            },
+            {
+              "name": "美国众议院外委会访谈公告（背景）",
+              "url": "https://foreignaffairs.house.gov/news/press-releases/jensen-huang-and-nvidia-agree-to-appear-before-congress"
+            }
+          ],
+          "sourceNote": "彭博11月27日19:45刊发；公开公告只核对访谈安排，不证实报道指控。",
+          "publishedAt": "2026-11-27T19:45:00+08:00",
+          "id": "2026-11-28-14",
+          "timeStatus": "uncertain"
+        },
+        {
+          "category": "热门消息｜未证实",
+          "title": "未证实：所谓 Claude Opus 5.6 演示仍在传播",
+          "what": "X 用户 @fluxxrider 把一则演示称作 Opus 5.6；11月27日的第三方 X 榜单页面列出该帖累计播放约1200万，Anthropic 发布记录未证实该型号。",
+          "why": "播放量只代表这条帖的累计传播，不是全网热度或新增量；演示无法证明调用模型的身份，也没有核实开放或定价。",
+          "sources": [
+            {
+              "name": "X 原帖",
+              "url": "https://x.com/fluxxrider/status/2125622238481371372"
+            },
+            {
+              "name": "第三方平台榜单",
+              "url": "https://whatisthelatest.ai/top-10/2026-11-27/"
+            },
+            {
+              "name": "Claude 官方发布说明",
+              "url": "https://platform.claude.com/docs/en/release-notes/overview"
+            }
+          ],
+          "sourceNote": "原帖北京时间11月26日00:06，早于本窗口；本期追踪11月27日榜单，榜单标注北京时间20:05更新。",
+          "publishedAt": null,
+          "id": "2026-11-28-15",
+          "timeStatus": "uncertain"
+        },
+        {
+          "category": "存疑条目｜活动进度",
+          "title": "星辰大模型训练公开课：首场回放未核实",
+          "what": "新华网公开11月27至29日的星辰大模型训练直播议程，计划介绍国产算力、训练数据与各阶段工程；截至统计窗口未找到可核对的首场官方回放。",
+          "why": "公开训练流程比单个跑分更便于了解工程；目前能确认的是议程，不能从预告推断现场训练已完成。",
+          "sources": [
+            {
+              "name": "新华网直播议程",
+              "url": "https://www.xinhuanet.com/info/20261126/2f916e41ad0642829a17f44ab11b0217/c.html"
+            }
+          ],
+          "sourceNote": "议程11月26日公布；本期存疑的是首场实际进度，不是议程真实性。",
+          "publishedAt": null,
+          "id": "2026-11-28-16",
           "timeStatus": "uncertain"
         }
       ],
